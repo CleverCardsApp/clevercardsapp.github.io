@@ -16,7 +16,10 @@ function loadCards() {
         .then(response => response.json())
         .then(data => {
             cards = data.cards;
-            shuffleCards(cards);
+            const noRandomize = document.getElementById('noRandomize').checked;
+            if (!noRandomize) {
+                shuffleCards(cards);
+            }
             displayCard();
             updateStatus();
         })
@@ -57,6 +60,12 @@ function triggerHurtEffect() {
         document.body.classList.remove('hurt');
     }, 200);
 }
+
+// Event listener for checkbox
+document.getElementById('noRandomize').addEventListener('change', () => {
+    currentCardIndex = 0; // Reset to first card
+    loadCards(); // Reload cards with new randomization setting
+});
 
 // Event listeners for buttons
 document.getElementById('prev').addEventListener('click', () => {
