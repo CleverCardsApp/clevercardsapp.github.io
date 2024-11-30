@@ -1,0 +1,669 @@
+{
+    "deck_name": "IK445A",
+    "cards": [
+        {
+            "question": "What is data?",
+            "answer": "Data are recorded values, either as numbers or labels, along with their context. Example: A list of students' ages and names in a classroom."
+        },
+        {
+            "question": "What is a data table?",
+            "answer": "A data table organizes data so that each row is a case and each column is a variable. Example: A spreadsheet where rows are employees and columns are age, department, and salary."
+        },
+        {
+            "question": "What is context in data?",
+            "answer": "Context explains who, what, how, where, when, and why data were collected. Example: Survey of 500 students' grades to analyze academic performance in 2023."
+        },
+        {
+            "question": "What is a case?",
+            "answer": "A case is an individual about whom or which we have data. Example: Each customer in a dataset tracking purchase history."
+        },
+        {
+            "question": "What is a respondent?",
+            "answer": "A respondent is someone who answers a survey. Example: A person filling out a feedback form for a new product."
+        },
+        {
+            "question": "What is a subject?",
+            "answer": "A subject is a human experimental unit, also called a participant. Example: A volunteer testing a new medication."
+        },
+        {
+            "question": "What is a participant?",
+            "answer": "A participant is a human experimental unit, also called a subject. Example: A student involved in an educational study."
+        },
+        {
+            "question": "What is an experimental unit?",
+            "answer": "An experimental unit is an individual in a study for whom data is recorded. Example: A plant in a study about fertilizer effects."
+        },
+        {
+            "question": "What is a record?",
+            "answer": "A record is information about an individual in a database. Example: A single row in a database listing a patient's medical history."
+        },
+        {
+            "question": "What is a sample?",
+            "answer": "A sample is a subset of a population used to learn about the population. Example: 100 voters surveyed out of a city of 10,000."
+        },
+        {
+            "question": "What is a population?",
+            "answer": "A population is the entire group of individuals or instances of interest. Example: All residents of a country in a census."
+        },
+        {
+            "question": "What is a variable?",
+            "answer": "A variable holds information about the same characteristic across cases. Example: Age or gender in a dataset about people."
+        },
+        {
+            "question": "What is a categorical (or qualitative) variable?",
+            "answer": "A categorical variable names categories using words or numerals. Example: Eye color (blue, brown, green)."
+        },
+        {
+            "question": "What is a nominal variable?",
+            "answer": "A nominal variable names categories without implying order. Example: Types of fruits (apple, banana, orange)."
+        },
+        {
+            "question": "What is a quantitative variable?",
+            "answer": "A quantitative variable uses numbers to represent measured quantities with units. Example: Height measured in centimeters."
+        },
+        {
+            "question": "What are units in data?",
+            "answer": "Units are standards of measurement, like dollars or grams. Example: Measuring weight in kilograms or dollars in salary data."
+        },
+        {
+            "question": "What is an identifier variable?",
+            "answer": "An identifier variable uniquely names or identifies each case. Example: A student ID number."
+        },
+        {
+            "question": "What is an ordinal variable?",
+            "answer": "An ordinal variable has categories with a natural order. Example: Movie ratings (poor, fair, good, excellent)."
+        },
+        {
+            "question": "What is a frequency table (or relative frequency table)?",
+            "answer": "A frequency table lists the categories of a categorical variable and shows the count or percentage of observations for each. Example: A table showing the number of students preferring different study methods."
+        },
+        {
+            "question": "What is a distribution?",
+            "answer": "A distribution shows the possible values of a variable and their relative frequency. Example: Test scores distribution showing how many students scored within each range."
+        },
+        {
+            "question": "What is the area principle in statistics?",
+            "answer": "The area principle states that each data value in a display should be represented by the same area. Example: Equal-sized segments in a bar chart for equal values."
+        },
+        {
+            "question": "What is a bar chart (or relative frequency bar chart)?",
+            "answer": "A bar chart uses bars to represent the count or percentage of observations in each category of a categorical variable. Example: A bar chart showing favorite ice cream flavors."
+        },
+        {
+            "question": "What is a pie chart?",
+            "answer": "A pie chart divides a circle into wedges, showing proportions for each category. Example: A pie chart showing percentage of market share by companies."
+        },
+        {
+            "question": "What is the categorical data condition?",
+            "answer": "This condition ensures methods for categorical data are not applied to quantitative data. Example: Don’t use pie charts to display a variable like age in years."
+        },
+        {
+            "question": "What is a contingency table?",
+            "answer": "A contingency table shows counts or percentages of individuals in named categories across two or more variables. Example: A table showing gender and favorite sports."
+        },
+        {
+            "question": "What is marginal distribution?",
+            "answer": "The marginal distribution shows the distribution of one variable alone in a contingency table, using totals from rows or columns. Example: Total votes for each candidate in an election."
+        },
+        {
+            "question": "What is a conditional distribution?",
+            "answer": "A conditional distribution restricts the data to a smaller group and shows the distribution of a variable within that group. Example: Favorite ice cream flavor among teenagers."
+        },
+        {
+            "question": "What is independence in variables?",
+            "answer": "Variables are independent if the conditional distribution of one is the same across all categories of the other. Example: Gender and voting preference are independent if voting rates are identical across genders."
+        },
+        {
+            "question": "What is a segmented bar chart?",
+            "answer": "A segmented bar chart shows the conditional distribution of a categorical variable within each category of another variable. Example: A chart showing exercise habits by age group."
+        },
+        {
+            "question": "What is Simpson’s paradox?",
+            "answer": "Simpson’s paradox occurs when averages across groups contradict the overall averages. Example: A medication seems effective in subgroups but ineffective overall due to differing group sizes."
+        },
+        {
+            "question": "What is a stem-and-leaf display?",
+            "answer": "A stem-and-leaf display shows quantitative data values, sketching the data's distribution. Example: '12, 14, 15' becomes '1 | 2, 4, 5'."
+        },
+        {
+            "question": "What is a dotplot?",
+            "answer": "A dotplot graphs a dot for each case along a single axis. Example: Each dot represents the score of a student on a test."
+        },
+        {
+            "question": "What does shape describe in a distribution?",
+            "answer": "Shape describes single vs. multiple modes, symmetry vs. skewness, and outliers or gaps. Example: A histogram showing a symmetric bell curve."
+        },
+        {
+            "question": "What is a mode?",
+            "answer": "A mode is a hump or peak in the distribution of a variable. Example: A mode at '5' means '5' occurs most often."
+        },
+        {
+            "question": "What is unimodal (or bimodal)?",
+            "answer": "Unimodal has one peak, bimodal has two peaks. Example: A bimodal distribution might show peaks at ages 20 and 50."
+        },
+        {
+            "question": "What is a uniform distribution?",
+            "answer": "A uniform distribution has no peaks; all values have about the same frequency. Example: Rolling a fair die gives uniform results (1–6)."
+        },
+        {
+            "question": "What does symmetric mean in distributions?",
+            "answer": "A distribution is symmetric if both sides of its center are mirror images. Example: A perfect bell curve."
+        },
+        {
+            "question": "What are tails in a distribution?",
+            "answer": "Tails are the ends of a distribution where values taper off. Example: A long right tail means extreme high values occur rarely."
+        },
+        {
+            "question": "What is a skewed distribution?",
+            "answer": "A skewed distribution isn’t symmetric, with one tail longer. Example: Income distribution is often skewed right, with few high incomes."
+        },
+        {
+            "question": "What are outliers?",
+            "answer": "Outliers are extreme values that differ significantly from the rest. Example: In test scores of 80–100, a '10' would be an outlier."
+        },
+        {
+            "question": "What is the center of a distribution?",
+            "answer": "The center summarizes a distribution with a single number, like mean or median. Example: Median income for a dataset."
+        },
+        {
+            "question": "What is the median?",
+            "answer": "The median is the middle value of ordered data. Example: For 1, 3, 7, the median is 3."
+        },
+        {
+            "question": "What is spread in a distribution?",
+            "answer": "Spread measures how tightly data clusters around the center. Example: Standard deviation shows average deviation from the mean."
+        },
+        {
+            "question": "What is range?",
+            "answer": "Range is the difference between the highest and lowest values. Example: If max is 90 and min is 50, range = 40."
+        },
+        {
+            "question": "What is a quartile?",
+            "answer": "Quartiles divide data into four equal parts. Example: Q1 = 25th percentile, Q3 = 75th percentile."
+        },
+        {
+            "question": "What is a percentile?",
+            "answer": "A percentile shows the value above which a percentage of data falls. Example: 90th percentile means 90% scored below."
+        },
+        {
+            "question": "What is interquartile range (IQR)?",
+            "answer": "IQR is Q3 - Q1, measuring middle 50% spread. Example: Q3 = 75, Q1 = 25, IQR = 50."
+        },
+        {
+            "question": "What is a 5-number summary?",
+            "answer": "It reports the min, Q1, median, Q3, and max. Example: (5, 25, 50, 75, 100) for test scores."
+        },
+        {
+            "question": "What is a boxplot?",
+            "answer": "A boxplot visualizes the 5-number summary with whiskers for range and dots for outliers. Example: Comparing test scores by gender."
+        },
+        {
+            "question": "What is the mean?",
+            "answer": "The mean is the sum of values divided by the count. Example: Mean of 2, 4, 6 = (2+4+6)/3 = 4."
+        },
+        {
+            "question": "What does it mean for a summary to be resistant?",
+            "answer": "A summary is resistant if outliers have little effect. Example: The median is resistant, but the mean is not."
+        },
+        {
+            "question": "What is variance?",
+            "answer": "Variance is the average squared deviation from the mean: s² = Σ(y - ȳ)² / (n - 1). Example: Variance in test scores measures spread."
+        },
+        {
+            "question": "What is standard deviation?",
+            "answer": "The standard deviation is the square root of variance: s = √[Σ(y - ȳ)² / (n - 1)]. Example: A high s means data is widely spread."
+        },
+        {
+            "question": "What should you consider when comparing distributions?",
+            "answer": "When comparing distributions using histograms or stem-and-leaf displays, examine shape, center, and spread. Example: Compare test score distributions of two classes for symmetry, median, and variability."
+        },
+        {
+            "question": "What should you analyze when comparing boxplots?",
+            "answer": "When comparing boxplots, analyze: 1) Shapes (symmetric or skewed), 2) Medians (which is higher or follows a pattern), 3) IQRs (which group is more spread out), 4) Variation patterns, and 5) Outliers. Example: Comparing salaries of different departments with boxplots."
+        },
+        {
+            "question": "How do you understand outliers in distributions?",
+            "answer": "Outliers must be considered in context, as extreme values in one scenario may be normal in another. Example: A 6'8\" height might be an outlier in the general population but typical among basketball players."
+        },
+        {
+            "question": "What is a timeplot?",
+            "answer": "A timeplot displays data changes over time, often connecting points with lines to highlight trends. Example: A timeplot showing monthly sales trends for a year."
+        },
+        {
+            "question": "Why do we standardize?",
+            "answer": "We standardize to eliminate units, making values comparable even if original variables had different units or scales. Example: Comparing test scores from different grading systems."
+        },
+        {
+            "question": "What is a standardized value?",
+            "answer": "A standardized value is calculated by subtracting the mean and dividing by the standard deviation. Example: A score of 85 with mean 75 and SD 5 gives a standardized value of (85 - 75) / 5 = 2."
+        },
+        {
+            "question": "What is shifting in data?",
+            "answer": "Shifting adds a constant to data, changing measures of position (mean, median) but not spread (SD, IQR). Example: Adding 5 points to all test scores increases the mean by 5 but doesn't affect variability."
+        },
+        {
+            "question": "What is rescaling in data?",
+            "answer": "Rescaling multiplies data by a constant, affecting both position (mean, median) and spread (SD, IQR). Example: Converting inches to centimeters (multiplying by 2.54) scales all measures by 2.54."
+        },
+        {
+            "question": "What is a Normal model?",
+            "answer": "A Normal model represents unimodal, symmetric distributions. Example: Heights of adults often follow a Normal model."
+        },
+        {
+            "question": "What is a parameter?",
+            "answer": "A parameter is a numerically valued attribute of a model. Example: Mean (μ) and standard deviation (σ) in N(μ, σ)."
+        },
+        {
+            "question": "What is a statistic?",
+            "answer": "A statistic summarizes data attributes, like sample mean (ȳ) or sample standard deviation (s). Example: The average score of a surveyed group."
+        },
+        {
+            "question": "What is a z-score?",
+            "answer": "A z-score measures how many standard deviations a value is from the mean. Example: z = (y - ȳ) / s for data, or z = (y - μ) / σ for models."
+        },
+        {
+            "question": "What is the Standard Normal model?",
+            "answer": "The Standard Normal model is N(μ=0, σ=1). Example: A z-score of 2 means 2 standard deviations above the mean."
+        },
+        {
+            "question": "What is the Nearly Normal Condition?",
+            "answer": "A distribution is Nearly Normal if it is unimodal and symmetric. Example: Checking a histogram or Normal probability plot for symmetry."
+        },
+        {
+            "question": "What is the 68–95–99.7 Rule?",
+            "answer": "In a Normal model, 68% of values fall within 1 SD, 95% within 2 SDs, and 99.7% within 3 SDs. Example: Heights mostly fall within 3 SDs of the mean."
+        },
+        {
+            "question": "What is a Normal percentile?",
+            "answer": "The Normal percentile gives the percentage of values below a z-score. Example: A z-score of 1 corresponds to about the 84th percentile."
+        },
+        {
+            "question": "What is a Normal probability plot?",
+            "answer": "A Normal probability plot helps check if data is approximately Normal. Example: Data points forming a straight line suggest a Normal distribution."
+        },
+        {
+            "question": "What does it mean for an outcome to be random?",
+            "answer": "An outcome is random if its possible values are known, but the specific value cannot be predicted. Example: Flipping a coin has random outcomes of heads or tails."
+        },
+        {
+            "question": "What are random numbers?",
+            "answer": "Random numbers are hard to generate but can be accessed from various sources online, offering equally likely values. Example: A random number generator producing numbers from 1 to 100."
+        },
+        {
+            "question": "What is a simulation?",
+            "answer": "A simulation uses random-digit outcomes to model the uncertainty of real-world situations. Example: Simulating 1,000 coin flips to estimate the probability of heads."
+        },
+        {
+            "question": "What is a trial in a simulation?",
+            "answer": "A trial is a sequence of events we are simulating to model real-world scenarios. Example: Each roll of a die in a game simulation is a trial."
+        },
+        {
+            "question": "What is a component in a simulation?",
+            "answer": "A component models simple random events using equally likely outcomes. Example: Drawing random digits to represent free throws made in a basketball game."
+        },
+        {
+            "question": "What is a response variable in a simulation?",
+            "answer": "The response variable records the outcome of interest in a trial. Example: In a coin flip simulation, the response variable might track the number of heads in 10 flips."
+        },
+        {
+            "question": "What is a population?",
+            "answer": "The population is the entire group of individuals or instances we want to learn about. Example: All voters in a country."
+        },
+        {
+            "question": "What is a sample?",
+            "answer": "A sample is a subset of the population, examined to learn about the whole population. Example: Surveying 1,000 voters out of millions."
+        },
+        {
+            "question": "What is a sample survey?",
+            "answer": "A sample survey asks questions to a sample to infer information about the population. Example: Polling a subset of voters about their preferences."
+        },
+        {
+            "question": "What is bias in sampling?",
+            "answer": "Bias is a systematic error in a sampling method that misrepresents the population. Example: Only surveying internet users excludes those without access."
+        },
+        {
+            "question": "What is randomization?",
+            "answer": "Randomization ensures each individual has a fair chance of selection, reducing bias. Example: Drawing names from a hat."
+        },
+        {
+            "question": "What is sample size?",
+            "answer": "Sample size is the number of individuals in a sample and determines how well it represents the population. Example: A larger sample better estimates population parameters."
+        },
+        {
+            "question": "What is a census?",
+            "answer": "A census surveys the entire population. Example: A national population count."
+        },
+        {
+            "question": "What is a population parameter?",
+            "answer": "A population parameter is a numerically valued attribute of the population. Example: The average income of all citizens."
+        },
+        {
+            "question": "What is a statistic or sample statistic?",
+            "answer": "A statistic summarizes sampled data and estimates a population parameter. Example: The average income of a surveyed group."
+        },
+        {
+            "question": "What is a representative sample?",
+            "answer": "A representative sample accurately reflects the population's attributes. Example: A sample with gender proportions matching the population."
+        },
+        {
+            "question": "What is a Simple Random Sample (SRS)?",
+            "answer": "An SRS ensures every set of individuals has an equal chance of selection. Example: Randomly selecting 10 students from a class list."
+        },
+        {
+            "question": "What is a sampling frame?",
+            "answer": "A sampling frame is the list of individuals from which the sample is drawn. Example: A database of registered voters."
+        },
+        {
+            "question": "What is sampling variability?",
+            "answer": "Sampling variability is the natural difference between randomly drawn samples. Example: Two random samples may give slightly different poll results."
+        },
+        {
+            "question": "What is a stratified random sample?",
+            "answer": "A stratified random sample divides the population into strata and randomly samples each. Example: Sampling age groups separately in a population."
+        },
+        {
+            "question": "What is a cluster sample?",
+            "answer": "A cluster sample selects entire groups randomly, each group representing the population. Example: Randomly selecting schools for a student survey."
+        },
+        {
+            "question": "What is a multistage sample?",
+            "answer": "A multistage sample combines sampling methods. Example: Stratifying regions, randomly sampling cities, then interviewing households."
+        },
+        {
+            "question": "What is a systematic sample?",
+            "answer": "A systematic sample selects individuals at regular intervals from a sampling frame. Example: Surveying every 10th person on a list."
+        },
+        {
+            "question": "What is a pilot study?",
+            "answer": "A pilot study is a small trial to test survey clarity. Example: Testing a questionnaire on a small group before a large survey."
+        },
+        {
+            "question": "What is a voluntary response sample?",
+            "answer": "A voluntary response sample lets individuals choose to participate, often leading to bias. Example: Online polls that attract opinionated respondents."
+        },
+        {
+            "question": "What is voluntary response bias?",
+            "answer": "Voluntary response bias occurs when only self-selected participants respond. Example: A survey about taxes attracting only those strongly opposed."
+        },
+        {
+            "question": "What is a convenience sample?",
+            "answer": "A convenience sample includes individuals easy to access, often leading to bias. Example: Surveying friends instead of a random group."
+        },
+        {
+            "question": "What is undercoverage?",
+            "answer": "Undercoverage happens when part of the population is underrepresented. Example: Excluding rural areas from a national survey."
+        },
+        {
+            "question": "What is nonresponse bias?",
+            "answer": "Nonresponse bias occurs when a large fraction of those sampled fail to respond. Example: Busy people not answering phone surveys."
+        },
+        {
+            "question": "What is response bias?",
+            "answer": "Response bias occurs when survey design influences answers. Example: Leading questions causing participants to favor certain responses."
+        },
+        {
+            "question": "What is an observational study?",
+            "answer": "An observational study collects data without manipulating factors. Example: Studying smoking habits and lung health by observing existing behavior."
+        },
+        {
+            "question": "What is a retrospective study?",
+            "answer": "A retrospective study looks at past behaviors or conditions of subjects. Example: Reviewing medical records to study the effects of a drug."
+        },
+        {
+            "question": "What is a prospective study?",
+            "answer": "A prospective study follows subjects to observe future outcomes. Example: Tracking participants' diets to study heart disease over 10 years."
+        },
+        {
+            "question": "What is random assignment?",
+            "answer": "Random assignment allocates experimental units to treatments randomly. Example: Randomly assigning patients to receive either a new drug or a placebo."
+        },
+        {
+            "question": "What is a factor in an experiment?",
+            "answer": "A factor is a variable manipulated by the experimenter. Example: Testing the effect of different fertilizer types on plant growth."
+        },
+        {
+            "question": "What is a response variable in experiments?",
+            "answer": "The response variable measures the outcomes across different treatments. Example: Plant height as a response to different fertilizers."
+        },
+        {
+            "question": "What is an experiment?",
+            "answer": "An experiment manipulates factors, randomly assigns treatments, and compares responses. Example: Testing a new drug's effectiveness by controlling dosages."
+        },
+        {
+            "question": "What are experimental units?",
+            "answer": "Experimental units are individuals on whom an experiment is performed. Example: Patients in a clinical trial."
+        },
+        {
+            "question": "What are levels in an experiment?",
+            "answer": "Levels are specific values chosen for a factor. Example: Dosages of 10mg, 20mg, and 30mg in a drug study."
+        },
+        {
+            "question": "What is a treatment in an experiment?",
+            "answer": "A treatment is a controlled condition applied to experimental units. Example: Testing different combinations of exercise and diet plans."
+        },
+        {
+            "question": "What are the principles of experimental design?",
+            "answer": "Control confounding variables, randomize assignments, replicate results, and block to reduce variability. Example: Controlling temperature while studying plant growth under different fertilizers."
+        },
+        {
+            "question": "What is a completely randomized design?",
+            "answer": "In this design, all experimental units have an equal chance of receiving any treatment. Example: Assigning participants to groups purely by chance."
+        },
+        {
+            "question": "What does it mean if a result is statistically significant?",
+            "answer": "It means the observed difference is unlikely to have occurred by chance. Example: A drug reducing symptoms significantly compared to a placebo."
+        },
+        {
+            "question": "What is a control group?",
+            "answer": "A control group receives a baseline treatment for comparison. Example: A group receiving no drug while others receive different doses."
+        },
+        {
+            "question": "What is blinding in an experiment?",
+            "answer": "Blinding keeps individuals unaware of treatment allocation. Example: A researcher not knowing which patients received a placebo."
+        },
+        {
+            "question": "What is the difference between single-blind and double-blind experiments?",
+            "answer": "Single-blind hides treatment info from one group (subjects or evaluators); double-blind hides it from both. Example: In a double-blind drug study, neither doctors nor patients know who receives the drug."
+        },
+        {
+            "question": "What is a placebo?",
+            "answer": "A placebo is a treatment with no effect, used for comparison. Example: A sugar pill given to the control group in a drug trial."
+        },
+        {
+            "question": "What is the placebo effect?",
+            "answer": "The placebo effect occurs when subjects show a response to a placebo. Example: Feeling better after taking a sugar pill, believing it's medicine."
+        },
+        {
+            "question": "What is blocking in experiments?",
+            "answer": "Blocking groups similar units to reduce variability. Example: Grouping participants by age before randomizing treatments."
+        },
+        {
+            "question": "What is a randomized block design?",
+            "answer": "A design where randomization occurs within blocks. Example: Randomly assigning treatments within age groups."
+        },
+        {
+            "question": "What is matching in studies?",
+            "answer": "Matching pairs participants with similar attributes for comparison. Example: Comparing twins, where one smokes and the other doesn't."
+        },
+        {
+            "question": "What is confounding?",
+            "answer": "Confounding occurs when two factors are linked, making it hard to separate their effects. Example: A study linking exercise and weight loss, but diet is not controlled."
+        },
+        {
+            "question": "What is Student's t-distribution?",
+            "answer": "Student's t-distribution is a family of unimodal, symmetric distributions with fatter tails than the Normal model, used for small sample sizes. Example: As degrees of freedom increase, it approaches the Normal distribution."
+        },
+        {
+            "question": "What are degrees of freedom for Student's t-distribution?",
+            "answer": "Degrees of freedom for the t-distribution are calculated as n - 1, where n is the sample size. Example: For a sample size of 10, degrees of freedom = 10 - 1 = 9."
+        },
+        {
+            "question": "What is a one-sample t-interval for the mean?",
+            "answer": "A one-sample t-interval estimates the population mean: \\( \\bar{y} \\pm t^*_{n-1} \\cdot SE(\\bar{y}) \\), where \\( SE(\\bar{y}) = \\frac{s}{\\sqrt{n}} \\). Example: Calculating a 95% confidence interval for a sample of test scores."
+        },
+        {
+            "question": "What is a one-sample t-test for the mean?",
+            "answer": "A one-sample t-test checks if a sample mean differs from a hypothesized mean: \\( t_{n-1} = \\frac{\\bar{y} - \\mu_0}{SE(\\bar{y})} \\), where \\( SE(\\bar{y}) = \\frac{s}{\\sqrt{n}} \\). Example: Testing if a sample's average height differs from 170 cm."
+        },
+        {
+            "question": "What is paired data?",
+            "answer": "Paired data arises when observations are naturally linked, such as measurements taken before and after a treatment. Example: Comparing students' test scores before and after a study program."
+        },
+        {
+            "question": "What is a paired t-test?",
+            "answer": "A paired t-test evaluates the mean of pairwise differences between two groups. Formula: \\( t = \\frac{\\bar{d} - \\mu_d}{SE(\\bar{d})} \\), where \\( SE(\\bar{d}) = \\frac{s_d}{\\sqrt{n}} \\), and \\( n \\) is the number of pairs. Example: Testing if a training program improves performance by comparing pre- and post-training scores."
+        },
+        {
+            "question": "What is a paired t confidence interval?",
+            "answer": "A paired t confidence interval estimates the mean of pairwise differences: \\( \\bar{d} \\pm t^*_{n-1} \\cdot SE(\\bar{d}) \\), where \\( SE(\\bar{d}) = \\frac{s_d}{\\sqrt{n}} \\), and \\( n \\) is the number of pairs. Example: Calculating a 95% confidence interval for weight changes after a diet program."
+        },
+        {
+            "question": "What is a chi-square goodness-of-fit test?",
+            "answer": "The chi-square goodness-of-fit test checks if observed counts match expected counts under a model. Example: Testing if a die is fair based on observed rolls."
+        },
+        {
+            "question": "What is a cell in a table?",
+            "answer": "A cell is an element in a table at a specific row and column intersection. Example: In a table of survey results, a cell might show the count of males who prefer a certain product."
+        },
+        {
+            "question": "What is the chi-square statistic?",
+            "answer": "The chi-square statistic measures the difference between observed and expected counts: \\( \\chi^2 = \\sum \\frac{(\\text{Obs} - \\text{Exp})^2}{\\text{Exp}} \\). Example: Calculating the statistic for voting preferences across regions."
+        },
+        {
+            "question": "What is a chi-square model?",
+            "answer": "A chi-square model is a right-skewed distribution used in chi-square tests, becoming less skewed with more degrees of freedom. Example: A chi-square test with 5 degrees of freedom."
+        },
+        {
+            "question": "What is a chi-square component?",
+            "answer": "A chi-square component is the value \\( \\frac{(\\text{Obs} - \\text{Exp})^2}{\\text{Exp}} \\) for each cell in a table. Example: A component for a cell in a voting survey table."
+        },
+        {
+            "question": "What is a two-way table?",
+            "answer": "A two-way table shows counts of individuals for two categorical variables. Example: A table showing age groups and favorite movie genres."
+        },
+        {
+            "question": "What is a chi-square test of homogeneity?",
+            "answer": "The chi-square test of homogeneity compares the distribution of a categorical variable across groups. Example: Testing if preferences for a product differ by region."
+        },
+        {
+            "question": "What is a standardized residual?",
+            "answer": "A standardized residual is \\( \\frac{\\text{Obs} - \\text{Exp}}{\\sqrt{\\text{Exp}}} \\), used to identify how much a cell's count deviates from expectation. Example: Analyzing residuals in a table of survey responses."
+        },
+        {
+            "question": "What is a contingency table?",
+            "answer": "A contingency table classifies individuals based on two categorical variables. Example: A table showing education level and income brackets."
+        },
+        {
+            "question": "What is a chi-square test of independence?",
+            "answer": "The chi-square test of independence checks if two categorical variables are independent. Example: Testing if gender is related to preference for a political party."
+        },
+        {
+            "question": "What is the Error (or Within) Mean Square (MSE)?",
+            "answer": "MSE estimates the error variance by pooling variances of treatment groups. The square root of MSE is the error standard deviation (sp). Example: In ANOVA, MSE reflects variability within groups."
+        },
+        {
+            "question": "What is the Treatment (or Between) Mean Square (MST)?",
+            "answer": "MST estimates error variance assuming equal treatment means. If this assumption is false, MST exceeds error variance. Example: MST captures variability between treatment groups in ANOVA."
+        },
+        {
+            "question": "What is the F-distribution?",
+            "answer": "The F-distribution is the sampling distribution of the F-statistic under the null hypothesis, parameterized by numerator (k - 1) and denominator (N - k) degrees of freedom. Example: Used in ANOVA tests."
+        },
+        {
+            "question": "What is the F-statistic?",
+            "answer": "The F-statistic is the ratio \\( F = \\frac{MST}{MSE} \\). A large F suggests rejecting the null hypothesis of equal group means. Example: Comparing variances in ANOVA."
+        },
+        {
+            "question": "What is an F-test?",
+            "answer": "The F-test evaluates the null hypothesis that all group means are equal, rejecting it if the F-statistic exceeds the critical value. Example: Testing equality of means across treatment groups."
+        },
+        {
+            "question": "What is ANOVA?",
+            "answer": "ANOVA (Analysis of Variance) tests equality of means across groups. Example: Comparing average test scores across three teaching methods."
+        },
+        {
+            "question": "What is an ANOVA table?",
+            "answer": "An ANOVA table displays degrees of freedom, MST, MSE, their ratio (F-statistic), and the P-value. Example: Summarizing results of a one-way ANOVA."
+        },
+        {
+            "question": "What is the one-way ANOVA model?",
+            "answer": "The one-way ANOVA model is \\( y_{ij} = \\mu_j + \\epsilon_{ij} \\), where \\( \\mu_j \\) is the group mean and \\( \\epsilon_{ij} \\) is the residual. Example: Partitioning variability into within-group and between-group components."
+        },
+        {
+            "question": "What is the residual standard deviation?",
+            "answer": "The residual standard deviation \\( s_p = \\sqrt{MSE} \\) estimates variability of response values. Example: Measuring variability within treatment groups in ANOVA."
+        },
+        {
+            "question": "What is a balanced design in experiments?",
+            "answer": "A design is balanced if each treatment level has the same number of units, simplifying calculations and increasing power. Example: Assigning 10 participants to each group in a study."
+        },
+        {
+            "question": "What are methods for multiple comparisons?",
+            "answer": "Methods for multiple comparisons adjust for multiple tests to control Type I error risk. Example: Bonferroni method for comparing group means in ANOVA."
+        },
+        {
+            "question": "What is the least significant difference (LSD)?",
+            "answer": "LSD is the standard margin of error for the confidence interval of two means. Example: Testing if two treatments differ significantly in ANOVA."
+        },
+        {
+            "question": "What is the Bonferroni method?",
+            "answer": "The Bonferroni method adjusts margins of error when testing multiple group differences to control Type I error. Example: Comparing several group means in a study."
+        },
+        {
+            "question": "What is the minimum significant difference (MSD)?",
+            "answer": "MSD is the Bonferroni-adjusted margin of error for comparing group means. Differences exceeding MSD are significant. Example: Testing pairwise differences in treatment effects."
+        },
+        {
+            "question": "What is the two-way ANOVA model (main effects model)?",
+            "answer": "The two-way ANOVA model for one response and two factors is \\( y_{ijk} = \\mu + \\tau_j + \\gamma_k + \\epsilon_{ijk} \\), where \\( \\tau_j \\) represents the effect of level \\( j \\) of factor 1, \\( \\gamma_k \\) represents the effect of level \\( k \\) of factor 2, and \\( \\epsilon_{ijk} \\) is the residual. Example: Comparing plant growth across different fertilizers (factor 1) and watering levels (factor 2)."
+        },
+        {
+            "question": "What are partial boxplots?",
+            "answer": "Partial boxplots show the response for one factor after removing effects of the other factor. Example: Showing plant growth for fertilizers while accounting for watering levels."
+        },
+        {
+            "question": "What is additivity in a two-way ANOVA model?",
+            "answer": "Additivity occurs when the effects of two factors are independent and do not include an interaction term. Example: Fertilizer and watering level effects on plant growth are additive if they do not depend on each other."
+        },
+        {
+            "question": "What is interaction in a two-way ANOVA?",
+            "answer": "Interaction occurs when the effect of one factor depends on the level of the other factor. Example: A fertilizer's effectiveness may change depending on the watering level."
+        },
+        {
+            "question": "What is an interaction plot?",
+            "answer": "An interaction plot shows means at each treatment combination, illustrating factor effects and their interaction. Example: A plot showing plant growth for combinations of fertilizer types and watering levels."
+        },
+        {
+            "question": "What is the two-way ANOVA model with interaction?",
+            "answer": "The two-way ANOVA model with interaction is \\( y_{ijk} = \\mu + \\tau_j + \\gamma_k + \\nu_{jk} + \\epsilon_{ijk} \\), where \\( \\nu_{jk} \\) represents the interaction between levels \\( j \\) of factor 1 and \\( k \\) of factor 2. Example: Analyzing the combined effects of fertilizers and watering levels on plant growth."
+        },
+        {
+            "question": "What is multiple regression?",
+            "answer": "Multiple regression is linear regression with two or more predictors, modeled as \\( y = \\beta_0 + \\beta_1x_1 + \\dots + \\beta_kx_k + \\epsilon \\), where coefficients minimize the sum of squared residuals. Example: Predicting house prices based on size, location, and age."
+        },
+        {
+            "question": "What is the method of least squares in regression?",
+            "answer": "The least squares method finds coefficients that minimize the sum of squared residuals. Example: Fitting a line through data points in multiple regression."
+        },
+        {
+            "question": "What is a partial regression plot?",
+            "answer": "A partial regression plot shows the residuals of \\( y \\) regressed on other predictors against residuals of \\( x \\) regressed on other predictors, illustrating the meaning of a coefficient. Example: Visualizing how one predictor contributes to a regression model."
+        },
+        {
+            "question": "What does ANOVA do in multiple regression?",
+            "answer": "ANOVA in multiple regression tests if the regression model improves over using the mean of \\( y \\). Null hypothesis: \\( H_0: \\beta_1 = \\beta_2 = \\dots = \\beta_k = 0 \\). Example: Checking if predictors significantly explain variation in sales."
+        },
+        {
+            "question": "What are t-ratios for coefficients in regression?",
+            "answer": "T-ratios test if each regression coefficient is significantly different from zero. Example: Testing if a predictor (e.g., square footage) significantly affects house prices."
+        },
+        {
+            "question": "What is a scatterplot matrix?",
+            "answer": "A scatterplot matrix shows scatterplots for all variable pairs, with histograms or other summaries on the diagonal. Example: Exploring relationships among variables like income, education, and age."
+        },
+        {
+            "question": "What is adjusted \\( R^2 \\) in regression?",
+            "answer": "Adjusted \\( R^2 \\) accounts for the number of predictors, providing a fair comparison between models. Formula: \\( R^2_{adj} = 1 - \\frac{MS_{Residual}}{MS_{Total}} \\). Example: Comparing models with 2 and 3 predictors for predictive accuracy."
+        }
+    ]
+}
