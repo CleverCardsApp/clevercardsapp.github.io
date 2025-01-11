@@ -1,669 +1,517 @@
 {
-    "deck_name": "IK445A",
+    "deck_name": "IK434A",
     "cards": [
         {
-            "question": "What is data?",
-            "answer": "Data are recorded values, either as numbers or labels, along with their context. Example: A list of students' ages and names in a classroom."
+            "question": "\"Protection against unauthorized access”/ ”Skydd mot obehörig insyn” [SIS TR50: 2015]",
+            "answer": "Confidentiality"
         },
         {
-            "question": "What is a data table?",
-            "answer": "A data table organizes data so that each row is a case and each column is a variable. Example: A spreadsheet where rows are employees and columns are age, department, and salary."
+            "question": "\"Protection against unwanted change”/ ”Skydd mot oönskad förändring” [SIS TR50: 2015]",
+            "answer": "Integrity"
         },
         {
-            "question": "What is context in data?",
-            "answer": "Context explains who, what, how, where, when, and why data were collected. Example: Survey of 500 students' grades to analyze academic performance in 2023."
+            "question": "\"Access for a competent person at the right time”/ ”Åtkomst för behörig person vid rätttillfälle” [SIS TR50: 2015]",
+            "answer": "Availability"
         },
         {
-            "question": "What is a case?",
-            "answer": "A case is an individual about whom or which we have data. Example: Each customer in a dataset tracking purchase history."
+            "question": "\"Determination of access rights for a user”/ ”Fastställande av åtkomsträttigheter fören användare” [SIS TR50: 2015]",
+            "answer": "Authorization (authenticity)"
         },
         {
-            "question": "What is a respondent?",
-            "answer": "A respondent is someone who answers a survey. Example: A person filling out a feedback form for a new product."
+            "question": "“Provision of technical evidence for the existence of an alleged event or act and itsorigin”/ “Tillhandahållande av teknisk bevisning för förekomsten av en påståddhändelse eller handling och dess ursprung” [SIS TR50: 2015]",
+            "answer": "Non-repudiation"
         },
         {
-            "question": "What is a subject?",
-            "answer": "A subject is a human experimental unit, also called a participant. Example: A volunteer testing a new medication."
+            "question": "The same key is used for both data encryption and data decryption",
+            "answer": "Symmetric encryption or \"shared-key encryption\""
         },
         {
-            "question": "What is a participant?",
-            "answer": "A participant is a human experimental unit, also called a subject. Example: A student involved in an educational study."
+            "question": "What is one of the biggest challenges in cryptographic systems?",
+            "answer": "Distribution of keys"
         },
         {
-            "question": "What is an experimental unit?",
-            "answer": "An experimental unit is an individual in a study for whom data is recorded. Example: A plant in a study about fertilizer effects."
+            "question": "Here you use two different keys: an open (public) key to encrypt with and your own private key to decrypt",
+            "answer": "Asymmetric Encryption (Public-Key Encryption)"
         },
         {
-            "question": "What is a record?",
-            "answer": "A record is information about an individual in a database. Example: A single row in a database listing a patient's medical history."
+            "question": "Alice sends encrypted content along with an encrypted one-time key (session key) to Bob. Bob decrypts the one-time key using his private key and then decrypts the content with this one-time key",
+            "answer": "Hybrid Encryption (Digital Envelope)"
         },
         {
-            "question": "What is a sample?",
-            "answer": "A sample is a subset of a population used to learn about the population. Example: 100 voters surveyed out of a city of 10,000."
+            "question": "A data block that is usually attached to the delivered message",
+            "answer": "Digital Signature"
         },
         {
-            "question": "What is a population?",
-            "answer": "A population is the entire group of individuals or instances of interest. Example: All residents of a country in a census."
+            "question": "How do digital signatures achieve transmitter authentication, message integrity, and non-repudiation?",
+            "answer": "Digital signatures ensure transmitter authentication by linking the message uniquely to the owner's private key, maintain message integrity by detecting any alterations through hash verification, and provide non-repudiation by irrefutably proving the sender's acknowledgment and consent."
         },
         {
-            "question": "What is a variable?",
-            "answer": "A variable holds information about the same characteristic across cases. Example: Age or gender in a dataset about people."
+            "question": "Facilitates secure data sharing over networks like the Internet using asymmetric encryption. Each user's public key is associated with their credentials via a digital certificate",
+            "answer": "Public Key Infrastructure (PKI)"
         },
         {
-            "question": "What is a categorical (or qualitative) variable?",
-            "answer": "A categorical variable names categories using words or numerals. Example: Eye color (blue, brown, green)."
+            "question": "The _ is an electronic document used to prove that the user owns a public key used in cryptography and to prove the identity",
+            "answer": "(Digital) Certificate"
         },
         {
-            "question": "What is a nominal variable?",
-            "answer": "A nominal variable names categories without implying order. Example: Types of fruits (apple, banana, orange)."
+            "question": "A Digital Certificate is issued by an official and third-party trusted _",
+            "answer": "Certificate Authority (CA)"
         },
         {
-            "question": "What is a quantitative variable?",
-            "answer": "A quantitative variable uses numbers to represent measured quantities with units. Example: Height measured in centimeters."
+            "question": "Symantec, RapidSSL, Comodo, and GeoTrust are examples of _",
+            "answer": "Certificate Authorities (CAs)"
         },
         {
-            "question": "What are units in data?",
-            "answer": "Units are standards of measurement, like dollars or grams. Example: Measuring weight in kilograms or dollars in salary data."
+            "question": "To prevent this type of attack, the company must timestamp or number the messages",
+            "answer": "Replay Attack"
         },
         {
-            "question": "What is an identifier variable?",
-            "answer": "An identifier variable uniquely names or identifies each case. Example: A student ID number."
+            "question": "There are different types of _. One of them is by using KeyLoggers",
+            "answer": "Man-In-The-Middle Attack (MITM Attack)"
         },
         {
-            "question": "What is an ordinal variable?",
-            "answer": "An ordinal variable has categories with a natural order. Example: Movie ratings (poor, fair, good, excellent)."
+            "question": "A condition at an interface under which more input can be placed into a buffer or data holding area than capacity allocated, overwriting other information. Attackers exploit such a condition to crash a system or to insert specially crafted code that allows them to gain control of the system",
+            "answer": "Buffer Overflow\n"
         },
         {
-            "question": "What is a frequency table (or relative frequency table)?",
-            "answer": "A frequency table lists the categories of a categorical variable and shows the count or percentage of observations for each. Example: A table showing the number of students preferring different study methods."
+            "question": "A method of overloading a predefined amount of space in a buffer, which can potentially overwrite and corrupt data in memory",
+            "answer": "Buffer Overflow Attacks"
         },
         {
-            "question": "What is a distribution?",
-            "answer": "A distribution shows the possible values of a variable and their relative frequency. Example: Test scores distribution showing how many students scored within each range."
+            "question": "Is it true that higher-level programming languages are immune to buffer overflow attacks?",
+            "answer": "Higher-level programming languages are generally safe from buffer overflow attacks because they do not allow more data to be stored in the buffer than its designated size. These languages prioritize solving the given problem with less emphasis on managing the intricate details of variable interactions. However, a drawback of this approach is the loss of direct access to hardware resources, such as when writing code for device drivers. In contrast, the C language provides a balance by offering both low- and high-level controls, allowing for more direct hardware manipulation while also supporting higher-level programming constructs"
         },
         {
-            "question": "What is the area principle in statistics?",
-            "answer": "The area principle states that each data value in a display should be represented by the same area. Example: Equal-sized segments in a bar chart for equal values."
+            "question": "Checking the input before writing it to the buffer (input validation), employing safe-coding techniques, conducting independent code reviews and testing, choosing a higher-level language or using safe libraries, and implementing stack protection mechanisms that identify changes and abort the program as soon as possible are examples of...",
+            "answer": "...Buffer Overflow Countermeasures"
         },
         {
-            "question": "What is a bar chart (or relative frequency bar chart)?",
-            "answer": "A bar chart uses bars to represent the count or percentage of observations in each category of a categorical variable. Example: A bar chart showing favorite ice cream flavors."
+            "question": "What is the problem with using 'gets(string1);' in a C program?",
+            "answer": "The issue with the 'gets' function in C is that it does not check the amount of data entered by the user. If the user inputs more characters than the buffer size allocated for 'string1', the buffer overflows. This happens because 'gets' does not limit the input to the buffer's capacity in C, causing excess data to spill into adjacent memory. This can lead to serious security vulnerabilities and instability in C programs"
         },
         {
-            "question": "What is a pie chart?",
-            "answer": "A pie chart divides a circle into wedges, showing proportions for each category. Example: A pie chart showing percentage of market share by companies."
+            "question": "Why are higher-level languages such as C#, Java, Python, etc., often referred to as 'managed languages'?",
+            "answer": "These languages are termed 'managed' because they operate within a specific runtime environment that translates an intermediate language (such as CIL for C# and Bytecode for Java) into machine instructions. This runtime environment takes on the responsibility of managing crucial aspects like memory allocation, security, and other system-level features, thus providing an additional layer of abstraction and control compared to lower-level languages"
         },
         {
-            "question": "What is the categorical data condition?",
-            "answer": "This condition ensures methods for categorical data are not applied to quantitative data. Example: Don’t use pie charts to display a variable like age in years."
+            "question": "A program that is inserted into a system, usually covertly, with the intent of compromising the confidentiality, integrity, or availability of the victim’s data applications, or operating system orof otherwise annoying or disrupting the victim",
+            "answer": "Malicious Software (Malware)"
         },
         {
-            "question": "What is a contingency table?",
-            "answer": "A contingency table shows counts or percentages of individuals in named categories across two or more variables. Example: A table showing gender and favorite sports."
+            "question": "A computer program that can copy itself and infect a computer without permission or knowledge of the user. A _ might corrupt or delete data on a computer, use email programs to spread itself to other computers, or even erase everything on a hard disk",
+            "answer": "Virus\n"
         },
         {
-            "question": "What is marginal distribution?",
-            "answer": "The marginal distribution shows the distribution of one variable alone in a contingency table, using totals from rows or columns. Example: Total votes for each candidate in an election."
+            "question": "Describes the various ways malware spreads to infect other systems. Examples include email attachments, malicious websites, and network vulnerabilities",
+            "answer": "Propagation Methods (Propagation)"
         },
         {
-            "question": "What is a conditional distribution?",
-            "answer": "A conditional distribution restricts the data to a smaller group and shows the distribution of a variable within that group. Example: Favorite ice cream flavor among teenagers."
+            "question": "Details the types of harm caused by malware, such as data corruption, information theft, system performance degradation, and unauthorized system access",
+            "answer": "Impact and Payload (Harm/payload)"
         },
         {
-            "question": "What is independence in variables?",
-            "answer": "Variables are independent if the conditional distribution of one is the same across all categories of the other. Example: Gender and voting preference are independent if voting rates are identical across genders."
+            "question": "Explains how malware activates itself within a system, which can include exploiting software vulnerabilities, deceiving users into installing it, or being triggered by specific conditions",
+            "answer": "Activation Mechanisms (Activation)"
         },
         {
-            "question": "What is a segmented bar chart?",
-            "answer": "A segmented bar chart shows the conditional distribution of a categorical variable within each category of another variable. Example: A chart showing exercise habits by age group."
+            "question": "Outlines how malware avoids detection and removal by security software. This includes techniques like rootkits, polymorphism, and obfuscation",
+            "answer": "Evasion Techniques (Stealth)"
         },
         {
-            "question": "What is Simpson’s paradox?",
-            "answer": "Simpson’s paradox occurs when averages across groups contradict the overall averages. Example: A medication seems effective in subgroups but ineffective overall due to differing group sizes."
+            "question": "_ are sophisticated cyber threats that utilize a combination of malware types and attack vectors. They are designed to exploit multiple vulnerabilities and often combine the characteristics of viruses, worms, and Trojans to maximize damage and spread rapidly",
+            "answer": "Blended Attacks"
         },
         {
-            "question": "What is a stem-and-leaf display?",
-            "answer": "A stem-and-leaf display shows quantitative data values, sketching the data's distribution. Example: '12, 14, 15' becomes '1 | 2, 4, 5'."
+            "question": "Name four activation mechanisms for malware",
+            "answer": "Setup and installer programs, attached files, macros, and autorun features"
         },
         {
-            "question": "What is a dotplot?",
-            "answer": "A dotplot graphs a dot for each case along a single axis. Example: Each dot represents the score of a student on a test."
+            "question": "What is the type of virus that utilizes the scripting function inside a document, like Microsoft Word, to perform malicious activities? Microsoft has developed a _ Virus Protection to detect suspected documents",
+            "answer": "Macro Virus (Macros)"
         },
         {
-            "question": "What does shape describe in a distribution?",
-            "answer": "Shape describes single vs. multiple modes, symmetry vs. skewness, and outliers or gaps. Example: A histogram showing a symmetric bell curve."
+            "question": "What is the feature of an operating system that allows for automatic execution of programs, which a threat actor might target to execute a virus?",
+            "answer": "Autorun. Examples include autoexec.bat in DOS/command prompt environments or the Task Scheduler in Windows"
         },
         {
-            "question": "What is a mode?",
-            "answer": "A mode is a hump or peak in the distribution of a variable. Example: A mode at '5' means '5' occurs most often."
+            "question": "What does it mean when a virus is appended to a program?",
+            "answer": "When a virus is appended to a program, it means that the virus code is attached to the end of the program file. Each time the program is executed, the virus code runs first, completes its task, and then control is transferred back to the original program"
         },
         {
-            "question": "What is unimodal (or bimodal)?",
-            "answer": "Unimodal has one peak, bimodal has two peaks. Example: A bimodal distribution might show peaks at ages 20 and 50."
+            "question": "What does it mean when a virus is surrounding a program?",
+            "answer": "A virus that surrounds a program takes control both before and after the program's execution. This means the virus can perform its actions before the program starts and after it finishes, effectively encasing the program's execution within its control"
         },
         {
-            "question": "What is a uniform distribution?",
-            "answer": "A uniform distribution has no peaks; all values have about the same frequency. Example: Rolling a fair die gives uniform results (1–6)."
+            "question": "What does it mean when a virus is integrated into a program?",
+            "answer": "Integration of a virus into a program involves inserting the virus code into the program's code. This requires the virus developer to understand the program's structure to strategically place the virus code. The virus and program code become intermingled, making it harder to separate the virus from the program without damaging the latter"
         },
         {
-            "question": "What does symmetric mean in distributions?",
-            "answer": "A distribution is symmetric if both sides of its center are mirror images. Example: A perfect bell curve."
+            "question": "A self-replicating, self-propagating, self-contained program that uses networking mechanisms to spread itself",
+            "answer": "Worm"
         },
         {
-            "question": "What are tails in a distribution?",
-            "answer": "Tails are the ends of a distribution where values taper off. Example: A long right tail means extreme high values occur rarely."
+            "question": "What is the main difference between a worm and a virus?",
+            "answer": "The main difference lies in their method of propagation. A worm is a standalone malware that replicates itself and spreads independently across networks without requiring any host program. On the other hand, a virus depends on attaching itself to a host program or file and spreads by modifying other programs with its own code. While both can cause similar types of damage, their modes of transmission and propagation are distinct"
         },
         {
-            "question": "What is a skewed distribution?",
-            "answer": "A skewed distribution isn’t symmetric, with one tail longer. Example: Income distribution is often skewed right, with few high incomes."
+            "question": "A recognizable, distinguishing pattern associated with an attack, such as a binary string in a virus or a particular set of keystrokes used to gain an unauthorized access to a system",
+            "answer": "Virus Signature"
         },
         {
-            "question": "What are outliers?",
-            "answer": "Outliers are extreme values that differ significantly from the rest. Example: In test scores of 80–100, a '10' would be an outlier."
+            "question": "What is typically used to uniquely identify a virus, which can be, for example, a hash calculated on a part of the virus code that is unique to the virus, or a hash based on the behavior of the virus (such as when a program performs specific actions X, Y, and Z)?",
+            "answer": "Virus Signature. A virus signature is a unique string of bytes or a pattern that antivirus software uses to identify and detect specific viruses. It can be derived from a unique part of the virus code or from the characteristic behaviors exhibited by the virus, such as performing specific actions or sequences of actions within a system"
         },
         {
-            "question": "What is the center of a distribution?",
-            "answer": "The center summarizes a distribution with a single number, like mean or median. Example: Median income for a dataset."
+            "question": "Describe a Polymorphic Virus",
+            "answer": "A polymorphic virus is a type of malware that can change its observable characteristics, such as its code, signature, or encryption, each time it infects a new system. This is achieved by randomly repositioning, encrypting, or otherwise altering its code without changing the fundamental functionality of the virus. Despite the varying appearance, the underlying attack code remains the same. This ability to morph makes it challenging for antivirus programs to detect and match the virus to signatures saved in their database, as the virus presents differently in each iteration"
         },
         {
-            "question": "What is the median?",
-            "answer": "The median is the middle value of ordered data. Example: For 1, 3, 7, the median is 3."
+            "question": "What kind of virus encrypts its body with a variable key every time it replicates, uses a decryptor to execute the encrypted virus body in the targeted program, and can be identified through its consistent decryptor (Virus Signature)?",
+            "answer": "Encrypted Virus. This type of virus encrypts its main body or payload with a different key upon each infection, making its appearance variable and harder to detect by antivirus programs. To execute, it uses a small static decryptor component, which remains the same across infections. This decryptor decrypts the virus body so it can execute within the target program. It is this consistent decryptor part that can be used as a virus signature for antivirus software to detect and identify the encrypted virus"
         },
         {
-            "question": "What is spread in a distribution?",
-            "answer": "Spread measures how tightly data clusters around the center. Example: Standard deviation shows average deviation from the mean."
+            "question": "What are some key security requirements for relational databases?",
+            "answer": "Database Integrity, Element Integrity, Auditability, Access Control, User Authentication, and Availability"
         },
         {
-            "question": "What is range?",
-            "answer": "Range is the difference between the highest and lowest values. Example: If max is 90 and min is 50, range = 40."
+            "question": "In relational databases, data should be safeguarded against physical problems (e.g., power failures), necessitating regular backups. Additionally, ensuring that modifications to the value of one field do not affect other fields are examples of...",
+            "answer": "...Data Integrity"
         },
         {
-            "question": "What is a quartile?",
-            "answer": "Quartiles divide data into four equal parts. Example: Q1 = 25th percentile, Q3 = 75th percentile."
+            "question": "In relational databases, the data should be correct and the DBMS performs the following actions to ensure _: Field checks, access control, and change logs",
+            "answer": "Element Integrity\n"
         },
         {
-            "question": "What is a percentile?",
-            "answer": "A percentile shows the value above which a percentage of data falls. Example: 90th percentile means 90% scored below."
+            "question": "What does 'Auditability' mean in the context of relational databases?",
+            "answer": "Auditability in relational databases refers to the capability to track, record, and examine all database activities, especially those related to data access and modification. This includes maintaining detailed logs that capture which user performed what action and at what time. It also involves monitoring and recording incremental access to sensitive data. Auditability is crucial for ensuring security, compliance with regulations, and for forensic analysis in case of security breaches or unauthorized activities. It helps in establishing accountability and in maintaining the integrity of the database by providing a transparent and traceable history of all transactions"
         },
         {
-            "question": "What is interquartile range (IQR)?",
-            "answer": "IQR is Q3 - Q1, measuring middle 50% spread. Example: Q3 = 75, Q1 = 25, IQR = 50."
+            "question": "Describe 'Access Control' in the context of relational databases",
+            "answer": "Access Control in relational databases refers to the process of specifying who is allowed to access specific data, and at what level"
         },
         {
-            "question": "What is a 5-number summary?",
-            "answer": "It reports the min, Q1, median, Q3, and max. Example: (5, 25, 50, 75, 100) for test scores."
+            "question": "In the context of relational databases, what security requirement is being referred to when a DBMS authenticates the user before allowing access to the data, and in some cases, performs independent authentication separate from the operating system?",
+            "answer": "User Authentication. This security requirement involves verifying the identity of users before granting them access to the database. User Authentication ensures that only authorized individuals can access the database, thereby protecting sensitive data from unauthorized access"
         },
         {
-            "question": "What is a boxplot?",
-            "answer": "A boxplot visualizes the 5-number summary with whiskers for range and dots for outliers. Example: Comparing test scores by gender."
+            "question": "In the context of relational databases, what security requirement is being referred to when it's stated that the DBMS should be consistently available to users and allow them access to the data for which they are authorized?",
+            "answer": "Availability. This security requirement emphasizes the importance of the database being accessible and operational when needed by authorized users"
         },
         {
-            "question": "What is the mean?",
-            "answer": "The mean is the sum of values divided by the count. Example: Mean of 2, 4, 6 = (2+4+6)/3 = 4."
+            "question": "Describe 'Integrity' in the context of CIA and DBMS",
+            "answer": "Integrity ensures the accuracy and consistency of data both at the individual element level and across the entire database. It involves mechanisms to prevent unauthorized data modification"
         },
         {
-            "question": "What does it mean for a summary to be resistant?",
-            "answer": "A summary is resistant if outliers have little effect. Example: The median is resistant, but the mean is not."
+            "question": "Describe 'Confidentiality' in the context of CIA and DBMS",
+            "answer": "Confidentiality pertains to controlling access to sensitive data within the database. The key challenge is in preventing indirect access or inference, where unauthorized users might glean sensitive information without direct access to the database"
         },
         {
-            "question": "What is variance?",
-            "answer": "Variance is the average squared deviation from the mean: s² = Σ(y - ȳ)² / (n - 1). Example: Variance in test scores measures spread."
+            "question": "Describe 'Availability' in the context of CIA and DBMS",
+            "answer": "Availability focuses on ensuring that authorized users have reliable access to the database, important due to the shared nature of database access. It addresses challenges like concurrent user access, which could impact database performance and availability"
         },
         {
-            "question": "What is standard deviation?",
-            "answer": "The standard deviation is the square root of variance: s = √[Σ(y - ȳ)² / (n - 1)]. Example: A high s means data is widely spread."
+            "question": "You notice the string ' OR 1=1;-- in your database login logs. What is this, and what does it imply?",
+            "answer": "This string is indicative of a SQL Injection (SQLi) attempt, where a threat actor is trying to manipulate the SQL query. In this context, the ' OR 1=1;-- is an injection technique used to alter the query logic. It effectively changes the query to return true for all records (since 1=1 is always true), bypassing standard authentication checks. The -- at the end is a comment symbol in SQL, which makes the database ignore the rest of the query, further aiding in the exploitation. This type of attack is a serious security concern and suggests vulnerabilities in the input validation of the database system"
         },
         {
-            "question": "What should you consider when comparing distributions?",
-            "answer": "When comparing distributions using histograms or stem-and-leaf displays, examine shape, center, and spread. Example: Compare test score distributions of two classes for symmetry, median, and variability."
+            "question": "What are some countermeasures against SQL Injection (SQLi)?",
+            "answer": "Input Type Checking, Parametrized Queries, and Testing for SQLi"
         },
         {
-            "question": "What should you analyze when comparing boxplots?",
-            "answer": "When comparing boxplots, analyze: 1) Shapes (symmetric or skewed), 2) Medians (which is higher or follows a pattern), 3) IQRs (which group is more spread out), 4) Variation patterns, and 5) Outliers. Example: Comparing salaries of different departments with boxplots."
+            "question": "What is the difference between Black-box testing and White-box testing?",
+            "answer": "Black-box testing focuses on examining the functionality of the software without any knowledge of its internal code structure. It's like testing a machine only by its inputs and outputs. In contrast, White-box testing involves a thorough understanding and examination of the software's internal logic and code structure. This approach is akin to testing a machine by understanding and inspecting its internal workings. While Black-box testing evaluates the software from the user's perspective, White-box testing delves deeper into the code for a more technical analysis"
         },
         {
-            "question": "How do you understand outliers in distributions?",
-            "answer": "Outliers must be considered in context, as extreme values in one scenario may be normal in another. Example: A 6'8\" height might be an outlier in the general population but typical among basketball players."
+            "question": "Prevent (malicious) developers from attempting to hide something in a module of the system (e.g. backdoor)",
+            "answer": "Independent Testing"
         },
         {
-            "question": "What is a timeplot?",
-            "answer": "A timeplot displays data changes over time, often connecting points with lines to highlight trends. Example: A timeplot showing monthly sales trends for a year."
+            "question": "What is the practice where a specialized team attempts to breach system security, using methods that closely mimic real-world attacker tactics, and is only as secure as the scope of the tests performed?",
+            "answer": "Penetration Testing. This is a security exercise where a team of skilled testers, often known as ethical hackers, deliberately tries to hack into a system's defenses"
         },
         {
-            "question": "Why do we standardize?",
-            "answer": "We standardize to eliminate units, making values comparable even if original variables had different units or scales. Example: Comparing test scores from different grading systems."
+            "question": "What is the term for a network where devices such as computers and printers communicate within a controlled environment?\n",
+            "answer": "Local Area Network (LAN). A LAN is a network that connects devices in a limited area, such as a home, office, or school, allowing for controlled and efficient communication among them"
         },
         {
-            "question": "What is a standardized value?",
-            "answer": "A standardized value is calculated by subtracting the mean and dividing by the standard deviation. Example: A score of 85 with mean 75 and SD 5 gives a standardized value of (85 - 75) / 5 = 2."
+            "question": "What type of network is characterized by endpoints that are scattered and far from each other, making it more challenging to protect data outside of a local network?",
+            "answer": "Wide Area Network (WAN). A WAN covers a large geographic area, connecting devices that are often distant from each other. Due to its extensive reach beyond local networks, it presents unique challenges in terms of data protection and security management"
         },
         {
-            "question": "What is shifting in data?",
-            "answer": "Shifting adds a constant to data, changing measures of position (mean, median) but not spread (SD, IQR). Example: Adding 5 points to all test scores increases the mean by 5 but doesn't affect variability."
+            "question": "What are the layers in the ISO/OSI reference model?",
+            "answer": "Application - Presentation - Session - Transport - Network - Data Link - Physical"
         },
         {
-            "question": "What is rescaling in data?",
-            "answer": "Rescaling multiplies data by a constant, affecting both position (mean, median) and spread (SD, IQR). Example: Converting inches to centimeters (multiplying by 2.54) scales all measures by 2.54."
+            "question": "What are the layers in the Internet reference model?",
+            "answer": "Application (protocols like HTTP, SMTP, SSH - Transport (protocols such as TCP/UDP) - Internet (IP protocols like IPv4/IPv6) - Data Link (technologies like 802.x, PPP, SLIP)"
         },
         {
-            "question": "What is a Normal model?",
-            "answer": "A Normal model represents unimodal, symmetric distributions. Example: Heights of adults often follow a Normal model."
+            "question": "When and where is control information added in the context of network communication?",
+            "answer": "In network communication, control information is added at the bottom layers, particularly in the Data Link and Network layers of the OSI model. This control information is encapsulated in the form of headers and trailers. Headers are added at the beginning of data packets, containing information necessary for routing and delivering the packet. Trailers are added at the end, often containing error-checking data. This process is crucial for the proper management and transmission of data across the network"
         },
         {
-            "question": "What is a parameter?",
-            "answer": "A parameter is a numerically valued attribute of a model. Example: Mean (μ) and standard deviation (σ) in N(μ, σ)."
+            "question": "Is it true or false that physical transmission media are harder to intercept but more expensive to set up than wireless ones?",
+            "answer": "True. Physical transmission media, like wired networks, are generally harder to intercept due to their physical nature, requiring physical access for interception. However, they are typically more expensive and labor-intensive to set up compared to wireless networks, which require less physical infrastructure"
         },
         {
-            "question": "What is a statistic?",
-            "answer": "A statistic summarizes data attributes, like sample mean (ȳ) or sample standard deviation (s). Example: The average score of a surveyed group."
+            "question": "Name some types of transmission media",
+            "answer": "Common types of transmission media include Wire (such as twisted pair and coaxial cables), Optical fiber, Microwave, Wireless (including radio and WiFi), and Satellite"
         },
         {
-            "question": "What is a z-score?",
-            "answer": "A z-score measures how many standard deviations a value is from the mean. Example: z = (y - ȳ) / s for data, or z = (y - μ) / σ for models."
+            "question": "What are some vulnerabilities associated with wired networks, particularly related to packet transmission and interception?",
+            "answer": "Wired networks face several vulnerabilities such as packet sniffing and Man-in-the-Middle (MITM) attacks. Packet sniffing involves setting the LAN card into a Monitor (Promiscuous) mode, where the MAC address is ignored and all packets on the network are received. In this mode, an attacker can intercept and analyze packets passing through the network. Additionally, intercepted packets can be resent in a Man-in-the-Middle attack, where the attacker secretly intercepts and possibly alters the communication between two parties who believe they are directly communicating with each other"
         },
         {
-            "question": "What is the Standard Normal model?",
-            "answer": "The Standard Normal model is N(μ=0, σ=1). Example: A z-score of 2 means 2 standard deviations above the mean."
+            "question": "What is a key vulnerability of wired networks involving electromagnetic radiation, and how can it be exploited by an intruder?",
+            "answer": "A significant vulnerability of wired networks is the emission of weak electromagnetic radiations from the wires. An intruder can exploit this by using a process called inductance to tap into a wire and read the radiated signals without making physical contact with the cable. Essentially, the intruder sets up an antenna close to the cable to pick up the radiations passing through it, enabling them to intercept the data transmitted over the wire"
         },
         {
-            "question": "What is the Nearly Normal Condition?",
-            "answer": "A distribution is Nearly Normal if it is unimodal and symmetric. Example: Checking a histogram or Normal probability plot for symmetry."
+            "question": "What is a vulnerability in wired networks involving direct interference with the physical cable, and how is it executed?",
+            "answer": "A notable vulnerability in wired networks is cable splicing or cable tapping. This involves directly cutting the cable and splicing in a secondary cable that receives a copy of all signals traveling along the primary cable. Special devices, known as vampire taps, can be used to 'bite' into the cable and intercept communications. This method allows an intruder to access the data flow without disrupting the network's normal operation"
         },
         {
-            "question": "What is the 68–95–99.7 Rule?",
-            "answer": "In a Normal model, 68% of values fall within 1 SD, 95% within 2 SDs, and 99.7% within 3 SDs. Example: Heights mostly fall within 3 SDs of the mean."
+            "question": "What are the vulnerabilities associated with optical fiber networks, and why is physical tapping considered challenging?",
+            "answer": "Optical fiber networks are resistant to many conventional tapping methods due to their reliance on light rather than electricity for signal transmission. Physical tapping of optical fibers is difficult because the entire network requires careful tuning each time a connection is made, making unauthorized tapping noticeable. It requires high skill and expensive equipment. Additionally, since the signal is transmitted through light, there are no electromagnetic radiations, making inductance attacks ineffective"
         },
         {
-            "question": "What is a Normal percentile?",
-            "answer": "The Normal percentile gives the percentage of values below a z-score. Example: A z-score of 1 corresponds to about the 84th percentile."
+            "question": "What are some key vulnerabilities associated with microwave transmission in networking?",
+            "answer": "Microwave transmission is particularly vulnerable due to its dependence on line-of-sight locations. Since signals are broadcasted through the air, they are more accessible to hackers. The signal must be repeated approximately every 50 kilometers, making it exposed to interception along its transmission path. Intruders can potentially place their own receivers near the intended destination to intercept or capture the entire communication"
         },
         {
-            "question": "What is a Normal probability plot?",
-            "answer": "A Normal probability plot helps check if data is approximately Normal. Example: Data points forming a straight line suggest a Normal distribution."
+            "question": "Why are wireless (WiFi) networks considered less secure compared to wired networks, and what makes security protocols essential for WiFi?",
+            "answer": "Wireless (WiFi) networks are generally considered less secure than wired ones because WiFi signals propagate radially and can diffuse through obstacles, allowing for easier unauthorized access. For instance, while browsing the internet from one room, an attacker could potentially target your network from another location. Due to this exposure risk, WiFi networks require robust security protocols to protect against unauthorized access and ensure data safety"
         },
         {
-            "question": "What does it mean for an outcome to be random?",
-            "answer": "An outcome is random if its possible values are known, but the specific value cannot be predicted. Example: Flipping a coin has random outcomes of heads or tails."
+            "question": "What are some reasons that make a network vulnerable to interception?",
+            "answer": "Networks become vulnerable to interception due to several factors: Anonymity, which obscures the identity of attackers; numerous potential points of attack; the shared nature of network resources; system complexity, which can create security gaps; an unknown perimeter, making it hard to define and secure all entry points; and an unknown path of data transmission, which can be exploited"
         },
         {
-            "question": "What are random numbers?",
-            "answer": "Random numbers are hard to generate but can be accessed from various sources online, offering equally likely values. Example: A random number generator producing numbers from 1 to 100."
+            "question": "What are some common network attacks, and how do they operate?",
+            "answer": "Common network attacks include Port-Scanning, such as using an Nmap scanner, which analyzes running services on a target machine to gather information about service versions. This can reveal potential exploits. Another example is (Distributed) Denial of Services Attacks (DDoS), where the target system is overwhelmed with traffic to disrupt its normal operations, often rendering it inaccessible to legitimate users"
         },
         {
-            "question": "What is a simulation?",
-            "answer": "A simulation uses random-digit outcomes to model the uncertainty of real-world situations. Example: Simulating 1,000 coin flips to estimate the probability of heads."
+            "question": "What is a Denial of Service (DoS) attack, and what is its primary objective?",
+            "answer": "A Denial of Service (DoS) attack is a cyber-attack where the perpetrator aims to make a machine or network resource unavailable to its intended users. The attack typically floods the target with excessive requests, overwhelming the system and preventing it from servicing legitimate users, thus failing to fulfill its duties"
         },
         {
-            "question": "What is a trial in a simulation?",
-            "answer": "A trial is a sequence of events we are simulating to model real-world scenarios. Example: Each roll of a die in a game simulation is a trial."
+            "question": "What are the main categories of DoS attacks?",
+            "answer": "DoS attacks can take various forms, including Flooding (like Ping of Death, Smurf – though these are rather outdated) where the attacker sends a massive number of packets, overwhelming the victim’s bandwidth capacity, and Resource Exhausting attacks that aim to deplete the victim's resources like CPU or RAM, often exploiting software bugs or design deficiencies"
         },
         {
-            "question": "What is a component in a simulation?",
-            "answer": "A component models simple random events using equally likely outcomes. Example: Drawing random digits to represent free throws made in a basketball game."
+            "question": "What are other categories of DoS attacks?",
+            "answer": "Other categories include Vulnerabilities Exploit, where attacks cause system crashes, and Physical Disconnection, involving cutting or detaching cables to interrupt a connection. Additionally, Frequencies Jamming attacks disrupt communication by transmitting high-range signals, especially in wireless mediums"
         },
         {
-            "question": "What is a response variable in a simulation?",
-            "answer": "The response variable records the outcome of interest in a trial. Example: In a coin flip simulation, the response variable might track the number of heads in 10 flips."
+            "question": "How does a Distributed Denial of Service (DDoS) attack differ from a standard DoS attack?",
+            "answer": "DDoS attacks are an evolution of DoS attacks with similar principles of overloading the victim. The main difference is the use of a large number of machines, often coordinated, to execute the attack, making it more complex and challenging to counteract"
         },
         {
-            "question": "What is a population?",
-            "answer": "The population is the entire group of individuals or instances we want to learn about. Example: All voters in a country."
+            "question": "What is a DDoS Botnet, and how does it function?",
+            "answer": "A DDoS Botnet is a network of compromised machines, or 'bots', controlled by a coordinator known as the botmaster. These bots, often infected with malicious code like trojan horses, work in parallel against a victim. The botmaster can send different commands to each bot, allowing a diverse range of attacks and making defense more difficult due to the sheer number of attack sources and their varied nature"
         },
         {
-            "question": "What is a sample?",
-            "answer": "A sample is a subset of the population, examined to learn about the whole population. Example: Surveying 1,000 voters out of millions."
+            "question": "How are botnets created through bot recruitment, and what are the two main methods to infect user computers?",
+            "answer": "Botnets are formed through bot recruitment by infecting user computers. The two main methods are Drive-by downloads, which involve attackers finding a popular website with an exploitable vulnerability, and Emails, where attackers send large batches of spam emails containing malicious code in documents or PDFs"
         },
         {
-            "question": "What is a sample survey?",
-            "answer": "A sample survey asks questions to a sample to infer information about the population. Example: Polling a subset of voters about their preferences."
+            "question": "What are the initial steps in counteracting a DDoS attack?",
+            "answer": "The first step in DDoS countermeasures is to identify the nature of the attack. If the attack exploits specific vulnerabilities, identifying and fixing them is crucial. Understanding the attack type helps in devising effective countermeasures"
         },
         {
-            "question": "What is bias in sampling?",
-            "answer": "Bias is a systematic error in a sampling method that misrepresents the population. Example: Only surveying internet users excludes those without access."
+            "question": "What strategies can be employed to mitigate targeted DDoS attacks?",
+            "answer": "For targeted DDoS attacks, strategies include increasing the number of servers, temporarily shutting down targeted services, and, in the case of flooding attacks, identifying and blacklisting specific IP address ranges. Increasing bandwidth and resources is also advisable to cope with the excess traffic"
         },
         {
-            "question": "What is randomization?",
-            "answer": "Randomization ensures each individual has a fair chance of selection, reducing bias. Example: Drawing names from a hat."
+            "question": "How can DDoS Protection vendors be useful in countering DDoS attacks?",
+            "answer": "DDoS Protection vendors act as a middleware between users and the company, providing specialized defense against DDoS attacks. Outsourcing to these vendors is often more cost-effective than in-house solutions, as hiring security experts can be expensive. They offer expertise and resources specifically tailored to mitigate DDoS risks"
         },
         {
-            "question": "What is sample size?",
-            "answer": "Sample size is the number of individuals in a sample and determines how well it represents the population. Example: A larger sample better estimates population parameters."
+            "question": "What is one of the most significant DDoS attacks in history?",
+            "answer": "One of the most known DDoS attacks in history targeted GitHub on Feb. 28, 2018. The attack generated 1.35 terabits per second of traffic, making it one of the largest of its kind. GitHub traced the traffic back to over a thousand different autonomous systems across tens of thousands of unique endpoints"
         },
         {
-            "question": "What is a census?",
-            "answer": "A census surveys the entire population. Example: A national population count."
+            "question": "Good for encrypting network traffic",
+            "answer": "Symmetric cryptography"
         },
         {
-            "question": "What is a population parameter?",
-            "answer": "A population parameter is a numerically valued attribute of the population. Example: The average income of all citizens."
+            "question": "Good for exchanging encryption keys",
+            "answer": "Assymetric cryptography"
         },
         {
-            "question": "What is a statistic or sample statistic?",
-            "answer": "A statistic summarizes sampled data and estimates a population parameter. Example: The average income of a surveyed group."
+            "question": "Encryption between two hosts",
+            "answer": "Linked Encryption\n"
         },
         {
-            "question": "What is a representative sample?",
-            "answer": "A representative sample accurately reflects the population's attributes. Example: A sample with gender proportions matching the population."
+            "question": "Encryption between two applications (encryption from the beginning at the Application Layer)",
+            "answer": "End-to-End Encryption\n"
         },
         {
-            "question": "What is a Simple Random Sample (SRS)?",
-            "answer": "An SRS ensures every set of individuals has an equal chance of selection. Example: Randomly selecting 10 students from a class list."
+            "question": "_ is an approach that encrypts and decrypt sall traffic at each network routing point (network switch, ornode) until arrival at its final destination",
+            "answer": "Link Encyption\n"
         },
         {
-            "question": "What is a sampling frame?",
-            "answer": "A sampling frame is the list of individuals from which the sample is drawn. Example: A database of registered voters."
+            "question": "What are the advantages of using Link Encryption in network communications?",
+            "answer": "The pros of Link Encryption include complete encryption of all data transmitted, encompassing not only the content but also headers, addresses, and routing information. It operates automatically at a lower layer in the OSI model, meaning users don’t need to take any action to initiate it, ensuring seamless security throughout the data transmission process"
         },
         {
-            "question": "What is sampling variability?",
-            "answer": "Sampling variability is the natural difference between randomly drawn samples. Example: Two random samples may give slightly different poll results."
+            "question": "What are the disadvantages of using Link Encryption in network communications?",
+            "answer": "The cons of Link Encryption involve complex key distribution and management. Each hop in the network requires a key, and these keys must be regularly updated, adding to the administrative overhead. Furthermore, since packets are decrypted at each hop, this creates multiple points of vulnerability, potentially exposing data to interception or tampering at these intermediate points"
         },
         {
-            "question": "What is a stratified random sample?",
-            "answer": "A stratified random sample divides the population into strata and randomly samples each. Example: Sampling age groups separately in a population."
+            "question": "What are the benefits of using End-to-End Encryption in network communications?",
+            "answer": "End-to-End Encryption offers more control and flexibility to the user, allowing the choice of what to encrypt and the encryption methods used. It provides finer granularity in functionality, as each application or user can select their encryption configurations. Additionally, intermediate hop computers in the network don’t require decryption keys for each packet, which simplifies key management and enhances security for the data content"
         },
         {
-            "question": "What is a cluster sample?",
-            "answer": "A cluster sample selects entire groups randomly, each group representing the population. Example: Randomly selecting schools for a student survey."
+            "question": "What are the drawbacks of using End-to-End Encryption in network communications?",
+            "answer": "The main drawback of End-to-End Encryption is that it does not encrypt the headers, addresses, and routing information. This means that while the content of the communication is secure, the metadata, which can reveal information like sender, receiver, and data paths, is not protected and can be potentially accessed or analyzed by external entities"
         },
         {
-            "question": "What is a multistage sample?",
-            "answer": "A multistage sample combines sampling methods. Example: Stratifying regions, randomly sampling cities, then interviewing households."
+            "question": "What technology provides users with the feeling of being on a private network even when they are part of a public network, often achieved through the use of Link Encryption?",
+            "answer": "Virtual Private Network (VPN). A VPN creates a secure and encrypted connection over a public network, giving users the experience of being on a private network. It utilizes link encryption to protect the data as it travels through the public network, ensuring privacy and security for the users' communications"
         },
         {
-            "question": "What is a systematic sample?",
-            "answer": "A systematic sample selects individuals at regular intervals from a sampling frame. Example: Surveying every 10th person on a list."
+            "question": "What is one of the challenges associated with using a Virtual Private Network (VPN)?",
+            "answer": "A key challenge with VPNs is the secure management and storage of private keys. These keys must be safely stored at both ends of the VPN connection to ensure secure communication. If these keys are compromised or improperly managed, it can lead to vulnerabilities in the VPN's security, potentially allowing unauthorized access to the encrypted data"
         },
         {
-            "question": "What is a pilot study?",
-            "answer": "A pilot study is a small trial to test survey clarity. Example: Testing a questionnaire on a small group before a large survey."
+            "question": "In the context of internet usage predominantly through browsers, what is fundamental for protecting personal information, messages, and credit card details?",
+            "answer": "Browser Encryption. It is essential for safeguarding sensitive data during online interactions. Browser encryption secures the data transmitted between the user's browser and the web servers, ensuring that personal information, messages, and credit card details are protected from interception or unauthorized access"
         },
         {
-            "question": "What is a voluntary response sample?",
-            "answer": "A voluntary response sample lets individuals choose to participate, often leading to bias. Example: Online polls that attract opinionated respondents."
+            "question": "_ is the standard protocol to securely issue commands through a remote shell",
+            "answer": "Secure Shell (SSH)"
         },
         {
-            "question": "What is voluntary response bias?",
-            "answer": "Voluntary response bias occurs when only self-selected participants respond. Example: A survey about taxes attracting only those strongly opposed."
+            "question": "When needing secure communication over a network, should you use SSH or Telnet?",
+            "answer": "Secure Shell (SSH) should be used instead of Telnet for secure communications. SSH replaced Telnet due to its enhanced security features. Telnet transmits all data, including sensitive information, in plain text, making it vulnerable to eavesdropping and Man-in-the-Middle (MitM) attacks, where an attacker could intercept and tamper with the transmitted data. SSH, on the other hand, encrypts the data transmitted over the network, providing a much more secure communication channel"
         },
         {
-            "question": "What is a convenience sample?",
-            "answer": "A convenience sample includes individuals easy to access, often leading to bias. Example: Surveying friends instead of a random group."
+            "question": "Which security protocol started as Secure Sockets Layer (SSL) in the mid-1990s, originally designed by Netscape, to protect communications between a web browser and a server?",
+            "answer": "Transport Layer Security (TLS)"
         },
         {
-            "question": "What is undercoverage?",
-            "answer": "Undercoverage happens when part of the population is underrepresented. Example: Excluding rural areas from a national survey."
+            "question": "HTTPS (Hypertext Transfer Protocol Secure) employs which security protocol to secure communications, operating at the Transport layer in the ISO/OSI model, functioning between the Application layer and Network layer, and providing server/client authentication as well as an encrypted channel between the two endpoints?",
+            "answer": "TLS (Transport Layer Security)"
         },
         {
-            "question": "What is nonresponse bias?",
-            "answer": "Nonresponse bias occurs when a large fraction of those sampled fail to respond. Example: Busy people not answering phone surveys."
+            "question": "This handshake defines how interaction flow happensbetween actors",
+            "answer": "TLS/SSL Handshake\n"
         },
         {
-            "question": "What is response bias?",
-            "answer": "Response bias occurs when survey design influences answers. Example: Leading questions causing participants to favor certain responses."
+            "question": "During the handshake, client and server need to decide what cryptographic algorithms they will use to encrypt communications from that moment on",
+            "answer": "Cipher Suite (or Cipher Block)"
         },
         {
-            "question": "What is an observational study?",
-            "answer": "An observational study collects data without manipulating factors. Example: Studying smoking habits and lung health by observing existing behavior."
+            "question": "What is a potential vulnerability in the TLS handshake process that could be exploited by attackers?",
+            "answer": "A vulnerability in the TLS handshake process is related to the validation of the server's certificate. An attacker could exploit this by orchestrating a Man-in-the-Middle (MitM) attack in the following manner: they could redirect communication to a fake website and then forge a fake certificate with a different set of private/public keys. This could deceive the user into thinking they are communicating with a legitimate server, potentially leading to the disclosure of sensitive information"
         },
         {
-            "question": "What is a retrospective study?",
-            "answer": "A retrospective study looks at past behaviors or conditions of subjects. Example: Reviewing medical records to study the effects of a drug."
+            "question": "Is it true or false that modern browsers autonomously verify the validity of a server's certificate and are most of the time able to warn the user if someone is impersonating the real server?",
+            "answer": "True. Modern web browsers are designed to automatically check the validity of a server's certificate. If they detect any discrepancies or issues, such as a certificate not matching the domain name or being expired, they typically warn the user of potential risks, such as the possibility of a server impersonation or a Man-in-the-Middle attack"
         },
         {
-            "question": "What is a prospective study?",
-            "answer": "A prospective study follows subjects to observe future outcomes. Example: Tracking participants' diets to study heart disease over 10 years."
+            "question": "What is the term for a device that filters and regulates inbound and outbound network traffic based on rules set by the network administrator, often being a dedicated device with its own OS, memory, and network cards, where performance is a critical factor?",
+            "answer": "Firewall. A firewall acts as a security gatekeeper, controlling and monitoring the network traffic that enters and leaves a network. It enforces security policies as defined by the network administrator. Being a dedicated device, it typically includes its own operating system, memory, and network interfaces, and is designed to perform efficiently to maintain network security without impeding traffic flow"
         },
         {
-            "question": "What is random assignment?",
-            "answer": "Random assignment allocates experimental units to treatments randomly. Example: Randomly assigning patients to receive either a new drug or a placebo."
+            "question": "What are the two schools of thought regarding a firewall's default behavior and their respective philosophies?",
+            "answer": "The two primary approaches to a firewall's default behavior are 'Default Permit' and 'Default Deny'. The 'Default Permit' approach dictates that all behaviors should be allowed except those explicitly forbidden. Conversely, the 'Default Deny' philosophy asserts that only explicitly permitted behaviors should be allowed, and everything else should be forbidden. These differing strategies reflect a balance between accessibility and security in network management"
         },
         {
-            "question": "What is a factor in an experiment?",
-            "answer": "A factor is a variable manipulated by the experimenter. Example: Testing the effect of different fertilizer types on plant growth."
+            "question": "What is a simple yet effective type of firewall that allows or discards each packet based on predefined rules, often requiring extensive time to define detailed rules, and is particularly useful for denying communications over specific ports?",
+            "answer": "Packet Filtering Gateway. This type of firewall operates by examining each incoming and outgoing packet and deciding whether to allow or block it based on a set of predefined rules. While it can be effective, especially for blocking specific ports, setting up a packet filtering gateway often requires considerable effort to define detailed and comprehensive rules"
         },
         {
-            "question": "What is a response variable in experiments?",
-            "answer": "The response variable measures the outcomes across different treatments. Example: Plant height as a response to different fertilizers."
+            "question": "What type of firewall analyzes packets in a broader context rather than on a packet-by-packet basis, and can detect patterns such as repeated port connection attempts from the same IP address, which might indicate a port scan?",
+            "answer": "Stateful Inspection Firewall. This firewall goes beyond simple packet filtering by examining the context and state of packets. It doesn't just look at individual packets in isolation but also considers the history of network connections and data flows. This ability allows it to identify patterns that could suggest malicious activities, like a port scan, making it more sophisticated and effective in detecting complex threats"
         },
         {
-            "question": "What is an experiment?",
-            "answer": "An experiment manipulates factors, randomly assigns treatments, and compares responses. Example: Testing a new drug's effectiveness by controlling dosages."
+            "question": "What is a sophisticated type of firewall that combines features of previous types, analyzes traffic as thoroughly as possible, and is complex to program and manage due to the need for detailed analysis of data flow?",
+            "answer": "Guard. A Guard is a comprehensive and sophisticated firewall that integrates various functionalities of previous firewall types. It is designed to analyze network traffic exhaustively, which makes it complex to program and manage. Its thorough approach to data flow analysis ensures high-level security but requires significant time and expertise to operate effectively"
         },
         {
-            "question": "What are experimental units?",
-            "answer": "Experimental units are individuals on whom an experiment is performed. Example: Patients in a clinical trial."
+            "question": "What is the term for the type of firewall used by small businesses and home users, which emulates many features of more comprehensive firewalls but is software-based and primarily protects only the computer on which it is installed?",
+            "answer": "Personal Firewalls. These are software-based firewalls designed for small businesses and home users who may not be able to afford more elaborate firewall systems. Personal firewalls emulate many behaviors of advanced firewalls but are limited to protecting the individual computer on which they are installed, rather than an entire network"
         },
         {
-            "question": "What are levels in an experiment?",
-            "answer": "Levels are specific values chosen for a factor. Example: Dosages of 10mg, 20mg, and 30mg in a drug study."
+            "question": "What is the name of the security system that continuously monitors the network for suspicious activities, acting like a smoke detector by triggering an alarm when such activities are detected?",
+            "answer": "Intrusion Detection Systems (IDS). IDS are designed to constantly scan and analyze the network for any signs of suspicious or unauthorized activities. Similar to how a smoke detector sounds an alarm when it detects smoke, an IDS alerts the network administrators or takes predefined actions when it identifies potential security threats or intrusions"
         },
         {
-            "question": "What is a treatment in an experiment?",
-            "answer": "A treatment is a controlled condition applied to experimental units. Example: Testing different combinations of exercise and diet plans."
+            "question": "While Intrusion Detection Systems (IDS) act like smoke detectors by alerting to potential threats, what is the term for systems that not only detect but also autonomously respond to these threats, like activating a fire-fighting system, by taking actions such as blocking users, blacklisting IP ranges, or cutting off network access?",
+            "answer": "Intrusion Prevention Systems (IPS). IPSes are essentially IDSes that have been enhanced with response capabilities. They not only detect potential security breaches but also take proactive measures to mitigate the threat. This can include automatically blocking suspicious users, blacklisting certain IP ranges, or even isolating parts of the network to prevent the spread of the threat"
         },
         {
-            "question": "What are the principles of experimental design?",
-            "answer": "Control confounding variables, randomize assignments, replicate results, and block to reduce variability. Example: Controlling temperature while studying plant growth under different fertilizers."
+            "question": "As networks evolve over time with changes like an increase in local devices or expanded online business leading to higher server loads, what is the term for the necessary periodic adjustments and practices applied to ensure smooth network operation?",
+            "answer": "Network Management. This term refers to the various techniques and practices employed to maintain and administer a computer network as it changes and grows. Effective network management ensures that the network adapts to changes such as an increase in connected devices or a rise in demand on web servers, helping to maintain optimal performance and reliability"
         },
         {
-            "question": "What is a completely randomized design?",
-            "answer": "In this design, all experimental units have an equal chance of receiving any treatment. Example: Assigning participants to groups purely by chance."
+            "question": "In the context of system administration, what is the term for the practice of planning to avoid running a system near its maximum capacity, especially considering potential events like new product launches that could cause severe overloads?",
+            "answer": "Capacity Planning. This involves forecasting future system demands and ensuring that the IT infrastructure is scaled appropriately to handle increases in load. It requires administrators to plan in advance for potential high-demand events to prevent system overloads and maintain smooth operation"
         },
         {
-            "question": "What does it mean if a result is statistically significant?",
-            "answer": "It means the observed difference is unlikely to have occurred by chance. Example: A drug reducing symptoms significantly compared to a placebo."
+            "question": "What is the term for the technique used in managing online businesses or networked systems where network load is distributed across multiple servers to optimize performance and prevent any single machine from being overwhelmed?",
+            "answer": "Load Balancing. This technique involves distributing network or application traffic across multiple servers to ensure no single server bears too much load. Load balancing is crucial for maintaining the efficiency and reliability of an online business or networked system, especially when running on multiple machines"
         },
         {
-            "question": "What is a control group?",
-            "answer": "A control group receives a baseline treatment for comparison. Example: A group receiving no drug while others receive different doses."
+            "question": "What process do network engineers use, similar to load balancing, to restructure a network by installing new links, increasing connectivity, or rate-limiting traffic by dropping suspicious packets?",
+            "answer": "Network Tuning. This involves adjusting and optimizing the network by adding new connections, enhancing existing connectivity, or implementing rate limits and filters to manage traffic flow and enhance security, such as by dropping suspicious packets"
         },
         {
-            "question": "What is blinding in an experiment?",
-            "answer": "Blinding keeps individuals unaware of treatment allocation. Example: A researcher not knowing which patients received a placebo."
+            "question": "Given the limitation of IPv4 regarding the inability to prevent IP spoofing, what is a fundamental issue in network security, where even measures like link encryption cannot fully address the protocol's inherent flaw?",
+            "answer": "Network Addressing. The inherent problem in IPv4 is the lack of a mechanism to prevent IP spoofing, where attackers can forge packets with a different IP address. While link encryption can provide a level of security, it does not rectify the fundamental protocol flaw that allows for IP address forgery"
         },
         {
-            "question": "What is the difference between single-blind and double-blind experiments?",
-            "answer": "Single-blind hides treatment info from one group (subjects or evaluators); double-blind hides it from both. Example: In a double-blind drug study, neither doctors nor patients know who receives the drug."
+            "question": "What is the term for the network security technique where routers are set to drop packets involved in a DoS attack, effectively filtering out all traffic from implicated addresses, but which might lead attackers to spoof legitimate sources?",
+            "answer": "Shunning. This technique involves configuring network routers to ignore or drop packets from known malicious sources. However, if attackers realize that shunning is in place, they may adapt by spoofing IP addresses from legitimate sources to bypass these filters"
         },
         {
-            "question": "What is a placebo?",
-            "answer": "A placebo is a treatment with no effect, used for comparison. Example: A sugar pill given to the control group in a drug trial."
+            "question": "What is the practice called where an administrator blacklists certain IP addresses to block all incoming traffic from them, or alternatively redirects this traffic to a specific address for analysis?",
+            "answer": "Blacklisting and Sinkholing. Blacklisting involves denying all traffic from certain IP addresses deemed malicious. Sinkholing redirects this traffic to a different address where it can be analyzed, allowing for further investigation of malicious activities without impacting the primary network services"
         },
         {
-            "question": "What is the placebo effect?",
-            "answer": "The placebo effect occurs when subjects show a response to a placebo. Example: Feeling better after taking a sugar pill, believing it's medicine."
+            "question": "What are some key security functions provided by operating systems?",
+            "answer": "Availability: Ensuring equal sharing of system resources among users. Interprocess Communication and Synchronization: Managing how different processes interact and coordinate with each other. Protection of Critical System Data: This is achieved through methods like encryption, hardware control, and isolation. Hardware Access: Providing controlled indirect or direct access to hardware components.\nUser Authentication: Implementing security measures such as passwords, biometrics, etc., to verify user identities.\nMemory Protection: Utilizing techniques like paging or segmentation to protect the integrity of memory. Access Control: Regulating who can access what resources within the system."
         },
         {
-            "question": "What is blocking in experiments?",
-            "answer": "Blocking groups similar units to reduce variability. Example: Grouping participants by age before randomizing treatments."
+            "question": "In the context of system security, describe the role and importance of logging, including aspects like what should be logged and how logs are analyzed",
+            "answer": "Logging is a reactive control mechanism in system security, crucial for recording activities within the system. It documents which subjects (users or processes) accessed which objects (files, systems, data) and details the time, manner, and context of these interactions. This information is vital for accurately identifying the nature of any incidents, aiding in recovery efforts, and helping to prevent future security breaches. The decision on what data to log should be made during system planning, based on the security requirements of the system. Log analysis can be performed manually, which is often tedious and less reliable, or through automated methods such as intrusion detection systems, which offer more efficient and accurate analysis"
         },
         {
-            "question": "What is a randomized block design?",
-            "answer": "A design where randomization occurs within blocks. Example: Randomly assigning treatments within age groups."
+            "question": "In the context of operating systems, what is the term for the technique that abstracts hardware resources for different classes of users, presenting each user with only the resources their class is entitled to use?",
+            "answer": "Virtualization. This is a process where the operating system abstracts the underlying hardware resources to create distinct environments for different classes of users. Each user or user group is provided access to a set of resources specific to their needs and permissions, ensuring efficient and secure resource utilization"
         },
         {
-            "question": "What is matching in studies?",
-            "answer": "Matching pairs participants with similar attributes for comparison. Example: Comparing twins, where one smokes and the other doesn't."
+            "question": "What is the security mechanism that creates a controlled, isolated environment where untested or untrusted programs can run without affecting the host operating system, and typically limits user resources and network access?",
+            "answer": "Sandbox. A sandbox is a virtual environment that serves as a security mechanism to separate and isolate processes. It allows for the safe execution of untested or untrusted programs without risking the integrity of the host operating system. Sandboxes often restrict resource usage and disallow network access to maintain security"
         },
         {
-            "question": "What is confounding?",
-            "answer": "Confounding occurs when two factors are linked, making it hard to separate their effects. Example: A study linking exercise and weight loss, but diet is not controlled."
+            "question": "What is the term for a security mechanism that acts as a decoy to attract attackers, allowing administrators to monitor malicious activities in real-time to understand attackers’ objectives, tools, techniques, and weaknesses, and plan future defenses accordingly?",
+            "answer": "Honeypots. Honeypots are security mechanisms designed to mimic vulnerable systems to attract attackers. They serve as bait to study attackers' methods in a controlled environment. By monitoring these activities, administrators gain insights into attack strategies, which aids in developing more robust security measures for real systems"
         },
         {
-            "question": "What is Student's t-distribution?",
-            "answer": "Student's t-distribution is a family of unimodal, symmetric distributions with fatter tails than the Normal model, used for small sample sizes. Example: As degrees of freedom increase, it approaches the Normal distribution."
+            "question": "An attack on the authentication protocol run in which the attacker positions himself in between the claimant and verifier so that he can intercept and alter data traveling between them",
+            "answer": "Man-in-the-middle attack (MITM)"
         },
         {
-            "question": "What are degrees of freedom for Student's t-distribution?",
-            "answer": "Degrees of freedom for the t-distribution are calculated as n - 1, where n is the sample size. Example: For a sample size of 10, degrees of freedom = 10 - 1 = 9."
+            "question": "What is the term for a tool, either in the form of hardware or software, that records every keystroke made on a computer? This tool can send the recorded information directly to an attacker or store it for offline analysis, and is capable of capturing passwords, login identities, and any other data typed on the keyboard",
+            "answer": "Keyloggers (Keystroke logger). Keyloggers are devices or software programs designed to record all keystrokes made on a computer. They can either transmit this data in real-time to an attacker over a network or save it for later retrieval and analysis. Keyloggers are capable of capturing a wide range of sensitive information, including passwords, login credentials, and other personal data entered via the keyboard"
         },
         {
-            "question": "What is a one-sample t-interval for the mean?",
-            "answer": "A one-sample t-interval estimates the population mean: \\( \\bar{y} \\pm t^*_{n-1} \\cdot SE(\\bar{y}) \\), where \\( SE(\\bar{y}) = \\frac{s}{\\sqrt{n}} \\). Example: Calculating a 95% confidence interval for a sample of test scores."
+            "question": "What is the term for the type of security vulnerability where a website responds with malicious JavaScript code, which is then executed by the victim's browser, leading to the victim’s cookies being sent to the attacker’s server, allowing the attacker to potentially impersonate the victim and launch further attacks?",
+            "answer": "Cross-site scripting (XSS). In an XSS attack, a website inadvertently includes malicious JavaScript in its response to a user request. The victim's browser unknowingly executes this script, which then transmits the victim's cookies or other sensitive data to the attacker. The attacker can use this information to impersonate the victim and carry out additional malicious activities"
         },
         {
-            "question": "What is a one-sample t-test for the mean?",
-            "answer": "A one-sample t-test checks if a sample mean differs from a hypothesized mean: \\( t_{n-1} = \\frac{\\bar{y} - \\mu_0}{SE(\\bar{y})} \\), where \\( SE(\\bar{y}) = \\frac{s}{\\sqrt{n}} \\). Example: Testing if a sample's average height differs from 170 cm."
+            "question": "What are some effective countermeasures to protect against Cross-site scripting (XSS) attacks?",
+            "answer": "To counter XSS attacks, several measures can be implemented. Firstly, escaping dynamic content is crucial; this involves encoding user input so that it is treated as data rather than executable code. Secondly, restricting data values, such as setting limits on the type and length of user input, can prevent malicious scripts from being inserted. Lastly, avoiding the execution of inline JavaScript code is advisable; for example, instead of using 'innerHTML' which can render entire HTML markup including scripts, use 'textContent' which safely renders text without executing any embedded code. These strategies collectively reduce the risk of XSS vulnerabilities in web applications."
         },
         {
-            "question": "What is paired data?",
-            "answer": "Paired data arises when observations are naturally linked, such as measurements taken before and after a treatment. Example: Comparing students' test scores before and after a study program."
+            "question": "What is the email encryption method that operates based on a public key infrastructure similar to SSL and requires obtaining a certificate from a Certificate Authority (CA)?",
+            "answer": "S/MIME (Secure/Multipurpose Internet Mail Extensions). It utilizes the X.509 public key infrastructure, paralleling SSL in its mechanism. To secure email communications, a user needs to apply for a digital certificate from a CA, which then allows for the encryption and digital signing of emails, enhancing the security and authenticity of the communication"
         },
         {
-            "question": "What is a paired t-test?",
-            "answer": "A paired t-test evaluates the mean of pairwise differences between two groups. Formula: \\( t = \\frac{\\bar{d} - \\mu_d}{SE(\\bar{d})} \\), where \\( SE(\\bar{d}) = \\frac{s_d}{\\sqrt{n}} \\), and \\( n \\) is the number of pairs. Example: Testing if a training program improves performance by comparing pre- and post-training scores."
-        },
-        {
-            "question": "What is a paired t confidence interval?",
-            "answer": "A paired t confidence interval estimates the mean of pairwise differences: \\( \\bar{d} \\pm t^*_{n-1} \\cdot SE(\\bar{d}) \\), where \\( SE(\\bar{d}) = \\frac{s_d}{\\sqrt{n}} \\), and \\( n \\) is the number of pairs. Example: Calculating a 95% confidence interval for weight changes after a diet program."
-        },
-        {
-            "question": "What is a chi-square goodness-of-fit test?",
-            "answer": "The chi-square goodness-of-fit test checks if observed counts match expected counts under a model. Example: Testing if a die is fair based on observed rolls."
-        },
-        {
-            "question": "What is a cell in a table?",
-            "answer": "A cell is an element in a table at a specific row and column intersection. Example: In a table of survey results, a cell might show the count of males who prefer a certain product."
-        },
-        {
-            "question": "What is the chi-square statistic?",
-            "answer": "The chi-square statistic measures the difference between observed and expected counts: \\( \\chi^2 = \\sum \\frac{(\\text{Obs} - \\text{Exp})^2}{\\text{Exp}} \\). Example: Calculating the statistic for voting preferences across regions."
-        },
-        {
-            "question": "What is a chi-square model?",
-            "answer": "A chi-square model is a right-skewed distribution used in chi-square tests, becoming less skewed with more degrees of freedom. Example: A chi-square test with 5 degrees of freedom."
-        },
-        {
-            "question": "What is a chi-square component?",
-            "answer": "A chi-square component is the value \\( \\frac{(\\text{Obs} - \\text{Exp})^2}{\\text{Exp}} \\) for each cell in a table. Example: A component for a cell in a voting survey table."
-        },
-        {
-            "question": "What is a two-way table?",
-            "answer": "A two-way table shows counts of individuals for two categorical variables. Example: A table showing age groups and favorite movie genres."
-        },
-        {
-            "question": "What is a chi-square test of homogeneity?",
-            "answer": "The chi-square test of homogeneity compares the distribution of a categorical variable across groups. Example: Testing if preferences for a product differ by region."
-        },
-        {
-            "question": "What is a standardized residual?",
-            "answer": "A standardized residual is \\( \\frac{\\text{Obs} - \\text{Exp}}{\\sqrt{\\text{Exp}}} \\), used to identify how much a cell's count deviates from expectation. Example: Analyzing residuals in a table of survey responses."
-        },
-        {
-            "question": "What is a contingency table?",
-            "answer": "A contingency table classifies individuals based on two categorical variables. Example: A table showing education level and income brackets."
-        },
-        {
-            "question": "What is a chi-square test of independence?",
-            "answer": "The chi-square test of independence checks if two categorical variables are independent. Example: Testing if gender is related to preference for a political party."
-        },
-        {
-            "question": "What is the Error (or Within) Mean Square (MSE)?",
-            "answer": "MSE estimates the error variance by pooling variances of treatment groups. The square root of MSE is the error standard deviation (sp). Example: In ANOVA, MSE reflects variability within groups."
-        },
-        {
-            "question": "What is the Treatment (or Between) Mean Square (MST)?",
-            "answer": "MST estimates error variance assuming equal treatment means. If this assumption is false, MST exceeds error variance. Example: MST captures variability between treatment groups in ANOVA."
-        },
-        {
-            "question": "What is the F-distribution?",
-            "answer": "The F-distribution is the sampling distribution of the F-statistic under the null hypothesis, parameterized by numerator (k - 1) and denominator (N - k) degrees of freedom. Example: Used in ANOVA tests."
-        },
-        {
-            "question": "What is the F-statistic?",
-            "answer": "The F-statistic is the ratio \\( F = \\frac{MST}{MSE} \\). A large F suggests rejecting the null hypothesis of equal group means. Example: Comparing variances in ANOVA."
-        },
-        {
-            "question": "What is an F-test?",
-            "answer": "The F-test evaluates the null hypothesis that all group means are equal, rejecting it if the F-statistic exceeds the critical value. Example: Testing equality of means across treatment groups."
-        },
-        {
-            "question": "What is ANOVA?",
-            "answer": "ANOVA (Analysis of Variance) tests equality of means across groups. Example: Comparing average test scores across three teaching methods."
-        },
-        {
-            "question": "What is an ANOVA table?",
-            "answer": "An ANOVA table displays degrees of freedom, MST, MSE, their ratio (F-statistic), and the P-value. Example: Summarizing results of a one-way ANOVA."
-        },
-        {
-            "question": "What is the one-way ANOVA model?",
-            "answer": "The one-way ANOVA model is \\( y_{ij} = \\mu_j + \\epsilon_{ij} \\), where \\( \\mu_j \\) is the group mean and \\( \\epsilon_{ij} \\) is the residual. Example: Partitioning variability into within-group and between-group components."
-        },
-        {
-            "question": "What is the residual standard deviation?",
-            "answer": "The residual standard deviation \\( s_p = \\sqrt{MSE} \\) estimates variability of response values. Example: Measuring variability within treatment groups in ANOVA."
-        },
-        {
-            "question": "What is a balanced design in experiments?",
-            "answer": "A design is balanced if each treatment level has the same number of units, simplifying calculations and increasing power. Example: Assigning 10 participants to each group in a study."
-        },
-        {
-            "question": "What are methods for multiple comparisons?",
-            "answer": "Methods for multiple comparisons adjust for multiple tests to control Type I error risk. Example: Bonferroni method for comparing group means in ANOVA."
-        },
-        {
-            "question": "What is the least significant difference (LSD)?",
-            "answer": "LSD is the standard margin of error for the confidence interval of two means. Example: Testing if two treatments differ significantly in ANOVA."
-        },
-        {
-            "question": "What is the Bonferroni method?",
-            "answer": "The Bonferroni method adjusts margins of error when testing multiple group differences to control Type I error. Example: Comparing several group means in a study."
-        },
-        {
-            "question": "What is the minimum significant difference (MSD)?",
-            "answer": "MSD is the Bonferroni-adjusted margin of error for comparing group means. Differences exceeding MSD are significant. Example: Testing pairwise differences in treatment effects."
-        },
-        {
-            "question": "What is the two-way ANOVA model (main effects model)?",
-            "answer": "The two-way ANOVA model for one response and two factors is \\( y_{ijk} = \\mu + \\tau_j + \\gamma_k + \\epsilon_{ijk} \\), where \\( \\tau_j \\) represents the effect of level \\( j \\) of factor 1, \\( \\gamma_k \\) represents the effect of level \\( k \\) of factor 2, and \\( \\epsilon_{ijk} \\) is the residual. Example: Comparing plant growth across different fertilizers (factor 1) and watering levels (factor 2)."
-        },
-        {
-            "question": "What are partial boxplots?",
-            "answer": "Partial boxplots show the response for one factor after removing effects of the other factor. Example: Showing plant growth for fertilizers while accounting for watering levels."
-        },
-        {
-            "question": "What is additivity in a two-way ANOVA model?",
-            "answer": "Additivity occurs when the effects of two factors are independent and do not include an interaction term. Example: Fertilizer and watering level effects on plant growth are additive if they do not depend on each other."
-        },
-        {
-            "question": "What is interaction in a two-way ANOVA?",
-            "answer": "Interaction occurs when the effect of one factor depends on the level of the other factor. Example: A fertilizer's effectiveness may change depending on the watering level."
-        },
-        {
-            "question": "What is an interaction plot?",
-            "answer": "An interaction plot shows means at each treatment combination, illustrating factor effects and their interaction. Example: A plot showing plant growth for combinations of fertilizer types and watering levels."
-        },
-        {
-            "question": "What is the two-way ANOVA model with interaction?",
-            "answer": "The two-way ANOVA model with interaction is \\( y_{ijk} = \\mu + \\tau_j + \\gamma_k + \\nu_{jk} + \\epsilon_{ijk} \\), where \\( \\nu_{jk} \\) represents the interaction between levels \\( j \\) of factor 1 and \\( k \\) of factor 2. Example: Analyzing the combined effects of fertilizers and watering levels on plant growth."
-        },
-        {
-            "question": "What is multiple regression?",
-            "answer": "Multiple regression is linear regression with two or more predictors, modeled as \\( y = \\beta_0 + \\beta_1x_1 + \\dots + \\beta_kx_k + \\epsilon \\), where coefficients minimize the sum of squared residuals. Example: Predicting house prices based on size, location, and age."
-        },
-        {
-            "question": "What is the method of least squares in regression?",
-            "answer": "The least squares method finds coefficients that minimize the sum of squared residuals. Example: Fitting a line through data points in multiple regression."
-        },
-        {
-            "question": "What is a partial regression plot?",
-            "answer": "A partial regression plot shows the residuals of \\( y \\) regressed on other predictors against residuals of \\( x \\) regressed on other predictors, illustrating the meaning of a coefficient. Example: Visualizing how one predictor contributes to a regression model."
-        },
-        {
-            "question": "What does ANOVA do in multiple regression?",
-            "answer": "ANOVA in multiple regression tests if the regression model improves over using the mean of \\( y \\). Null hypothesis: \\( H_0: \\beta_1 = \\beta_2 = \\dots = \\beta_k = 0 \\). Example: Checking if predictors significantly explain variation in sales."
-        },
-        {
-            "question": "What are t-ratios for coefficients in regression?",
-            "answer": "T-ratios test if each regression coefficient is significantly different from zero. Example: Testing if a predictor (e.g., square footage) significantly affects house prices."
-        },
-        {
-            "question": "What is a scatterplot matrix?",
-            "answer": "A scatterplot matrix shows scatterplots for all variable pairs, with histograms or other summaries on the diagonal. Example: Exploring relationships among variables like income, education, and age."
-        },
-        {
-            "question": "What is adjusted \\( R^2 \\) in regression?",
-            "answer": "Adjusted \\( R^2 \\) accounts for the number of predictors, providing a fair comparison between models. Formula: \\( R^2_{adj} = 1 - \\frac{MS_{Residual}}{MS_{Total}} \\). Example: Comparing models with 2 and 3 predictors for predictive accuracy."
+            "question": "What is the encryption method where users create their own certificates, share them with others, and participate in a 'web of trust' by signing each other’s certificates, thereby each acting as their own Certificate Authority?",
+            "answer": "PGP (Pretty Good Privacy). In this system, users generate their own certificates and share their public keys with others. They sign each other's certificates, building a 'web of trust.' The responsibility lies with each user to verify the identity of others they interact with. Users can publish their PGP public keys on social media platforms or public key servers, using this method to authenticate themselves to others and secure their communications"
         }
     ]
 }
