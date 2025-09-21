@@ -1,317 +1,317 @@
 {
-“deck_name”: “Introduktion till säkerhetsskydd (Säkerhetspolisen, dec 2023)”,
-“cards”: [
-{
-“question”: “Vad är syftet med säkerhetsskydd?”,
-“answer”: “Att värna Sveriges säkerhet och internationella åtaganden om säkerhetsskydd.  ￼”
-},
-{
-“question”: “Hur sammanfattas uttrycket "Sveriges säkerhet" i vägledningen?”,
-“answer”: “Som Sveriges oberoende (självständighet och suveränitet) och bestånd, inklusive okränkta gränser, demokratiskt statsskick och samhällets grundläggande funktionalitet.  ￼”
-},
-{
-“question”: “Vad illustrerar pyramiden som nämns i vägledningen?”,
-“answer”: “Att toppen utgörs av de verksamheter som är av nationell betydelse för Sveriges säkerhet och därmed säkerhetskänsliga.  ￼”
-},
-{
-“question”: “Varför behöver säkerhetskänsliga verksamheter ett särskilt skydd?”,
-“answer”: “Hotet från främmande makt är högt, långsiktigt och komplext; även ideologiskt motiverade aktörer kan orsaka skada genom antagonistiska handlingar.  ￼”
-},
-{
-“question”: “Nämn fem metoder som främmande makt använder för inhämtning.”,
-“answer”: “Öppna källor, cyberspionage, signalspaning/flyg-/satellitspaning, personbaserad inhämtning (rekrytering/infiltration), rum/telefonavlyssning.  ￼”
-},
-{
-“question”: “Vad är grundprincipen inom säkerhetsskydd?”,
-“answer”: “Säkerhetskänslig verksamhet ska ha samma eller likvärdigt skydd oavsett var den bedrivs eller vem som utför den; säkerhetsskyddsavtal följer av principen.  ￼”
-},
-{
-“question”: “Vilka tre huvudkategorier av säkerhetsskyddsåtgärder finns?”,
-“answer”: “Informationssäkerhet, fysisk säkerhet och personalsäkerhet.  ￼”
-},
-{
-“question”: “Vad krävs för att uppnå ett heltäckande säkerhetsskydd enligt vägledningen?”,
-“answer”: “Att olika åtgärder samspelar och överlappar varandra utan svaga länkar, samt integreras i verksamheten.  ￼”
-},
-{
-“question”: “Vilka frågor ska en säkerhetsskyddsanalys besvara?”,
-“answer”: “1) Vad ska skyddas? 2) Mot vad ska det skyddas? 3) Hur ska det skyddas?  ￼”
-},
-{
-“question”: “Vad skiljer säkerhetsskyddsanalys från många andra riskanalyser?”,
-“answer”: “Den utgår från konsekvenser som måste undvikas (inte sannolikhet), kopplat till skada för Sveriges säkerhet.  ￼”
-},
-{
-“question”: “Vilka tre typer av skyddsvärden ska identifieras i säkerhetsskyddsanalysen?”,
-“answer”: “Säkerhetsskyddsklassificerade uppgifter; anläggningar/objekt/system/egendom och andra tillgångar; verksamhet som omfattas av internationellt åtagande.  ￼”
-},
-{
-“question”: “Ge definitionen av säkerhetskänslig verksamhet.”,
-“answer”: “Verksamhet av betydelse för Sveriges säkerhet eller som omfattas av ett för Sverige förpliktande internationellt åtagande om säkerhetsskydd.  ￼”
-},
-{
-“question”: “Är alla samhällsviktiga verksamheter säkerhetskänsliga?”,
-“answer”: “Nej. Endast de där en antagonistisk handling kan ge skadekonsekvenser på nationell nivå betraktas som säkerhetskänsliga.  ￼”
-},
-{
-“question”: “Vilka fem kategorier används för att kategorisera säkerhetskänslig verksamhet?”,
-“answer”: “Sveriges yttre säkerhet; inre säkerhet; nationellt samhällsviktig verksamhet; verksamhet av betydelse för Sveriges ekonomi; skadegenererande verksamhet.  ￼”
-},
-{
-“question”: “Vilka konsekvensnivåer finns för skyddsvärden (A–D)?”,
-“answer”: “A: Synnerligen allvarlig skada; B: Allvarlig skada; C: Inte obetydlig skada; D: Endast ringa skada — allt i relation till Sveriges säkerhet.  ￼”
-},
-{
-“question”: “Vad innebär konsekvensnivå A?”,
-“answer”: “Kritiska funktioner slås ut eller påverkas mycket allvarligt så att Sverige riskerar förlora suveränitet/handlingsfrihet/oberoende; mycket svårt att återgå till normalläge.  ￼”
-},
-{
-“question”: “Vad innebär konsekvensnivå B?”,
-“answer”: “Kritiska funktioner påverkas allvarligt, med allvarliga begränsningar i suveränitet/handlingsfrihet/oberoende; svårt att återgå till normalläge.  ￼”
-},
-{
-“question”: “Vad innebär konsekvensnivå C?”,
-“answer”: “Påtaglig påverkan som kan påverka Sveriges suveränitet m.m. i begränsad omfattning; möjligt att återgå till normalläge inom rimlig tid.  ￼”
-},
-{
-“question”: “Vad innebär konsekvensnivå D?”,
-“answer”: “Ringa påverkan på kritiska funktioner; relativt snabb återgång till normalläge.  ￼”
-},
-{
-“question”: “Vad är säkerhetsskyddsklassificerade uppgifter enligt vägledningen?”,
-“answer”: “Uppgifter som rör säkerhetskänslig verksamhet och skulle omfattas av sekretess enligt OSL (även hos enskilda via fiktiv sekretessprövning).  ￼”
-},
-{
-“question”: “Vilken OSL-bestämmelse pekas främst ut för säkerhetsskyddsklassificerade uppgifter?”,
-“answer”: “15 kap. 2 § OSL (försvarssekretess), men även t.ex. 15:1–1b, 18:1, 18:2, 18:8, 18:13 kan vara tillämpliga.  ￼”
-},
-{
-“question”: “Vad är en fiktiv sekretessprövning?”,
-“answer”: “En bedömning hos enskild verksamhetsutövare om en uppgift skulle ha omfattats av sekretess enligt OSL om den varit tillämplig.  ￼”
-},
-{
-“question”: “Vilka fyra säkerhetsskyddsklasser används för uppgifter?”,
-“answer”: “Kvalificerat hemlig, Hemlig, Konfidentiell, Begränsat hemlig.  ￼”
-},
-{
-“question”: “Behöver uppgifter utan klassning ändå skyddas ibland?”,
-“answer”: “Ja, om riktighet och/eller tillgänglighet är kritisk för säkerhetskänslig verksamhet (t.ex. data för flygledning).  ￼”
-},
-{
-“question”: “Hur mappas EU:s säkerhetsklasser till svenska?”,
-“answer”: “EU TOP SECRET ↔ Kvalificerat hemlig; EU SECRET ↔ Hemlig; EU CONFIDENTIAL ↔ Konfidentiell; EU RESTRICTED ↔ Begränsat hemlig.  ￼”
-},
-{
-“question”: “Vad är huvudmålet med informationssäkerhet inom säkerhetsskydd?”,
-“answer”: “Att förebygga röjande, ändring, otillgänglighet, förstöring samt annan skadlig inverkan på uppgifter och informationssystem.  ￼”
-},
-{
-“question”: “Ge exempel på informationssäkerhetsåtgärder för fysiska dokument.”,
-“answer”: “Klassningsanteckning på dokument och betryggande förvaring; styrda rutiner för hantering, delning, kopiering och destruktion.  ￼”
-},
-{
-“question”: “Vad ska fysisk säkerhet förebygga?”,
-“answer”: “Obehörigt tillträde och skadlig inverkan (inkl. insyn/avlyssning) på områden, byggnader, anläggningar och objekt där säkerhetskänslig verksamhet bedrivs.  ￼”
-},
-{
-“question”: “Vilka tre förmågor ska fysisk säkerhet skapa enligt modellen?”,
-“answer”: “Upptäcka, försvåra (fördröja/skadereducera) och hantera antagonistiska handlingar.  ￼”
-},
-{
-“question”: “Ge exempel på fördröjande respektive skadereducerande åtgärder.”,
-“answer”: “Fördröjande: dörrar, väggar, barriärer; Skadereducerande: skydd mot beskjutning/fordonsburna sprängladdningar.  ￼”
-},
-{
-“question”: “Vad innebär "hantera" i fysisk säkerhet?”,
-“answer”: “Att avbryta pågående handling (t.ex. väktare/polis) och vid behov vidta konsekvensreducerande åtgärder som utrymning.  ￼”
-},
-{
-“question”: “Vilka två delar består personalsäkerhet av?”,
-“answer”: “Säkerhetsprövning och utbildning i säkerhetsskydd.  ￼”
-},
-{
-“question”: “Vad är syftet med säkerhetsprövningen?”,
-“answer”: “Att säkerställa lojalitet och pålitlighet från säkerhetssynpunkt samt identifiera sårbarheter (t.ex. dubbla lojaliteter).  ￼”
-},
-{
-“question”: “Vilka moment ingår normalt i säkerhetsprövningen före deltagande?”,
-“answer”: “Grundutredning (inkl. intervju och referenser), registerkontroll och i vissa fall särskild personutredning, samt utbildning.  ￼”
-},
-{
-“question”: “Vem ansvarar för registerkontroll och mot vilka register sker kontroll?”,
-“answer”: “Säkerhetspolisen; kontroll mot belastningsregistret, misstankeregistret och uppgifter enligt polis-/Säkerhetspolisen-personuppgiftslagar.  ￼”
-},
-{
-“question”: “Krävs samtycke för registerkontroll/särskild personutredning?”,
-“answer”: “Ja, det får göras endast om den prövningen avser har lämnat sitt samtycke.  ￼”
-},
-{
-“question”: “När och hur ska uppföljande säkerhetsprövning ske?”,
-“answer”: “Regelbundet under deltagandet för att fördjupa personkännedomen och upptäcka förändringar i t.ex. ekonomi/social situation.  ￼”
-},
-{
-“question”: “Vilket grundläggande ansvar har verksamhetsutövaren enligt lagen?”,
-“answer”: “Att utreda behovet av säkerhetsskydd, identifiera skyddsvärden och vidta nödvändiga åtgärder samt följa upp skyddet kontinuerligt.  ￼”
-},
-{
-“question”: “Vad gäller om en annan aktör kan få tillgång till den säkerhetskänsliga verksamheten?”,
-“answer”: “Verksamhetsutövaren måste reglera och kontrollera säkerhetsskyddet hos den andra aktören (ansvaret sträcker sig utanför den egna organisationen).  ￼”
-},
-{
-“question”: “Vem är "säkerhetsskyddschef" och hur ska rollen vara placerad?”,
-“answer”: “En funktion som leder, samordnar och kontrollerar säkerhetsskyddet; ska vara direkt underställd högsta chefen och ansvaret kan inte delegeras.  ￼”
-},
-{
-“question”: “Hur många tillsynsmyndigheter finns och vilka är samordningsmyndigheter?”,
-“answer”: “Totalt 13 tillsynsmyndigheter; Säkerhetspolisen och Försvarsmakten är samordningsmyndigheter.  ￼”
-},
-{
-“question”: “Vad ingår i samordningsmyndigheternas uppdrag?”,
-“answer”: “Att följa upp/utveckla tillsyn och samråd, ta fram metodstöd, förmedla hotinformation och leda samarbetsforum.  ￼”
-},
-{
-“question”: “När måste säkerhetsskyddsavtal (SSA) ingås?”,
-“answer”: “Vid förfaranden där utomstående kan få tillgång som kan orsaka minst "inte obetydlig skada", t.ex. upphandlingar, avtal, samverkan och samarbeten.  ￼”
-},
-{
-“question”: “Vilken tillgångströskel triggar SSA-krav?”,
-“answer”: “Tillgång till uppgifter i klassen Konfidentiell eller högre, eller annan verksamhet av motsvarande betydelse för Sveriges säkerhet.  ￼”
-},
-{
-“question”: “Gäller SSA-skyldigheten även underleverantörer?”,
-“answer”: “Ja, särskilt vid anskaffning av vara, tjänst eller byggentreprenad.  ￼”
-},
-{
-“question”: “Hur ska man reglera skydd när högsta klass är Begränsat hemlig?”,
-“answer”: “Genom annat sätt än SSA, t.ex. en säkerhetsskyddsöverenskommelse.  ￼”
-},
-{
-“question”: “Vad avses med "dimensionerande antagonistiska förmågor"?”,
-“answer”: “Beskrivningar av förmågor som vissa säkerhetsåtgärder ska tåla oavsett aktuellt hot; utgör en central del av säkerhetsskyddsanalysen.  ￼”
-},
-{
-“question”: “Hur kopplas dimensionerande antagonistiska förmågor till tillsyn och analys?”,
-“answer”: “Tillsynsmyndigheter pekar ut behov; Säkerhetspolisen inhämtar delar av analysen och tillhandahåller beskrivningarna; verksamhetsutövaren dimensionerar åtgärderna.  ￼”
-},
-{
-“question”: “Vilka rättsliga konflikter/synergier kan uppstå med annan lagstiftning?”,
-“answer”: “Ex. upphandlingsrätt, Seveso-direktivet (informationskrav vs. konfidentialitet) och lagen (2023:560) om utländska direktinvesteringar måste beaktas.  ￼”
-},
-{
-“question”: “Vad är en överlåtelse av säkerhetskänslig verksamhet?”,
-“answer”: “Övergång av äganderätt (t.ex. försäljning/byte/gåva) som ger nya aktörer tillgång eller kontroll; medför särskilda säkerhetsåtgärder.  ￼”
-},
-{
-“question”: “Vilka åtgärder krävs inför överlåtelse?”,
-“answer”: “Särskild säkerhetsskyddsbedömning, lämplighetsprövning och samråd med tillsynsmyndighet (aktier/andelar undantagna från vissa krav).  ￼”
-},
-{
-“question”: “Kan en överlåtelse förbjudas och vad händer då?”,
-“answer”: “Ja, tillsynsmyndigheten kan förbjuda; överlåtelse i strid med förbud är ogiltig.  ￼”
-},
-{
-“question”: “När ska anmälan om säkerhetshotande händelse göras?”,
-“answer”: “Skyndsamt vid misstänkt röjande av säkerhetsskyddsklassificerade uppgifter, allvarlig IT-incident, eller annan allvarlig säkerhetshotande verksamhet.  ￼”
-},
-{
-“question”: “Ge två exempel på anmälningsplikt vid IT-incident.”,
-“answer”: “Långvarig brist på patchning som skapat sårbarheter; misstänkt intrång i system med säkerhetsskyddsklassificerade uppgifter.  ￼”
-},
-{
-“question”: “Vad ska skadebedömningen i anmälan innehålla?”,
-“answer”: “Beskrivning av skadan kopplad till säkerhetsskyddsklass, konsekvensnivå och skyddsvärdets perspektiv; fokus på konsekvens (inte sannolikhet).  ￼”
-},
-{
-“question”: “Hur bör verksamhetsutövaren agera vid osäkerhet om anmälningsplikt?”,
-“answer”: “Säkerhetspolisen uppmanar att ändå upprätta en anmälan; annars kan ärendet skickas som tips.  ￼”
-},
-{
-“question”: “Vilka sanktionsmedel har tillsynsmyndigheter vid brister?”,
-“answer”: “Åtgärdsförelägganden (med vite) och sanktionsavgifter för vissa centrala överträdelser.  ￼”
-},
-{
-“question”: “Hur stora kan sanktionsavgifterna vara?”,
-“answer”: “Upp till 50 miljoner kr för enskilda verksamhetsutövare och 10 miljoner kr för statliga myndigheter, kommuner och regioner.  ￼”
-},
-{
-“question”: “Vilken straffbestämmelse gäller för brott mot tystnadsplikt?”,
-“answer”: “20 kap. 3 § brottsbalken (brott mot tystnadsplikt).  ￼”
-},
-{
-“question”: “Kan oaktsam hantering av hemliga uppgifter vara straffbar?”,
-“answer”: “Ja, t.ex. vårdslöshet med hemlig uppgift enligt 19 kap. brottsbalken.  ￼”
-},
-{
-“question”: “Vad är skillnaden mellan offentliga och enskilda verksamhetsutövare i lagen?”,
-“answer”: “Enskilda avser alla som inte är statlig myndighet/kommun/region (inkl. kommunala bolag och kommunalförbund i vissa fall).  ￼”
-},
-{
-“question”: “Är "säkerhetsklass" ett beslut om person eller befattning?”,
-“answer”: “Befattning. En person kan vara prövad för flera uppdrag; ny prövning krävs inför varje nytt deltagande.  ￼”
-},
-{
-“question”: “Vad ska en verksamhetsutövare ha gällande säkerhetsprövningar?”,
-“answer”: “En aktuell förteckning över befattningar med krav på säkerhetsprövning.  ￼”
-},
-{
-“question”: “Hur relaterar säkerhetsskydd till andra säkerhetsåtgärder i verksamheter?”,
-“answer”: “Säkerhetsskyddet är obligatoriskt i lag och inriktat mot antagonistiska handlingar; andra åtgärder kan ge synergier men fyller inte alltid kraven.  ￼”
-},
-{
-“question”: “Varför räcker inte enbart IT-skydd för informationssystem?”,
-“answer”: “Även fysisk säkerhet och personalsäkerhet krävs för att hindra fysisk åtkomst och att opålitliga personer hanterar systemet.  ￼”
-},
-{
-“question”: “Vad krävs vid möten där uppgifter i högre klass kan förekomma?”,
-“answer”: “Att samtal endast sker i särskilda skyddade och godkända utrymmen (avlyssningsskydd m.m.).  ￼”
-},
-{
-“question”: “Ge exempel på när uppgifter inte är säkerhetsskyddsklassificerade trots sekretess hos myndighet.”,
-“answer”: “Ritningar för mobiltelefonutrustning hos företagets icke-säkerhetskänsliga del skyddar ekonomiska intressen men rör inte säkerhetskänslig verksamhet.  ￼”
-},
-{
-“question”: “När ska en verksamhetsutövare anmäla att de bedriver säkerhetskänslig verksamhet?”,
-“answer”: “Utan dröjsmål till sin tillsynsmyndighet när det konstaterats i analysen.  ￼”
-},
-{
-“question”: “Vad ska en säkerhetsskyddsplan redovisa?”,
-“answer”: “Hur behovet av säkerhetsskyddsåtgärder (identifierade i säkerhetsskyddsanalysen) ska tas om hand.  ￼”
-},
-{
-“question”: “Vad är verksamhetsutövarens ansvar vid säkerhetsskyddade upphandlingar?”,
-“answer”: “Att uppfylla både säkerhetsskyddslagstiftningen och upphandlingslagstiftningen.  ￼”
-},
-{
-“question”: “Vad gäller tystnadsplikt hos enskilda verksamhetsutövare?”,
-“answer”: “Den som deltar (eller har deltagit) i säkerhetskänslig verksamhet får inte obehörigen röja/utnyttja säkerhetsskyddsklassificerade uppgifter; liknande skydd i OSL för allmän verksamhet.  ￼”
-},
-{
-“question”: “Vad ska göras efter en säkerhetshotande händelse för att minska framtida skadeeffekt?”,
-“answer”: “Utreda omständigheter, utvärdera hanteringen och vidta nödvändiga åtgärder; sträva efter snabb återgång till normalläge.  ￼”
-},
-{
-“question”: “Var hittar man anmälningsblankett för säkerhetshotande händelser?”,
-“answer”: “På Säkerhetspolisens webbplats enligt anvisning i vägledningen.  ￼”
-},
-{
-“question”: “Varför ska åtgärder vara "jämnstarka" längs hela skyddskedjan?”,
-“answer”: “För att undvika exploaterbara svaga länkar, t.ex. vid transporter av klassificerade uppgifter utanför lokalerna.  ￼”
-},
-{
-“question”: “Vad menas med "skadegenererande verksamhet" i kategoriseringen?”,
-“answer”: “Verksamheter där angrepp kan generera direkta eller indirekta skador på andra säkerhetskänsliga verksamheter (liv, hälsa, infrastruktur).  ￼”
-},
-{
-“question”: “När kan en aktör som levererar drifttjänster anses bedriva säkerhetskänslig verksamhet?”,
-“answer”: “När den samlade betydelsen (t.ex. data-/telekom) gör att ett angrepp kan påverka Sveriges säkerhet på nationell nivå.  ￼”
-},
-{
-“question”: “Vad ska en initial bedömning om säkerhetskänslighet bygga på?”,
-“answer”: “Första steget i säkerhetsskyddsanalysen och kategorierna i avsnitt 5.1.  ￼”
-},
-{
-“question”: “Vad kan en tillsynsmyndighet förelägga om (med vite)?”,
-“answer”: “T.ex. att utarbeta en säkerhetsskyddsanalys eller rutiner som uppfyller regelverket.  ￼”
-}
-]
+  "deck_name": "Introduktion till säkerhetsskydd (Säkerhetspolisen, dec 2023)",
+  "cards": [
+    {
+      "question": "Vad är syftet med säkerhetsskydd?",
+      "answer": "Att värna Sveriges säkerhet och internationella åtaganden om säkerhetsskydd."
+    },
+    {
+      "question": "Hur sammanfattas uttrycket \"Sveriges säkerhet\" i vägledningen?",
+      "answer": "Som Sveriges oberoende (självständighet och suveränitet) och bestånd, inklusive okränkta gränser, demokratiskt statsskick och samhällets grundläggande funktionalitet."
+    },
+    {
+      "question": "Vad illustrerar pyramiden som nämns i vägledningen?",
+      "answer": "Att toppen utgörs av de verksamheter som är av nationell betydelse för Sveriges säkerhet och därmed säkerhetskänsliga."
+    },
+    {
+      "question": "Varför behöver säkerhetskänsliga verksamheter ett särskilt skydd?",
+      "answer": "Hotet från främmande makt är högt, långsiktigt och komplext; även ideologiskt motiverade aktörer kan orsaka skada genom antagonistiska handlingar."
+    },
+    {
+      "question": "Nämn fem metoder som främmande makt använder för inhämtning.",
+      "answer": "Öppna källor, cyberspionage, signalspaning/flyg-/satellitspaning, personbaserad inhämtning (rekrytering/infiltration), rum/telefonavlyssning."
+    },
+    {
+      "question": "Vad är grundprincipen inom säkerhetsskydd?",
+      "answer": "Säkerhetskänslig verksamhet ska ha samma eller likvärdigt skydd oavsett var den bedrivs eller vem som utför den; säkerhetsskyddsavtal följer av principen."
+    },
+    {
+      "question": "Vilka tre huvudkategorier av säkerhetsskyddsåtgärder finns?",
+      "answer": "Informationssäkerhet, fysisk säkerhet och personalsäkerhet."
+    },
+    {
+      "question": "Vad krävs för att uppnå ett heltäckande säkerhetsskydd enligt vägledningen?",
+      "answer": "Att olika åtgärder samspelar och överlappar varandra utan svaga länkar, samt integreras i verksamheten."
+    },
+    {
+      "question": "Vilka frågor ska en säkerhetsskyddsanalys besvara?",
+      "answer": "1) Vad ska skyddas? 2) Mot vad ska det skyddas? 3) Hur ska det skyddas?"
+    },
+    {
+      "question": "Vad skiljer säkerhetsskyddsanalys från många andra riskanalyser?",
+      "answer": "Den utgår från konsekvenser som måste undvikas (inte sannolikhet), kopplat till skada för Sveriges säkerhet."
+    },
+    {
+      "question": "Vilka tre typer av skyddsvärden ska identifieras i säkerhetsskyddsanalysen?",
+      "answer": "Säkerhetsskyddsklassificerade uppgifter; anläggningar/objekt/system/egendom och andra tillgångar; verksamhet som omfattas av internationellt åtagande."
+    },
+    {
+      "question": "Ge definitionen av säkerhetskänslig verksamhet.",
+      "answer": "Verksamhet av betydelse för Sveriges säkerhet eller som omfattas av ett för Sverige förpliktande internationellt åtagande om säkerhetsskydd."
+    },
+    {
+      "question": "Är alla samhällsviktiga verksamheter säkerhetskänsliga?",
+      "answer": "Nej. Endast de där en antagonistisk handling kan ge skadekonsekvenser på nationell nivå betraktas som säkerhetskänsliga."
+    },
+    {
+      "question": "Vilka fem kategorier används för att kategorisera säkerhetskänslig verksamhet?",
+      "answer": "Sveriges yttre säkerhet; inre säkerhet; nationellt samhällsviktig verksamhet; verksamhet av betydelse för Sveriges ekonomi; skadegenererande verksamhet."
+    },
+    {
+      "question": "Vilka konsekvensnivåer finns för skyddsvärden (A–D)?",
+      "answer": "A: Synnerligen allvarlig skada; B: Allvarlig skada; C: Inte obetydlig skada; D: Endast ringa skada — allt i relation till Sveriges säkerhet."
+    },
+    {
+      "question": "Vad innebär konsekvensnivå A?",
+      "answer": "Kritiska funktioner slås ut eller påverkas mycket allvarligt så att Sverige riskerar förlora suveränitet/handlingsfrihet/oberoende; mycket svårt att återgå till normalläge."
+    },
+    {
+      "question": "Vad innebär konsekvensnivå B?",
+      "answer": "Kritiska funktioner påverkas allvarligt, med allvarliga begränsningar i suveränitet/handlingsfrihet/oberoende; svårt att återgå till normalläge."
+    },
+    {
+      "question": "Vad innebär konsekvensnivå C?",
+      "answer": "Påtaglig påverkan som kan påverka Sveriges suveränitet m.m. i begränsad omfattning; möjligt att återgå till normalläge inom rimlig tid."
+    },
+    {
+      "question": "Vad innebär konsekvensnivå D?",
+      "answer": "Ringa påverkan på kritiska funktioner; relativt snabb återgång till normalläge."
+    },
+    {
+      "question": "Vad är säkerhetsskyddsklassificerade uppgifter enligt vägledningen?",
+      "answer": "Uppgifter som rör säkerhetskänslig verksamhet och skulle omfattas av sekretess enligt OSL (även hos enskilda via fiktiv sekretessprövning)."
+    },
+    {
+      "question": "Vilken OSL-bestämmelse pekas främst ut för säkerhetsskyddsklassificerade uppgifter?",
+      "answer": "15 kap. 2 § OSL (försvarssekretess), men även t.ex. 15:1–1b, 18:1, 18:2, 18:8, 18:13 kan vara tillämpliga."
+    },
+    {
+      "question": "Vad är en fiktiv sekretessprövning?",
+      "answer": "En bedömning hos enskild verksamhetsutövare om en uppgift skulle ha omfattats av sekretess enligt OSL om den varit tillämplig."
+    },
+    {
+      "question": "Vilka fyra säkerhetsskyddsklasser används för uppgifter?",
+      "answer": "Kvalificerat hemlig, Hemlig, Konfidentiell, Begränsat hemlig."
+    },
+    {
+      "question": "Behöver uppgifter utan klassning ändå skyddas ibland?",
+      "answer": "Ja, om riktighet och/eller tillgänglighet är kritisk för säkerhetskänslig verksamhet (t.ex. data för flygledning)."
+    },
+    {
+      "question": "Hur mappas EU:s säkerhetsklasser till svenska?",
+      "answer": "EU TOP SECRET ↔ Kvalificerat hemlig; EU SECRET ↔ Hemlig; EU CONFIDENTIAL ↔ Konfidentiell; EU RESTRICTED ↔ Begränsat hemlig."
+    },
+    {
+      "question": "Vad är huvudmålet med informationssäkerhet inom säkerhetsskydd?",
+      "answer": "Att förebygga röjande, ändring, otillgänglighet, förstöring samt annan skadlig inverkan på uppgifter och informationssystem."
+    },
+    {
+      "question": "Ge exempel på informationssäkerhetsåtgärder för fysiska dokument.",
+      "answer": "Klassningsanteckning på dokument och betryggande förvaring; styrda rutiner för hantering, delning, kopiering och destruktion."
+    },
+    {
+      "question": "Vad ska fysisk säkerhet förebygga?",
+      "answer": "Obehörigt tillträde och skadlig inverkan (inkl. insyn/avlyssning) på områden, byggnader, anläggningar och objekt där säkerhetskänslig verksamhet bedrivs."
+    },
+    {
+      "question": "Vilka tre förmågor ska fysisk säkerhet skapa enligt modellen?",
+      "answer": "Upptäcka, försvåra (fördröja/skadereducera) och hantera antagonistiska handlingar."
+    },
+    {
+      "question": "Ge exempel på fördröjande respektive skadereducerande åtgärder.",
+      "answer": "Fördröjande: dörrar, väggar, barriärer; Skadereducerande: skydd mot beskjutning/fordonsburna sprängladdningar."
+    },
+    {
+      "question": "Vad innebär \"hantera\" i fysisk säkerhet?",
+      "answer": "Att avbryta pågående handling (t.ex. väktare/polis) och vid behov vidta konsekvensreducerande åtgärder som utrymning."
+    },
+    {
+      "question": "Vilka två delar består personalsäkerhet av?",
+      "answer": "Säkerhetsprövning och utbildning i säkerhetsskydd."
+    },
+    {
+      "question": "Vad är syftet med säkerhetsprövningen?",
+      "answer": "Att säkerställa lojalitet och pålitlighet från säkerhetssynpunkt samt identifiera sårbarheter (t.ex. dubbla lojaliteter)."
+    },
+    {
+      "question": "Vilka moment ingår normalt i säkerhetsprövningen före deltagande?",
+      "answer": "Grundutredning (inkl. intervju och referenser), registerkontroll och i vissa fall särskild personutredning, samt utbildning."
+    },
+    {
+      "question": "Vem ansvarar för registerkontroll och mot vilka register sker kontroll?",
+      "answer": "Säkerhetspolisen; kontroll mot belastningsregistret, misstankeregistret och uppgifter enligt polis-/Säkerhetspolisen-personuppgiftslagar."
+    },
+    {
+      "question": "Krävs samtycke för registerkontroll/särskild personutredning?",
+      "answer": "Ja, det får göras endast om den prövningen avser har lämnat sitt samtycke."
+    },
+    {
+      "question": "När och hur ska uppföljande säkerhetsprövning ske?",
+      "answer": "Regelbundet under deltagandet för att fördjupa personkännedomen och upptäcka förändringar i t.ex. ekonomi/social situation."
+    },
+    {
+      "question": "Vilket grundläggande ansvar har verksamhetsutövaren enligt lagen?",
+      "answer": "Att utreda behovet av säkerhetsskydd, identifiera skyddsvärden och vidta nödvändiga åtgärder samt följa upp skyddet kontinuerligt."
+    },
+    {
+      "question": "Vad gäller om en annan aktör kan få tillgång till den säkerhetskänsliga verksamheten?",
+      "answer": "Verksamhetsutövaren måste reglera och kontrollera säkerhetsskyddet hos den andra aktören (ansvaret sträcker sig utanför den egna organisationen)."
+    },
+    {
+      "question": "Vem är \"säkerhetsskyddschef\" och hur ska rollen vara placerad?",
+      "answer": "En funktion som leder, samordnar och kontrollerar säkerhetsskyddet; ska vara direkt underställd högsta chefen och ansvaret kan inte delegeras."
+    },
+    {
+      "question": "Hur många tillsynsmyndigheter finns och vilka är samordningsmyndigheter?",
+      "answer": "Totalt 13 tillsynsmyndigheter; Säkerhetspolisen och Försvarsmakten är samordningsmyndigheter."
+    },
+    {
+      "question": "Vad ingår i samordningsmyndigheternas uppdrag?",
+      "answer": "Att följa upp/utveckla tillsyn och samråd, ta fram metodstöd, förmedla hotinformation och leda samarbetsforum."
+    },
+    {
+      "question": "När måste säkerhetsskyddsavtal (SSA) ingås?",
+      "answer": "Vid förfaranden där utomstående kan få tillgång som kan orsaka minst \"inte obetydlig skada\", t.ex. upphandlingar, avtal, samverkan och samarbeten."
+    },
+    {
+      "question": "Vilken tillgångströskel triggar SSA-krav?",
+      "answer": "Tillgång till uppgifter i klassen Konfidentiell eller högre, eller annan verksamhet av motsvarande betydelse för Sveriges säkerhet."
+    },
+    {
+      "question": "Gäller SSA-skyldigheten även underleverantörer?",
+      "answer": "Ja, särskilt vid anskaffning av vara, tjänst eller byggentreprenad."
+    },
+    {
+      "question": "Hur ska man reglera skydd när högsta klass är Begränsat hemlig?",
+      "answer": "Genom annat sätt än SSA, t.ex. en säkerhetsskyddsöverenskommelse."
+    },
+    {
+      "question": "Vad avses med \"dimensionerande antagonistiska förmågor\"?",
+      "answer": "Beskrivningar av förmågor som vissa säkerhetsåtgärder ska tåla oavsett aktuellt hot; utgör en central del av säkerhetsskyddsanalysen."
+    },
+    {
+      "question": "Hur kopplas dimensionerande antagonistiska förmågor till tillsyn och analys?",
+      "answer": "Tillsynsmyndigheter pekar ut behov; Säkerhetspolisen inhämtar delar av analysen och tillhandahåller beskrivningarna; verksamhetsutövaren dimensionerar åtgärderna."
+    },
+    {
+      "question": "Vilka rättsliga konflikter/synergier kan uppstå med annan lagstiftning?",
+      "answer": "Ex. upphandlingsrätt, Seveso-direktivet (informationskrav vs. konfidentialitet) och lagen (2023:560) om utländska direktinvesteringar måste beaktas."
+    },
+    {
+      "question": "Vad är en överlåtelse av säkerhetskänslig verksamhet?",
+      "answer": "Övergång av äganderätt (t.ex. försäljning/byte/gåva) som ger nya aktörer tillgång eller kontroll; medför särskilda säkerhetsåtgärder."
+    },
+    {
+      "question": "Vilka åtgärder krävs inför överlåtelse?",
+      "answer": "Särskild säkerhetsskyddsbedömning, lämplighetsprövning och samråd med tillsynsmyndighet (aktier/andelar undantagna från vissa krav)."
+    },
+    {
+      "question": "Kan en överlåtelse förbjudas och vad händer då?",
+      "answer": "Ja, tillsynsmyndigheten kan förbjuda; överlåtelse i strid med förbud är ogiltig."
+    },
+    {
+      "question": "När ska anmälan om säkerhetshotande händelse göras?",
+      "answer": "Skyndsamt vid misstänkt röjande av säkerhetsskyddsklassificerade uppgifter, allvarlig IT-incident, eller annan allvarlig säkerhetshotande verksamhet."
+    },
+    {
+      "question": "Ge två exempel på anmälningsplikt vid IT-incident.",
+      "answer": "Långvarig brist på patchning som skapat sårbarheter; misstänkt intrång i system med säkerhetsskyddsklassificerade uppgifter."
+    },
+    {
+      "question": "Vad ska skadebedömningen i anmälan innehålla?",
+      "answer": "Beskrivning av skadan kopplad till säkerhetsskyddsklass, konsekvensnivå och skyddsvärdets perspektiv; fokus på konsekvens (inte sannolikhet)."
+    },
+    {
+      "question": "Hur bör verksamhetsutövaren agera vid osäkerhet om anmälningsplikt?",
+      "answer": "Säkerhetspolisen uppmanar att ändå upprätta en anmälan; annars kan ärendet skickas som tips."
+    },
+    {
+      "question": "Vilka sanktionsmedel har tillsynsmyndigheter vid brister?",
+      "answer": "Åtgärdsförelägganden (med vite) och sanktionsavgifter för vissa centrala överträdelser."
+    },
+    {
+      "question": "Hur stora kan sanktionsavgifterna vara?",
+      "answer": "Upp till 50 miljoner kr för enskilda verksamhetsutövare och 10 miljoner kr för statliga myndigheter, kommuner och regioner."
+    },
+    {
+      "question": "Vilken straffbestämmelse gäller för brott mot tystnadsplikt?",
+      "answer": "20 kap. 3 § brottsbalken (brott mot tystnadsplikt)."
+    },
+    {
+      "question": "Kan oaktsam hantering av hemliga uppgifter vara straffbar?",
+      "answer": "Ja, t.ex. vårdslöshet med hemlig uppgift enligt 19 kap. brottsbalken."
+    },
+    {
+      "question": "Vad är skillnaden mellan offentliga och enskilda verksamhetsutövare i lagen?",
+      "answer": "Enskilda avser alla som inte är statlig myndighet/kommun/region (inkl. kommunala bolag och kommunalförbund i vissa fall)."
+    },
+    {
+      "question": "Är \"säkerhetsklass\" ett beslut om person eller befattning?",
+      "answer": "Befattning. En person kan vara prövad för flera uppdrag; ny prövning krävs inför varje nytt deltagande."
+    },
+    {
+      "question": "Vad ska en verksamhetsutövare ha gällande säkerhetsprövningar?",
+      "answer": "En aktuell förteckning över befattningar med krav på säkerhetsprövning."
+    },
+    {
+      "question": "Hur relaterar säkerhetsskydd till andra säkerhetsåtgärder i verksamheter?",
+      "answer": "Säkerhetsskyddet är obligatoriskt i lag och inriktat mot antagonistiska handlingar; andra åtgärder kan ge synergier men fyller inte alltid kraven."
+    },
+    {
+      "question": "Varför räcker inte enbart IT-skydd för informationssystem?",
+      "answer": "Även fysisk säkerhet och personalsäkerhet krävs för att hindra fysisk åtkomst och att opålitliga personer hanterar systemet."
+    },
+    {
+      "question": "Vad krävs vid möten där uppgifter i högre klass kan förekomma?",
+      "answer": "Att samtal endast sker i särskilda skyddade och godkända utrymmen (avlyssningsskydd m.m.)."
+    },
+    {
+      "question": "Ge exempel på när uppgifter inte är säkerhetsskyddsklassificerade trots sekretess hos myndighet.",
+      "answer": "Ritningar för mobiltelefonutrustning hos företagets icke-säkerhetskänsliga del skyddar ekonomiska intressen men rör inte säkerhetskänslig verksamhet."
+    },
+    {
+      "question": "När ska en verksamhetsutövare anmäla att de bedriver säkerhetskänslig verksamhet?",
+      "answer": "Utan dröjsmål till sin tillsynsmyndighet när det konstaterats i analysen."
+    },
+    {
+      "question": "Vad ska en säkerhetsskyddsplan redovisa?",
+      "answer": "Hur behovet av säkerhetsskyddsåtgärder (identifierade i säkerhetsskyddsanalysen) ska tas om hand."
+    },
+    {
+      "question": "Vad är verksamhetsutövarens ansvar vid säkerhetsskyddade upphandlingar?",
+      "answer": "Att uppfylla både säkerhetsskyddslagstiftningen och upphandlingslagstiftningen."
+    },
+    {
+      "question": "Vad gäller tystnadsplikt hos enskilda verksamhetsutövare?",
+      "answer": "Den som deltar (eller har deltagit) i säkerhetskänslig verksamhet får inte obehörigen röja/utnyttja säkerhetsskyddsklassificerade uppgifter; liknande skydd i OSL för allmän verksamhet."
+    },
+    {
+      "question": "Vad ska göras efter en säkerhetshotande händelse för att minska framtida skadeeffekt?",
+      "answer": "Utreda omständigheter, utvärdera hanteringen och vidta nödvändiga åtgärder; sträva efter snabb återgång till normalläge."
+    },
+    {
+      "question": "Var hittar man anmälningsblankett för säkerhetshotande händelser?",
+      "answer": "På Säkerhetspolisens webbplats enligt anvisning i vägledningen."
+    },
+    {
+      "question": "Varför ska åtgärder vara \"jämnstarka\" längs hela skyddskedjan?",
+      "answer": "För att undvika exploaterbara svaga länkar, t.ex. vid transporter av klassificerade uppgifter utanför lokalerna."
+    },
+    {
+      "question": "Vad menas med \"skadegenererande verksamhet\" i kategoriseringen?",
+      "answer": "Verksamheter där angrepp kan generera direkta eller indirekta skador på andra säkerhetskänsliga verksamheter (liv, hälsa, infrastruktur)."
+    },
+    {
+      "question": "När kan en aktör som levererar drifttjänster anses bedriva säkerhetskänslig verksamhet?",
+      "answer": "När den samlade betydelsen (t.ex. data-/telekom) gör att ett angrepp kan påverka Sveriges säkerhet på nationell nivå."
+    },
+    {
+      "question": "Vad ska en initial bedömning om säkerhetskänslighet bygga på?",
+      "answer": "Första steget i säkerhetsskyddsanalysen och kategorierna i avsnitt 5.1."
+    },
+    {
+      "question": "Vad kan en tillsynsmyndighet förelägga om (med vite)?",
+      "answer": "T.ex. att utarbeta en säkerhetsskyddsanalys eller rutiner som uppfyller regelverket."
+    }
+  ]
 }
