@@ -1,681 +1,317 @@
 {
-  "deck_name": "Computer Architecture & Assembly",
-  "cards": [
-    {
-      "question": "Why can't processors directly execute high-level programming languages?",
-      "answer": "Because processors can only execute machine code (binary instructions); high-level languages must be compiled or interpreted into machine code first."
-    },
-    {
-      "question": "What is assembly language?",
-      "answer": "Assembly language is a low-level programming language that uses human-readable mnemonics to represent machine code instructions specific to a processor architecture."
-    },
-    {
-      "question": "Why is assembly language sometimes referred to as symbolic machine code?",
-      "answer": "Because assembly language uses symbolic representations (mnemonics) of machine instructions, making it human-readable; these symbols are then assembled into actual machine code executable by the processor."
-    },
-    {
-      "question": "What is an example of an assembly instruction and its corresponding machine code for adding 1 to the RAX register?",
-      "answer": "Assembly: 'add rax, 1'; Machine code (in hexadecimal): '48 83 C0 01'."
-    },
-    {
-      "question": "What is shellcode in the context of computer security?",
-      "answer": "Shellcode is a small piece of code used as the payload in exploiting software vulnerabilities, often written in machine code and represented in hexadecimal format; it typically spawns a shell or executes a specific command."
-    },
-    {
-      "question": "How do high-level programming languages differ from low-level programming languages?",
-      "answer": "High-level languages are more abstract, easier for humans to read and write, and are generally portable across different hardware architectures; low-level languages are closer to machine code, less abstract, and often specific to a particular processor architecture."
-    },
-    {
-      "question": "What is the role of compilers in high-level programming languages?",
-      "answer": "Compilers translate high-level source code into machine code (or sometimes into assembly code first), enabling the code to be executed by the processor."
-    },
-    {
-      "question": "What are interpreted programming languages?",
-      "answer": "Interpreted languages are languages where the code is executed by an interpreter at runtime rather than being compiled into machine code beforehand; examples include Python, PHP, and JavaScript."
-    },
-    {
-      "question": "What is unique about the compilation process of Java and C#?",
-      "answer": "Java and C# are compiled into intermediate bytecode (Java bytecode and Microsoft Intermediate Language, respectively), which is then executed or further compiled into machine code at runtime by a virtual machine or runtime environment, enabling platform independence and runtime optimizations."
-    },
-    {
-      "question": "Why is learning assembly language beneficial for penetration testers?",
-      "answer": "Because understanding assembly language enables penetration testers to analyze and manipulate low-level code, aiding in binary exploitation, reverse engineering, and discovering vulnerabilities in compiled binaries."
-    },
-    {
-      "question": "Why can't processors directly execute high-level programming languages?",
-      "answer": "Because processors can only execute machine code (binary instructions); high-level languages must be compiled or interpreted into machine code first."
-    },
-    {
-      "question": "What is assembly language?",
-      "answer": "Assembly language is a low-level programming language that uses human-readable mnemonics to represent machine code instructions specific to a processor architecture."
-    },
-    {
-      "question": "Why is assembly language sometimes referred to as symbolic machine code?",
-      "answer": "Because assembly language uses symbolic representations (mnemonics) of machine instructions, making it human-readable; these symbols are then assembled into actual machine code executable by the processor."
-    },
-    {
-      "question": "What is an example of an assembly instruction and its corresponding machine code for adding 1 to the RAX register?",
-      "answer": "Assembly: 'add rax, 1'; Machine code (in hexadecimal): '48 83 C0 01'."
-    },
-    {
-      "question": "What is shellcode in the context of computer security?",
-      "answer": "Shellcode is a small piece of code used as the payload in exploiting software vulnerabilities, often written in machine code and represented in hexadecimal format; it typically spawns a shell or executes a specific command."
-    },
-    {
-      "question": "How do high-level programming languages differ from low-level programming languages?",
-      "answer": "High-level languages are more abstract, easier for humans to read and write, and are generally portable across different hardware architectures; low-level languages are closer to machine code, less abstract, and often specific to a particular processor architecture."
-    },
-    {
-      "question": "What is the role of compilers in high-level programming languages?",
-      "answer": "Compilers translate high-level source code into machine code, handling syntax checking to ensure code follows language rules, optimizing code for efficiency, managing memory allocation, and linking different code modules and libraries together for execution."
-    },
-    {
-      "question": "What are interpreted programming languages?",
-      "answer": "Interpreted languages are languages where the code is executed by an interpreter at runtime rather than being compiled into machine code beforehand; examples include Python, PHP, and JavaScript."
-    },
-    {
-      "question": "What is unique about the compilation process of Java and C#?",
-      "answer": "Java and C# are compiled into intermediate bytecode (Java bytecode and Common Intermediate Language, respectively), which is then executed or further compiled into machine code at runtime by a virtual machine or runtime environment, enabling platform independence and runtime optimizations."
-    },
-    {
-      "question": "Why is learning assembly language beneficial for penetration testers?",
-      "answer": "Because understanding assembly language enables penetration testers to analyze and manipulate low-level code, aiding in binary exploitation, reverse engineering, and discovering vulnerabilities in compiled binaries."
-    },
-     {
-      "question": "What are the most common processor architectures and their corresponding assembly languages used in modern computers and devices?",
-      "answer": "The most common processor architectures are x86/x86-64 (used in most desktop and laptop computers) and ARM (used in most smartphones, tablets, and some laptops like Apple's M1/M2 MacBooks). Their corresponding assembly languages are x86 assembly language and ARM assembly language, respectively."
-    },
-    {
-      "question": "What is the Von Neumann Architecture in computing?",
-      "answer": "The Von Neumann Architecture is a computer design model proposed by John von Neumann in 1945, where a computer's memory stores both data and program instructions in the same address space. This design allows the machine to be reprogrammed easily and enables the development of general-purpose computers."
-    },
-    {
-      "question": "Which early computing pioneer conceived the idea of a programmable mechanical computer in the 19th century?",
-      "answer": "Charles Babbage, who designed the Analytical Engine, considered the first concept of a general-purpose programmable mechanical computer."
-    },
-    {
-      "question": "What are the main components of a computer based on the Von Neumann Architecture?",
-      "answer": "The main components are:\n\n- **Central Processing Unit (CPU)**: Includes the Control Unit, Arithmetic Logic Unit (ALU), and Registers.\n- **Memory Unit**: Stores both data and instructions.\n- **Input Devices**: Examples include the keyboard and mouse.\n- **Output Devices**: Examples include the display and printer.\n- **Mass Storage Devices**: Such as hard drives and SSDs."
-    },
-    {
-      "question": "What are the three main components of a CPU?",
-      "answer": "The three main components are the Control Unit (CU), the Arithmetic Logic Unit (ALU), and Registers."
-    },
-    {
-      "question": "Why is understanding computer architecture important in assembly language programming?",
-      "answer": "Because it enables programmers to understand how data is stored and manipulated, how instructions are executed, the structure and use of registers, the memory hierarchy, and the performance implications of different instructions—all crucial for effective assembly programming."
-    },
-    {
-      "question": "What are the two main types of volatile memory in a computer?",
-      "answer": "The two main types are cache memory (located within or close to the CPU and very fast) and Random Access Memory (RAM), which is the main system memory."
-    },
-    {
-      "question": "Where is cache memory located, and why is it faster than RAM?",
-      "answer": "Cache memory is located within or very close to the CPU, allowing it to operate at speeds matching the CPU's clock speed. This proximity makes it faster than RAM, which is located on separate modules and accessed via the memory bus."
-    },
-    {
-      "question": "What are the three levels of cache memory in a CPU, and how do they differ?",
-      "answer": "The three levels are:\n\n- **Level 1 (L1) Cache**: Smallest and fastest, located directly on each CPU core, storing the most frequently accessed data and instructions.\n- **Level 2 (L2) Cache**: Larger than L1, slightly slower, may be dedicated per core or shared among cores, serving as a secondary cache.\n- **Level 3 (L3) Cache**: Larger and slower than L1 and L2, shared among all CPU cores, acting as a last cache before accessing RAM."
-    },
-    {
-      "question": "Why is cache memory important for CPU performance?",
-      "answer": "Cache memory significantly improves CPU performance by providing faster access to frequently used data and instructions, reducing the time the CPU spends waiting for data from slower main memory (RAM), thus speeding up processing."
-    },
-     {
-      "question": "How does cache memory differ from RAM in a computer system?",
-      "answer": "Cache memory is a small, high-speed memory located within or very close to the CPU, used to temporarily store frequently accessed data for quick retrieval. RAM (Random Access Memory) is larger in capacity but slower, serving as the main memory where programs and data reside while in use."
-    },
-    {
-      "question": "What are the four main memory segments of a program in RAM during execution?",
-      "answer": "The four main memory segments are the text (code) segment, data segment, heap segment, and stack segment."
-    },
-    {
-      "question": "What is the stack segment in RAM, and how does it function?",
-      "answer": "The stack segment is a region of memory that operates in a Last-In, First-Out (LIFO) manner, used to store function call information, local variables, and control flow data. It manages function calls and returns, with automatic memory allocation and deallocation as functions are called and exit."
-    },
-    {
-      "question": "What is the function of the heap segment in RAM?",
-      "answer": "The heap segment is a region of memory used for dynamic memory allocation, where applications can allocate and free memory at runtime. Memory on the heap can be accessed in any order and persists until it is explicitly freed or the program ends."
-    },
-    {
-      "question": "What is the purpose of the data segment in RAM?",
-      "answer": "The data segment stores initialized global and static variables used by the program, providing a fixed area for data that persists throughout the execution of the program."
-    },
-    {
-      "question": "What does the text (code) segment in RAM contain?",
-      "answer": "The text segment contains the compiled machine code or executable instructions of the program that the CPU executes."
-    },
-    {
-      "question": "What is virtual memory in a computer system?",
-      "answer": "Virtual memory is a memory management technique that provides each process with its own virtual address space, allowing the operating system to give applications the illusion of a large, contiguous memory space, which includes separate segments for the stack, heap, data, and text."
-    },
-    {
-      "question": "What are Input/Output (I/O) devices in a computer system?",
-      "answer": "Input/Output devices are hardware components that allow a computer to interact with the external environment by receiving input from or providing output to the user or other systems. Examples include keyboards, mice, displays, printers, and storage devices."
-    },
-    {
-      "question": "What is the purpose of bus interfaces in a computer?",
-      "answer": "Bus interfaces are communication systems within a computer that transfer data, addresses, and control signals between components like the CPU, memory, and I/O devices, enabling them to communicate and coordinate their actions."
-    },
-    {
-      "question": "Why is primary memory faster than secondary memory?",
-      "answer": "Primary memory, such as RAM, is faster than secondary memory because it is directly connected to the CPU via high-speed buses and uses faster memory technologies. Secondary memory devices like hard drives and SSDs are slower due to their storage technologies and the interfaces used to connect them to the system."
-    },
-    {
-      "question": "What are the advantages of Solid-State Drives (SSDs) over Hard Disk Drives (HDDs)?",
-      "answer": "SSDs are faster than HDDs because they use non-volatile flash memory with no moving parts, allowing for faster data access, improved reliability, and lower latency compared to HDDs, which use mechanical spinning disks."
-    },
-    {
-      "question": "How does the speed of a component correlate with its proximity to the CPU?",
-      "answer": "Generally, components closer to the CPU, such as cache memory and RAM, operate at higher speeds due to faster interfaces and memory technologies, while components farther away, like storage devices and peripheral I/O devices, operate at slower speeds due to longer communication paths and slower technologies."
-    },
-    {
-      "question": "Which component in a computer is the fastest, and why?",
-      "answer": "The fastest components are the CPU registers because they are located within the CPU and can be accessed immediately without any delay. They are followed by cache memory levels (L1, L2, L3), which are also very fast but slightly slower than registers."
-    },
-    {
-      "question": "What are the main components of a CPU?",
-      "answer": "The main components of a CPU are the Control Unit (CU), the Arithmetic Logic Unit (ALU), and registers."
-    },
-    {
-      "question": "What is the role of the Control Unit (CU) in the CPU?",
-      "answer": "The Control Unit manages and coordinates all operations within the CPU by directing the flow of data between the CPU and other components, interpreting instructions, and controlling the timing and execution of operations."
-    },
-    {
-      "question": "What does the Arithmetic Logic Unit (ALU) do in a CPU?",
-      "answer": "The Arithmetic Logic Unit performs arithmetic operations (like addition and subtraction) and logical operations (like comparisons) required by programs during instruction execution."
-    },
-    {
-      "question": "What is an Instruction Set Architecture (ISA)?",
-      "answer": "An Instruction Set Architecture (ISA) is the part of a computer architecture that defines the set of instructions the CPU can execute, including data types, registers, addressing modes, memory architecture, and interrupt and exception handling."
-    },
-    {
-      "question": "How do RISC and CISC architectures differ?",
-      "answer": "RISC (Reduced Instruction Set Computer) architectures use a small set of simple instructions designed for fast execution, often completing one instruction per clock cycle. CISC (Complex Instruction Set Computer) architectures have a larger set of more complex instructions that can execute multi-step operations within a single instruction but may require multiple clock cycles to execute."
-    },
-    {
-      "question": "What is clock speed in a CPU, and how is it measured?",
-      "answer": "Clock speed is the operating speed of a CPU, indicating how many cycles per second it can execute, measured in Hertz (Hz). It determines the rate at which the CPU can process instructions."
-    },
-    {
-      "question": "What is an instruction cycle in CPU operation?",
-      "answer": "An instruction cycle is the process the CPU follows to execute a single machine instruction, typically involving fetching the instruction from memory, decoding it to determine the required action, executing the operation, and storing any results."
-    },
-      {
-      "question": "What are the four main stages of a CPU instruction cycle?",
-      "answer": "The four main stages are Fetch, Decode, Execute, and Store."
-    },
-    {
-      "question": "What happens during the 'Fetch' stage of the instruction cycle?",
-      "answer": "The CPU retrieves the next instruction from memory using the address stored in the Program Counter (PC)."
-    },
-    {
-      "question": "What occurs during the 'Decode' stage of the instruction cycle?",
-      "answer": "The CPU interprets the fetched instruction to determine the required operation and prepares necessary signals for execution."
-    },
-    {
-      "question": "What happens during the 'Execute' stage of the instruction cycle?",
-      "answer": "The CPU performs the operation specified by the instruction, using the ALU for computations or the Control Unit for control operations, with the necessary operands."
-    },
-    {
-      "question": "What is the purpose of the 'Store' stage in the instruction cycle?",
-      "answer": "The CPU writes the result of the execution back to a register or memory location, updating the destination operand."
-    },
-    {
-      "question": "How do modern processors improve efficiency compared to earlier processors?",
-      "answer": "They improve efficiency by processing multiple instructions simultaneously using techniques like pipelining, multi-core architectures, and multi-threading."
-    },
-    {
-      "question": "Why does machine code differ between processors like Intel and ARM?",
-      "answer": "Because different processors use different Instruction Set Architectures (ISAs), leading to variations in machine code instructions and formats."
-    },
-    {
-      "question": "What is the Intel x86 assembly instruction for adding 1 to the RAX register?",
-      "answer": "The instruction is 'add rax, 1'."
-    },
-    {
-      "question": "How would you write the instruction 'add 1 to a register' in ARM assembly language?",
-      "answer": "In ARM assembly, it would be 'ADD r1, r1, #1', which adds 1 to the r1 register."
-    },
-    {
-      "question": "What are common commands to check the CPU architecture in Linux?",
-      "answer": "Commands like 'lscpu' or 'uname -m' can be used to display CPU architecture information."
-    },
-    {
-      "question": "What CPU architecture do most modern computers and servers use?",
-      "answer": "Most modern computers and servers use the x86-64 architecture, also known as AMD64 or Intel 64."
-    },
-    {
-      "question": "What does an Instruction Set Architecture (ISA) specify?",
-      "answer": "An ISA specifies the supported instructions, data types, registers, memory architecture, and how software controls the processor, defining the syntax and semantics of machine instructions."
-    },
-    {
-      "question": "What are the main components defined by an Instruction Set Architecture (ISA)?",
-      "answer": "The main components are instructions, registers, data types, and addressing modes."
-    },
-    {
-      "question": "What is the purpose of registers in a CPU?",
-      "answer": "Registers are small, fast storage locations within the CPU used to hold data, addresses, or instructions temporarily during execution."
-    },
-    {
-      "question": "What are some examples of CPU registers?",
-      "answer": "Examples include 'RAX' (Accumulator Register), 'RSP' (Stack Pointer), and 'RIP' (Instruction Pointer)."
-    },
-    {
-      "question": "Which computers typically use CISC (Complex Instruction Set Computer) architecture?",
-      "answer": "Most desktop and laptop computers and servers using Intel or AMD processors employ CISC architecture."
-    },
-    {
-      "question": "What type of devices commonly use RISC (Reduced Instruction Set Computer) architecture?",
-      "answer": "Devices like smartphones, tablets, and some laptops use RISC architecture, commonly implemented in ARM processors, including Apple's M1 and M2 chips."
-    },
-    {
-      "question": "What does CISC stand for in computer architecture?",
-      "answer": "CISC stands for Complex Instruction Set Computer."
-    },
-    {
-      "question": "What does RISC stand for in computer architecture?",
-      "answer": "RISC stands for Reduced Instruction Set Computer."
-    },
-    {
-      "question": "How does CISC architecture handle instructions?",
-      "answer": "CISC architectures use complex instructions that can perform multiple low-level operations within a single instruction, aiming to reduce the number of instructions per program."
-    },
-    {
-      "question": "How does RISC architecture handle instructions?",
-      "answer": "RISC architectures use a simplified set of instructions that execute quickly, relying on software to perform complex operations by combining multiple simple instructions."
-    },
-    {
-      "question": "What is a key difference in instruction length between CISC and RISC architectures?",
-      "answer": "CISC architectures have variable-length instructions of differing sizes, while RISC architectures use fixed-length instructions of uniform size."
-    },
-    {
-      "question": "What is an advantage of RISC's fixed instruction length?",
-      "answer": "Fixed instruction length simplifies instruction decoding and pipelining, improving execution efficiency and enabling faster instruction throughput."
-    },
-    {
-      "question": "Why do RISC processors typically consume less power than CISC processors?",
-      "answer": "Because RISC processors execute simpler instructions using less complex circuitry, which reduces power consumption and heat generation."
-    },
-    {
-      "question": "Approximately how many instructions does a typical CISC processor support?",
-      "answer": "A typical CISC processor supports several hundred to over a thousand complex instructions."
-    },
-    {
-      "question": "Approximately how many instructions does a typical RISC processor support?",
-      "answer": "A typical RISC processor supports a smaller set of instructions, often around 100 to 200 instructions."
-    },
-    {
-      "question": "What is a disadvantage of CISC's complex instruction cycle?",
-      "answer": "The complexity leads to increased power consumption and heat generation due to more complex circuitry required to execute complex instructions."
-    },
-    {
-      "question": "Why has RISC architecture become more popular in recent years?",
-      "answer": "Because RISC processors are more power-efficient, generate less heat, and modern software optimization can compensate for longer code lengths, making them suitable for mobile devices and energy-efficient servers."
-    },
-    {
-      "question": "For learning assembly language in penetration testing, which architecture should be prioritized?",
-      "answer": "CISC architecture (specifically x86/x86-64), as most computers and servers use Intel or AMD processors."
-    },
-    {
-      "question": "What are the four fundamental concepts to understand before learning assembly language?",
-      "answer": "Registers, memory addresses, endianness, and data types."
-    },
-    {
-      "question": "What are registers in the context of assembly language?",
-      "answer": "Registers are small, fast storage locations within the CPU that hold data or addresses used in instruction execution."
-    },
-    {
-      "question": "What are the two main types of registers in x86 assembly language?",
-      "answer": "General-purpose data registers and pointer (or index) registers."
-    },
-    {
-      "question": "Name the primary general-purpose data registers in x86-64 architecture.",
-      "answer": "RAX, RBX, RCX, and RDX."
-    },
-    {
-      "question": "What are the RSI and RDI registers typically used for?",
-      "answer": "They are used as source and destination index registers in string and memory operations."
-    },
-    {
-      "question": "What is the main purpose of pointer registers in x86 assembly?",
-      "answer": "To hold memory addresses pointing to specific locations like the stack or instruction pointers."
-    },
-    {
-      "question": "What does the RBP register represent in x86 architecture?",
-      "answer": "The base pointer register, which points to the base of the current stack frame in function calls."
-    },
-    {
-      "question": "What does the RSP register represent?",
-      "answer": "The stack pointer register, which points to the top of the stack."
-    },
-    {
-      "question": "What does the RIP register represent in x86-64 architecture?",
-      "answer": "The instruction pointer register, which holds the address of the next instruction to be executed."
-    },
-    {
-      "question": "What are sub-registers in x86 assembly?",
-      "answer": "They are smaller sections of a full-size register (like 64-bit) that can be accessed independently, such as 8-bit, 16-bit, or 32-bit portions."
-    },
-    {
-      "question": "How many bits are in a 16-bit sub-register?",
-      "answer": "16 bits."
-    },
-    {
-      "question": "What prefix is used for 32-bit registers in x86 assembly?",
-      "answer": "The 'E' prefix, as in EAX."
-    },
-    {
-      "question": "What prefix is used for 64-bit registers in x86-64 assembly?",
-      "answer": "The 'R' prefix, as in RAX."
-    },
-    {
-      "question": "For the 16-bit register 'BX', what is its 8-bit sub-register?",
-      "answer": "BL."
-    },
-    {
-      "question": "Name the 8-bit, 16-bit, 32-bit, and 64-bit versions of the RAX register.",
-      "answer": "8-bit: AL, 16-bit: AX, 32-bit: EAX, 64-bit: RAX."
-    },
-    {
-      "question": "What are the two types of endianness in computing?",
-      "answer": "Little-endian and big-endian."
-    },
-    {
-      "question": "How are bytes stored in little-endian format?",
-      "answer": "Bytes are stored with the least significant byte at the lowest memory address, effectively right-to-left."
-    },
-    {
-      "question": "How are bytes stored in big-endian format?",
-      "answer": "Bytes are stored with the most significant byte at the lowest memory address, effectively left-to-right."
-    },
-    {
-      "question": "Why is little-endian format used in x86 architecture?",
-      "answer": "Because it simplifies certain arithmetic operations and allows for easier access to variable-size data types."
-    },
-    {
-      "question": "How many bits are there in one byte?",
-      "answer": "8 bits."
-    },
-       {
-      "question": "In x86 assembly, how many bits are in a word?",
-      "answer": "A word consists of 16 bits (2 bytes)."
-    },
-    {
-      "question": "How many bits are in a double word (dword) in x86 assembly?",
-      "answer": "A double word is 32 bits (4 bytes)."
-    },
-    {
-      "question": "How many bits are in a quad word (qword) in x86 assembly?",
-      "answer": "A quad word is 64 bits (8 bytes)."
-    },
-    {
-      "question": "Which data type corresponds to the 'AL' register in x86 assembly?",
-      "answer": "The 'AL' register is compatible with byte-sized (8-bit) data."
-    },
-    {
-      "question": "Which data type corresponds to the 'AX' register in x86 assembly?",
-      "answer": "The 'AX' register is compatible with word-sized (16-bit) data."
-    },
-    {
-      "question": "Which data type corresponds to the 'EAX' register in x86 assembly?",
-      "answer": "The 'EAX' register is compatible with double word-sized (32-bit) data."
-    },
-    {
-      "question": "Which data type corresponds to the 'RAX' register in x86-64 assembly?",
-      "answer": "The 'RAX' register is compatible with quad word-sized (64-bit) data."
-    },
-    {
-      "question": "What is the purpose of the 'global _start' directive in an assembly file?",
-      "answer": "It declares the '_start' label as a global symbol, defining the entry point of the program for the linker."
-    },
-    {
-      "question": "What is the role of the '.data' section in an assembly file?",
-      "answer": "It defines the data segment where variables and constants are declared and stored."
-    },
-    {
-      "question": "What does the '.text' section in an assembly file contain?",
-      "answer": "It contains the executable code—the instructions that the CPU will execute."
-    },
-    {
-      "question": "In assembly language, what are the three main components of an instruction line?",
-      "answer": "An instruction line typically consists of a label (optional), an instruction mnemonic, and operands."
-    },
-    {
-      "question": "What does the 'db' directive define in assembly language?",
-      "answer": "It defines a byte or a list of bytes, allocating space in memory and initializing it with specified values."
-    },
-    {
-      "question": "How can comments be added to assembly code?",
-      "answer": "By starting the comment with a semicolon ';'—everything after the semicolon on that line is a comment."
-    },
-    {
-      "question": "What does the 'equ' directive do in assembly language?",
-      "answer": "It defines a constant value or expression that cannot be changed later."
-    },
-    {
-      "question": "How is the length of a string calculated using the 'equ' directive in assembly?",
-      "answer": "By defining a label that equates to '$ - message', where '$' is the current address and 'message' is the start address of the string; this computes the string's length at assembly time."
-    },
-    {
-      "question": "What is the difference between the data and text segments in an assembly program?",
-      "answer": "The data segment is for variables and is typically writable, while the text segment contains executable code and is read-only."
-    },
-    {
-      "question": "Why is it important to separate data and text segments in memory?",
-      "answer": "Separating them enforces memory protection, preventing executable code from being overwritten and mitigating security risks like buffer overflows."
-    },
-    {
-      "question": "What tool is commonly used to assemble assembly language files in this module?",
-      "answer": "The NASM assembler (Netwide Assembler)."
-    },
-    {
-      "question": "What is the purpose of the '-f elf64' flag when using NASM?",
-      "answer": "It tells NASM to generate a 64-bit ELF (Executable and Linkable Format) object file suitable for linking on a 64-bit Linux system."
-    },
-       {
-      "question": "What file extensions are commonly used for assembly language source files?",
-      "answer": "Common file extensions for assembly language source files are '.asm' and '.s'."
-    },
-    {
-      "question": "What is the purpose of the 'ld' command in the assembly and compilation process?",
-      "answer": "The 'ld' command is the linker that combines one or more object files into an executable, resolving symbol references and linking necessary libraries."
-    },
-    {
-      "question": "What is an ELF file in the context of Linux?",
-      "answer": "An ELF (Executable and Linkable Format) file is a common standard file format for executables, object code, shared libraries, and core dumps in Linux systems."
-    },
-    {
-      "question": "What is the command to link a 64-bit assembled object file into an executable on Linux?",
-      "answer": "Use the 'ld' linker command: 'ld -o output_executable objectfile.o', where 'objectfile.o' is the assembled object file."
-    },
-    {
-      "question": "How can you disassemble an ELF executable to view its assembly code?",
-      "answer": "By using the 'objdump' command with the '-d' flag to disassemble and '-M intel' to specify Intel syntax: 'objdump -d -M intel executable_name'."
-    },
-    {
-      "question": "Which 'objdump' flags display assembly instructions without showing machine code bytes or addresses?",
-      "answer": "The '--no-show-raw-insn' flag omits the raw machine code bytes, and the '--no-addresses' flag omits addresses from the output."
-    },
-    {
-      "question": "How can you use 'objdump' to display only the contents of the '.data' section of an ELF file?",
-      "answer": "By using 'objdump -s -j .data filename', which dumps the contents of the '.data' section."
-    },
-    {
-      "question": "What does the 'mov rax, 1' instruction do in x86-64 assembly?",
-      "answer": "It moves the value 1 into the RAX register, commonly used to set the syscall number for system calls."
-    },
-    {
-      "question": "What does the 'syscall' instruction do in x86-64 assembly?",
-      "answer": "It triggers a system call, causing the CPU to switch to kernel mode and execute the system call specified by the value in the RAX register, using parameters in other registers."
-    },
-    {
-      "question": "What is the purpose of the 'assembler.sh' script in the assembly workflow?",
-      "answer": "It automates the process of assembling and linking assembly source files, and can optionally run or debug the resulting executable."
-    },
-    {
-      "question": "What does the '-M intel' option specify when using 'objdump'?",
-      "answer": "It tells 'objdump' to display disassembled code using Intel assembly syntax instead of the default AT&T syntax."
-    },
-    {
-      "question": "What is the command to disassemble and view the assembly code of a linked executable file?",
-      "answer": "Use 'objdump -d -M intel executable_name' to disassemble the executable and display the assembly code in Intel syntax."
-    },
-    {
-      "question": "Which section in an assembly program contains initialized data?",
-      "answer": "The '.data' section holds initialized global and static variables."
-    },
-    {
-      "question": "Which section in an assembly program contains the executable code?",
-      "answer": "The '.text' section contains the program's executable instructions."
-    },
-    {
-      "question": "What is debugging in the context of software development?",
-      "answer": "Debugging is the process of identifying, analyzing, and fixing bugs or errors in software code."
-    },
-    {
-      "question": "Why is debugging more complex in assembly language compared to high-level languages?",
-      "answer": "Because in assembly language, debugging involves working with low-level machine code and memory addresses; breakpoints are set at specific memory locations rather than at source code lines, making it more challenging to track program flow and state."
-    },
-    {
-      "question": "What is the primary use of the GNU Debugger (GDB)?",
-      "answer": "GDB is a powerful tool used for debugging compiled binaries on Linux systems, supporting various programming languages."
-    },
-    {
-      "question": "Name two debuggers similar to GDB for Linux and two for Windows.",
-      "answer": "For Linux: 'radare2' and 'LLDB'; for Windows: 'Immunity Debugger' and 'WinDbg'."
-    },
-    {
-      "question": "Why is GDB considered reliable for debugging Linux binaries?",
-      "answer": "Because GDB is developed and maintained by the GNU Project, ensuring close integration with Linux systems and compatibility with GNU toolchains."
-    },
-    {
-      "question": "How can you install GDB on a Debian-based Linux system?",
-      "answer": "By running 'sudo apt-get update' to update package lists and then 'sudo apt-get install gdb' to install GDB."
-    },
-    {
-      "question": "What is GEF in the context of GDB, and why is it useful?",
-      "answer": "GEF (GDB Enhanced Features) is a plugin for GDB that provides advanced features useful for reverse engineering and binary exploitation, enhancing the debugging experience with additional commands and improved visualization."
-    },
-    {
-      "question": "How do you install GEF (GDB Enhanced Features) for GDB?",
-      "answer": "By downloading GEF and updating your GDB initialization file:\n\n```bash\nwget -O ~/.gdbinit-gef.py -q https://gef.blah.cat/py\necho 'source ~/.gdbinit-gef.py' >> ~/.gdbinit\n```"
-    },
-    {
-      "question": "How do you start GDB with a program called 'helloWorld' and ensure that GEF is loaded?",
-      "answer": "Run 'gdb -q ./helloWorld'; GEF will load automatically if properly installed in your '.gdbinit' file."
-    },
-    {
-      "question": "In GDB, which command can you use to get general information about the program?",
-      "answer": "The 'info' command, which can be used with various arguments to display information about the program's state."
-    },
-    {
-      "question": "How can you access help for a specific command in GDB?",
-      "answer": "By typing 'help' followed by the command name; for example, 'help info' displays help for the 'info' command."
-    },
-     {
-      "question": "Which GDB command lists all functions defined within a binary?",
-      "answer": "The 'info functions' command lists all functions in the binary."
-    },
-    {
-      "question": "What does the 'info variables' command do in GDB?",
-      "answer": "It displays all global and static variable names and their types in the program."
-    },
-    {
-      "question": "How do you disassemble a function named '_start' in GDB?",
-      "answer": "Use 'disassemble _start' or 'disas _start' to view the assembly code of the '_start' function."
-    },
-    {
-      "question": "Why is knowing memory addresses important in debugging?",
-      "answer": "Because memory addresses allow you to examine variables, set breakpoints at specific instructions, and understand the program's memory layout."
-    },
-    {
-      "question": "What is RIP-relative addressing in x86-64 assembly?",
-      "answer": "RIP-relative addressing uses memory addresses relative to the Instruction Pointer (RIP), enabling position-independent code, which is common in Position-Independent Executables (PIE)."
-    },
-    {
-      "question": "How can Position-Independent Executables (PIE) affect debugging?",
-      "answer": "PIE uses relative addressing and can randomize memory addresses at runtime, making absolute addresses different each time and complicating debugging."
-    },
-    {
-      "question": "What are the four main steps of debugging in GDB?",
-      "answer": "Break (set breakpoints), Examine (inspect memory and registers), Step (execute instructions), and Modify (change values to test behavior)."
-    },
-    {
-      "question": "What is the purpose of setting a breakpoint in debugging?",
-      "answer": "To pause program execution at a specific point, allowing you to examine the program's state and diagnose issues."
-    },
-    {
-      "question": "How do you set a breakpoint in GDB for a specific function?",
-      "answer": "Use 'break function_name' or 'b function_name' to set a breakpoint at the start of the function."
-    },
-    {
-      "question": "Which command in GDB starts the program after setting breakpoints?",
-      "answer": "The 'run' command (or 'r') starts the program execution."
-    },
-    {
-      "question": "What does the command 'b *0x40100a' do in GDB?",
-      "answer": "It sets a breakpoint at the memory address 0x40100a."
-    },
-    {
-      "question": "How can you continue execution to the next breakpoint after stopping in GDB?",
-      "answer": "Use the 'continue' command (or 'c') to resume execution until the next breakpoint."
-    },
-    {
-      "question": "Which GDB command lists all active breakpoints?",
-      "answer": "The 'info breakpoints' command displays all current breakpoints."
-    },
-    {
-      "question": "Which command in GDB lets you examine memory in a specific format?",
-      "answer": "The 'x/FMT ADDRESS' command, where 'FMT' specifies the format and 'ADDRESS' is the memory address or expression."
-    },
-    {
-      "question": "What does 'x/4i $rip' do in GDB?",
-      "answer": "It disassembles and displays the next four assembly instructions starting from the current instruction pointer ($rip)."
-    },
-    {
-      "question": "How do you examine a string stored at a specific memory address in GDB?",
-      "answer": "Use 'x/s ADDRESS', where 's' indicates string format and 'ADDRESS' is the memory address."
-    },
-    {
-      "question": "What command displays the hexadecimal format of memory contents in GDB?",
-      "answer": "The 'x/x ADDRESS' command displays the memory content at 'ADDRESS' in hexadecimal."
-    },
-    {
-      "question": "How can you display all current register values in GDB?",
-      "answer": "Use 'info registers' or, if using GEF, simply 'registers'."
-    },
-    {
-      "question": "What is the difference between 'step' and 'stepi' in GDB?",
-      "answer": "'step' executes the next source line, possibly stepping into functions; 'stepi' (or 'si') executes the next machine instruction."
-    },
-    {
-      "question": "What does the 'si 3' command do in GDB?",
-      "answer": "It steps through the next three machine instructions one by one."
-    },
-    {
-      "question": "How does the 'next' command differ from 'step' in GDB?",
-      "answer": "'next' executes the next source line but skips over function calls, while 'step' enters functions."
-    },
-    {
-      "question": "Why might you modify register values during debugging in GDB?",
-      "answer": "To test how changes affect program execution without recompiling, useful for exploring different execution paths or simulating inputs."
-    },
-    {
-      "question": "What GEF command helps modify values at specific memory addresses?",
-      "answer": "The 'patch' command, such as 'patch string ADDRESS \"new_value\"', modifies memory content easily."
-    },
-    {
-      "question": "How do you modify the string stored at a memory address in GDB?",
-      "answer": "Use 'set {char[]} ADDRESS = \"new_value\"' or with GEF's 'patch string' command."
-    },
-    {
-      "question": "What command changes register values in GDB?",
-      "answer": "Use the 'set' command, e.g., 'set $register = value'."
-    },
-    {
-      "question": "How does GDB assist in penetration testing?",
-      "answer": "By allowing you to analyze how programs handle input, identify vulnerabilities, and develop exploits by inspecting and manipulating program execution."
-    }
-  ]
+“deck_name”: “Introduktion till säkerhetsskydd (Säkerhetspolisen, dec 2023)”,
+“cards”: [
+{
+“question”: “Vad är syftet med säkerhetsskydd?”,
+“answer”: “Att värna Sveriges säkerhet och internationella åtaganden om säkerhetsskydd.  ￼”
+},
+{
+“question”: “Hur sammanfattas uttrycket "Sveriges säkerhet" i vägledningen?”,
+“answer”: “Som Sveriges oberoende (självständighet och suveränitet) och bestånd, inklusive okränkta gränser, demokratiskt statsskick och samhällets grundläggande funktionalitet.  ￼”
+},
+{
+“question”: “Vad illustrerar pyramiden som nämns i vägledningen?”,
+“answer”: “Att toppen utgörs av de verksamheter som är av nationell betydelse för Sveriges säkerhet och därmed säkerhetskänsliga.  ￼”
+},
+{
+“question”: “Varför behöver säkerhetskänsliga verksamheter ett särskilt skydd?”,
+“answer”: “Hotet från främmande makt är högt, långsiktigt och komplext; även ideologiskt motiverade aktörer kan orsaka skada genom antagonistiska handlingar.  ￼”
+},
+{
+“question”: “Nämn fem metoder som främmande makt använder för inhämtning.”,
+“answer”: “Öppna källor, cyberspionage, signalspaning/flyg-/satellitspaning, personbaserad inhämtning (rekrytering/infiltration), rum/telefonavlyssning.  ￼”
+},
+{
+“question”: “Vad är grundprincipen inom säkerhetsskydd?”,
+“answer”: “Säkerhetskänslig verksamhet ska ha samma eller likvärdigt skydd oavsett var den bedrivs eller vem som utför den; säkerhetsskyddsavtal följer av principen.  ￼”
+},
+{
+“question”: “Vilka tre huvudkategorier av säkerhetsskyddsåtgärder finns?”,
+“answer”: “Informationssäkerhet, fysisk säkerhet och personalsäkerhet.  ￼”
+},
+{
+“question”: “Vad krävs för att uppnå ett heltäckande säkerhetsskydd enligt vägledningen?”,
+“answer”: “Att olika åtgärder samspelar och överlappar varandra utan svaga länkar, samt integreras i verksamheten.  ￼”
+},
+{
+“question”: “Vilka frågor ska en säkerhetsskyddsanalys besvara?”,
+“answer”: “1) Vad ska skyddas? 2) Mot vad ska det skyddas? 3) Hur ska det skyddas?  ￼”
+},
+{
+“question”: “Vad skiljer säkerhetsskyddsanalys från många andra riskanalyser?”,
+“answer”: “Den utgår från konsekvenser som måste undvikas (inte sannolikhet), kopplat till skada för Sveriges säkerhet.  ￼”
+},
+{
+“question”: “Vilka tre typer av skyddsvärden ska identifieras i säkerhetsskyddsanalysen?”,
+“answer”: “Säkerhetsskyddsklassificerade uppgifter; anläggningar/objekt/system/egendom och andra tillgångar; verksamhet som omfattas av internationellt åtagande.  ￼”
+},
+{
+“question”: “Ge definitionen av säkerhetskänslig verksamhet.”,
+“answer”: “Verksamhet av betydelse för Sveriges säkerhet eller som omfattas av ett för Sverige förpliktande internationellt åtagande om säkerhetsskydd.  ￼”
+},
+{
+“question”: “Är alla samhällsviktiga verksamheter säkerhetskänsliga?”,
+“answer”: “Nej. Endast de där en antagonistisk handling kan ge skadekonsekvenser på nationell nivå betraktas som säkerhetskänsliga.  ￼”
+},
+{
+“question”: “Vilka fem kategorier används för att kategorisera säkerhetskänslig verksamhet?”,
+“answer”: “Sveriges yttre säkerhet; inre säkerhet; nationellt samhällsviktig verksamhet; verksamhet av betydelse för Sveriges ekonomi; skadegenererande verksamhet.  ￼”
+},
+{
+“question”: “Vilka konsekvensnivåer finns för skyddsvärden (A–D)?”,
+“answer”: “A: Synnerligen allvarlig skada; B: Allvarlig skada; C: Inte obetydlig skada; D: Endast ringa skada — allt i relation till Sveriges säkerhet.  ￼”
+},
+{
+“question”: “Vad innebär konsekvensnivå A?”,
+“answer”: “Kritiska funktioner slås ut eller påverkas mycket allvarligt så att Sverige riskerar förlora suveränitet/handlingsfrihet/oberoende; mycket svårt att återgå till normalläge.  ￼”
+},
+{
+“question”: “Vad innebär konsekvensnivå B?”,
+“answer”: “Kritiska funktioner påverkas allvarligt, med allvarliga begränsningar i suveränitet/handlingsfrihet/oberoende; svårt att återgå till normalläge.  ￼”
+},
+{
+“question”: “Vad innebär konsekvensnivå C?”,
+“answer”: “Påtaglig påverkan som kan påverka Sveriges suveränitet m.m. i begränsad omfattning; möjligt att återgå till normalläge inom rimlig tid.  ￼”
+},
+{
+“question”: “Vad innebär konsekvensnivå D?”,
+“answer”: “Ringa påverkan på kritiska funktioner; relativt snabb återgång till normalläge.  ￼”
+},
+{
+“question”: “Vad är säkerhetsskyddsklassificerade uppgifter enligt vägledningen?”,
+“answer”: “Uppgifter som rör säkerhetskänslig verksamhet och skulle omfattas av sekretess enligt OSL (även hos enskilda via fiktiv sekretessprövning).  ￼”
+},
+{
+“question”: “Vilken OSL-bestämmelse pekas främst ut för säkerhetsskyddsklassificerade uppgifter?”,
+“answer”: “15 kap. 2 § OSL (försvarssekretess), men även t.ex. 15:1–1b, 18:1, 18:2, 18:8, 18:13 kan vara tillämpliga.  ￼”
+},
+{
+“question”: “Vad är en fiktiv sekretessprövning?”,
+“answer”: “En bedömning hos enskild verksamhetsutövare om en uppgift skulle ha omfattats av sekretess enligt OSL om den varit tillämplig.  ￼”
+},
+{
+“question”: “Vilka fyra säkerhetsskyddsklasser används för uppgifter?”,
+“answer”: “Kvalificerat hemlig, Hemlig, Konfidentiell, Begränsat hemlig.  ￼”
+},
+{
+“question”: “Behöver uppgifter utan klassning ändå skyddas ibland?”,
+“answer”: “Ja, om riktighet och/eller tillgänglighet är kritisk för säkerhetskänslig verksamhet (t.ex. data för flygledning).  ￼”
+},
+{
+“question”: “Hur mappas EU:s säkerhetsklasser till svenska?”,
+“answer”: “EU TOP SECRET ↔ Kvalificerat hemlig; EU SECRET ↔ Hemlig; EU CONFIDENTIAL ↔ Konfidentiell; EU RESTRICTED ↔ Begränsat hemlig.  ￼”
+},
+{
+“question”: “Vad är huvudmålet med informationssäkerhet inom säkerhetsskydd?”,
+“answer”: “Att förebygga röjande, ändring, otillgänglighet, förstöring samt annan skadlig inverkan på uppgifter och informationssystem.  ￼”
+},
+{
+“question”: “Ge exempel på informationssäkerhetsåtgärder för fysiska dokument.”,
+“answer”: “Klassningsanteckning på dokument och betryggande förvaring; styrda rutiner för hantering, delning, kopiering och destruktion.  ￼”
+},
+{
+“question”: “Vad ska fysisk säkerhet förebygga?”,
+“answer”: “Obehörigt tillträde och skadlig inverkan (inkl. insyn/avlyssning) på områden, byggnader, anläggningar och objekt där säkerhetskänslig verksamhet bedrivs.  ￼”
+},
+{
+“question”: “Vilka tre förmågor ska fysisk säkerhet skapa enligt modellen?”,
+“answer”: “Upptäcka, försvåra (fördröja/skadereducera) och hantera antagonistiska handlingar.  ￼”
+},
+{
+“question”: “Ge exempel på fördröjande respektive skadereducerande åtgärder.”,
+“answer”: “Fördröjande: dörrar, väggar, barriärer; Skadereducerande: skydd mot beskjutning/fordonsburna sprängladdningar.  ￼”
+},
+{
+“question”: “Vad innebär "hantera" i fysisk säkerhet?”,
+“answer”: “Att avbryta pågående handling (t.ex. väktare/polis) och vid behov vidta konsekvensreducerande åtgärder som utrymning.  ￼”
+},
+{
+“question”: “Vilka två delar består personalsäkerhet av?”,
+“answer”: “Säkerhetsprövning och utbildning i säkerhetsskydd.  ￼”
+},
+{
+“question”: “Vad är syftet med säkerhetsprövningen?”,
+“answer”: “Att säkerställa lojalitet och pålitlighet från säkerhetssynpunkt samt identifiera sårbarheter (t.ex. dubbla lojaliteter).  ￼”
+},
+{
+“question”: “Vilka moment ingår normalt i säkerhetsprövningen före deltagande?”,
+“answer”: “Grundutredning (inkl. intervju och referenser), registerkontroll och i vissa fall särskild personutredning, samt utbildning.  ￼”
+},
+{
+“question”: “Vem ansvarar för registerkontroll och mot vilka register sker kontroll?”,
+“answer”: “Säkerhetspolisen; kontroll mot belastningsregistret, misstankeregistret och uppgifter enligt polis-/Säkerhetspolisen-personuppgiftslagar.  ￼”
+},
+{
+“question”: “Krävs samtycke för registerkontroll/särskild personutredning?”,
+“answer”: “Ja, det får göras endast om den prövningen avser har lämnat sitt samtycke.  ￼”
+},
+{
+“question”: “När och hur ska uppföljande säkerhetsprövning ske?”,
+“answer”: “Regelbundet under deltagandet för att fördjupa personkännedomen och upptäcka förändringar i t.ex. ekonomi/social situation.  ￼”
+},
+{
+“question”: “Vilket grundläggande ansvar har verksamhetsutövaren enligt lagen?”,
+“answer”: “Att utreda behovet av säkerhetsskydd, identifiera skyddsvärden och vidta nödvändiga åtgärder samt följa upp skyddet kontinuerligt.  ￼”
+},
+{
+“question”: “Vad gäller om en annan aktör kan få tillgång till den säkerhetskänsliga verksamheten?”,
+“answer”: “Verksamhetsutövaren måste reglera och kontrollera säkerhetsskyddet hos den andra aktören (ansvaret sträcker sig utanför den egna organisationen).  ￼”
+},
+{
+“question”: “Vem är "säkerhetsskyddschef" och hur ska rollen vara placerad?”,
+“answer”: “En funktion som leder, samordnar och kontrollerar säkerhetsskyddet; ska vara direkt underställd högsta chefen och ansvaret kan inte delegeras.  ￼”
+},
+{
+“question”: “Hur många tillsynsmyndigheter finns och vilka är samordningsmyndigheter?”,
+“answer”: “Totalt 13 tillsynsmyndigheter; Säkerhetspolisen och Försvarsmakten är samordningsmyndigheter.  ￼”
+},
+{
+“question”: “Vad ingår i samordningsmyndigheternas uppdrag?”,
+“answer”: “Att följa upp/utveckla tillsyn och samråd, ta fram metodstöd, förmedla hotinformation och leda samarbetsforum.  ￼”
+},
+{
+“question”: “När måste säkerhetsskyddsavtal (SSA) ingås?”,
+“answer”: “Vid förfaranden där utomstående kan få tillgång som kan orsaka minst "inte obetydlig skada", t.ex. upphandlingar, avtal, samverkan och samarbeten.  ￼”
+},
+{
+“question”: “Vilken tillgångströskel triggar SSA-krav?”,
+“answer”: “Tillgång till uppgifter i klassen Konfidentiell eller högre, eller annan verksamhet av motsvarande betydelse för Sveriges säkerhet.  ￼”
+},
+{
+“question”: “Gäller SSA-skyldigheten även underleverantörer?”,
+“answer”: “Ja, särskilt vid anskaffning av vara, tjänst eller byggentreprenad.  ￼”
+},
+{
+“question”: “Hur ska man reglera skydd när högsta klass är Begränsat hemlig?”,
+“answer”: “Genom annat sätt än SSA, t.ex. en säkerhetsskyddsöverenskommelse.  ￼”
+},
+{
+“question”: “Vad avses med "dimensionerande antagonistiska förmågor"?”,
+“answer”: “Beskrivningar av förmågor som vissa säkerhetsåtgärder ska tåla oavsett aktuellt hot; utgör en central del av säkerhetsskyddsanalysen.  ￼”
+},
+{
+“question”: “Hur kopplas dimensionerande antagonistiska förmågor till tillsyn och analys?”,
+“answer”: “Tillsynsmyndigheter pekar ut behov; Säkerhetspolisen inhämtar delar av analysen och tillhandahåller beskrivningarna; verksamhetsutövaren dimensionerar åtgärderna.  ￼”
+},
+{
+“question”: “Vilka rättsliga konflikter/synergier kan uppstå med annan lagstiftning?”,
+“answer”: “Ex. upphandlingsrätt, Seveso-direktivet (informationskrav vs. konfidentialitet) och lagen (2023:560) om utländska direktinvesteringar måste beaktas.  ￼”
+},
+{
+“question”: “Vad är en överlåtelse av säkerhetskänslig verksamhet?”,
+“answer”: “Övergång av äganderätt (t.ex. försäljning/byte/gåva) som ger nya aktörer tillgång eller kontroll; medför särskilda säkerhetsåtgärder.  ￼”
+},
+{
+“question”: “Vilka åtgärder krävs inför överlåtelse?”,
+“answer”: “Särskild säkerhetsskyddsbedömning, lämplighetsprövning och samråd med tillsynsmyndighet (aktier/andelar undantagna från vissa krav).  ￼”
+},
+{
+“question”: “Kan en överlåtelse förbjudas och vad händer då?”,
+“answer”: “Ja, tillsynsmyndigheten kan förbjuda; överlåtelse i strid med förbud är ogiltig.  ￼”
+},
+{
+“question”: “När ska anmälan om säkerhetshotande händelse göras?”,
+“answer”: “Skyndsamt vid misstänkt röjande av säkerhetsskyddsklassificerade uppgifter, allvarlig IT-incident, eller annan allvarlig säkerhetshotande verksamhet.  ￼”
+},
+{
+“question”: “Ge två exempel på anmälningsplikt vid IT-incident.”,
+“answer”: “Långvarig brist på patchning som skapat sårbarheter; misstänkt intrång i system med säkerhetsskyddsklassificerade uppgifter.  ￼”
+},
+{
+“question”: “Vad ska skadebedömningen i anmälan innehålla?”,
+“answer”: “Beskrivning av skadan kopplad till säkerhetsskyddsklass, konsekvensnivå och skyddsvärdets perspektiv; fokus på konsekvens (inte sannolikhet).  ￼”
+},
+{
+“question”: “Hur bör verksamhetsutövaren agera vid osäkerhet om anmälningsplikt?”,
+“answer”: “Säkerhetspolisen uppmanar att ändå upprätta en anmälan; annars kan ärendet skickas som tips.  ￼”
+},
+{
+“question”: “Vilka sanktionsmedel har tillsynsmyndigheter vid brister?”,
+“answer”: “Åtgärdsförelägganden (med vite) och sanktionsavgifter för vissa centrala överträdelser.  ￼”
+},
+{
+“question”: “Hur stora kan sanktionsavgifterna vara?”,
+“answer”: “Upp till 50 miljoner kr för enskilda verksamhetsutövare och 10 miljoner kr för statliga myndigheter, kommuner och regioner.  ￼”
+},
+{
+“question”: “Vilken straffbestämmelse gäller för brott mot tystnadsplikt?”,
+“answer”: “20 kap. 3 § brottsbalken (brott mot tystnadsplikt).  ￼”
+},
+{
+“question”: “Kan oaktsam hantering av hemliga uppgifter vara straffbar?”,
+“answer”: “Ja, t.ex. vårdslöshet med hemlig uppgift enligt 19 kap. brottsbalken.  ￼”
+},
+{
+“question”: “Vad är skillnaden mellan offentliga och enskilda verksamhetsutövare i lagen?”,
+“answer”: “Enskilda avser alla som inte är statlig myndighet/kommun/region (inkl. kommunala bolag och kommunalförbund i vissa fall).  ￼”
+},
+{
+“question”: “Är "säkerhetsklass" ett beslut om person eller befattning?”,
+“answer”: “Befattning. En person kan vara prövad för flera uppdrag; ny prövning krävs inför varje nytt deltagande.  ￼”
+},
+{
+“question”: “Vad ska en verksamhetsutövare ha gällande säkerhetsprövningar?”,
+“answer”: “En aktuell förteckning över befattningar med krav på säkerhetsprövning.  ￼”
+},
+{
+“question”: “Hur relaterar säkerhetsskydd till andra säkerhetsåtgärder i verksamheter?”,
+“answer”: “Säkerhetsskyddet är obligatoriskt i lag och inriktat mot antagonistiska handlingar; andra åtgärder kan ge synergier men fyller inte alltid kraven.  ￼”
+},
+{
+“question”: “Varför räcker inte enbart IT-skydd för informationssystem?”,
+“answer”: “Även fysisk säkerhet och personalsäkerhet krävs för att hindra fysisk åtkomst och att opålitliga personer hanterar systemet.  ￼”
+},
+{
+“question”: “Vad krävs vid möten där uppgifter i högre klass kan förekomma?”,
+“answer”: “Att samtal endast sker i särskilda skyddade och godkända utrymmen (avlyssningsskydd m.m.).  ￼”
+},
+{
+“question”: “Ge exempel på när uppgifter inte är säkerhetsskyddsklassificerade trots sekretess hos myndighet.”,
+“answer”: “Ritningar för mobiltelefonutrustning hos företagets icke-säkerhetskänsliga del skyddar ekonomiska intressen men rör inte säkerhetskänslig verksamhet.  ￼”
+},
+{
+“question”: “När ska en verksamhetsutövare anmäla att de bedriver säkerhetskänslig verksamhet?”,
+“answer”: “Utan dröjsmål till sin tillsynsmyndighet när det konstaterats i analysen.  ￼”
+},
+{
+“question”: “Vad ska en säkerhetsskyddsplan redovisa?”,
+“answer”: “Hur behovet av säkerhetsskyddsåtgärder (identifierade i säkerhetsskyddsanalysen) ska tas om hand.  ￼”
+},
+{
+“question”: “Vad är verksamhetsutövarens ansvar vid säkerhetsskyddade upphandlingar?”,
+“answer”: “Att uppfylla både säkerhetsskyddslagstiftningen och upphandlingslagstiftningen.  ￼”
+},
+{
+“question”: “Vad gäller tystnadsplikt hos enskilda verksamhetsutövare?”,
+“answer”: “Den som deltar (eller har deltagit) i säkerhetskänslig verksamhet får inte obehörigen röja/utnyttja säkerhetsskyddsklassificerade uppgifter; liknande skydd i OSL för allmän verksamhet.  ￼”
+},
+{
+“question”: “Vad ska göras efter en säkerhetshotande händelse för att minska framtida skadeeffekt?”,
+“answer”: “Utreda omständigheter, utvärdera hanteringen och vidta nödvändiga åtgärder; sträva efter snabb återgång till normalläge.  ￼”
+},
+{
+“question”: “Var hittar man anmälningsblankett för säkerhetshotande händelser?”,
+“answer”: “På Säkerhetspolisens webbplats enligt anvisning i vägledningen.  ￼”
+},
+{
+“question”: “Varför ska åtgärder vara "jämnstarka" längs hela skyddskedjan?”,
+“answer”: “För att undvika exploaterbara svaga länkar, t.ex. vid transporter av klassificerade uppgifter utanför lokalerna.  ￼”
+},
+{
+“question”: “Vad menas med "skadegenererande verksamhet" i kategoriseringen?”,
+“answer”: “Verksamheter där angrepp kan generera direkta eller indirekta skador på andra säkerhetskänsliga verksamheter (liv, hälsa, infrastruktur).  ￼”
+},
+{
+“question”: “När kan en aktör som levererar drifttjänster anses bedriva säkerhetskänslig verksamhet?”,
+“answer”: “När den samlade betydelsen (t.ex. data-/telekom) gör att ett angrepp kan påverka Sveriges säkerhet på nationell nivå.  ￼”
+},
+{
+“question”: “Vad ska en initial bedömning om säkerhetskänslighet bygga på?”,
+“answer”: “Första steget i säkerhetsskyddsanalysen och kategorierna i avsnitt 5.1.  ￼”
+},
+{
+“question”: “Vad kan en tillsynsmyndighet förelägga om (med vite)?”,
+“answer”: “T.ex. att utarbeta en säkerhetsskyddsanalys eller rutiner som uppfyller regelverket.  ￼”
+}
+]
 }
